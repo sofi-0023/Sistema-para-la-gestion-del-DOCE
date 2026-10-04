@@ -15,7 +15,7 @@ El diseño de la página permite modificar, publicar y actualizar de manera efec
 
 # RNF04 - Seguridad
 
-Mediante un sistema control de acceso de cuentas, los administradores pueden autentificar sus membresías en la página para poder crear, editar y publicar contenido relativo al DOCE.
+Mediante un sistema de control de acceso de cuentas, los administradores pueden autentificar sus membresías en la página para poder crear, editar y publicar contenido relativo al DOCE.
 
 
 # RNF05 - Rendimiento
