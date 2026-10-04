@@ -4,13 +4,13 @@
 
 ### 1-Producto
 - [x] 1.1- Objetivos (general y específicos)
-- [ ] 1.2- Usuarios objetivo (perfiles, personas y escenarios)
-- [ ] 1.3- Propuesta de producto (qué incluye el producto, es una necesidad, se considera de valor)
+- [x] 1.2- Usuarios objetivo (perfiles, personas y escenarios)
+- [x] 1.3- Propuesta de producto (qué incluye el producto, es una necesidad, se considera de valor)
 
 ### 2-Requisitos
 - [X] 2.1- Requisitos funcionales (opcional: historias de usuario)
 - [ ] 2.2- Requisitos no funcionales (verificar el requisito)
-- [ ] 2.3- Priorización (método y análisis de factibilidad e importancia)
+- [x] 2.3- Priorización (método y análisis de factibilidad e importancia)
 - [x] 2.4- Artefactos (Diagrama de casos de uso)
 
 ### 3-Proceso
