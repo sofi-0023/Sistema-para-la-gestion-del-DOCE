@@ -25,5 +25,5 @@
 - [ ] 4.3- Uso del lenguaje de IS
 
 ### 5-Competencias
-- [ ] 5.1- Competencias genéricas
-- [ ] 5.2- Competencias específicas
+- [x] 5.1- Competencias genéricas
+- [x] 5.2- Competencias específicas
