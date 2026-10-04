@@ -12,7 +12,7 @@
 | Revisión y propuesta del proceso | Jahzeel | Revisar todos los ámbitos que cubren al producto: objetivos, usuarios y propuesta. De manera puntual y desglosada | 03/10/26 | Se revisaron de manera detallada y desglosada las ideas planteadas para el proyecto, identificando los objetivos generales y específicos. Asimismo, se identificaron los usuarios primarios, secundarios y potenciales, y se realizó la propuesta de valor. |
 | Priorización de requisitos | Jahzeel | Proponer y revisar un método y análisis de factibilidad e importancia de requisitos funcionales | 03/10/26 | Se propuso utilizar el método MoSCoW para identificar la prioridad e importancia de los requisitos funcionales y no funcionales del proyecto. |
 | Diagrama de casos de uso | Daniel | Elaborar un diagrama de casos de uso para el sistema | 03/10/26 | x |
-| Diagrama de casos de uso | David | Elaborar un diagrama de casos de uso para el sistema | 03/10/26 | x |
+| Diagrama de casos de uso | David | Elaborar un diagrama de casos de uso para el sistema | 03/10/26 |Se analizaron los requisitos funcionales del sistema para la gestión del DOCE para poder identificar actores. |
 | Competencias genéricas | Daniel | Describir de manera concisa y correcta cómo se aplican las competencias genéricas al producto | 03/10/26 | x |
 | Competencias específicas | Daniel | Describir de manera concisa y correcta cómo se aplican las competencias específicas al producto | 03/10/26 | x |
 | Desarrollo del guion y del video | Rafael | Creación de un guion para el video con lenguaje adecuado para IS y posteriormente la edición de dicho proyecto | 04/10/2026 | x |
