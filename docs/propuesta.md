@@ -39,9 +39,9 @@ el proyecto surge por la saturación de mensaje en los correos electrónicos, pr
 ## Usuarios/Clientes
 Se centrara principalmente en los estudiantes de la facultad de matemáticas de la Universidad Autónoma de Yucatán.
 
-- **Usuarios primarios:** Los estudiantes de la facultad de matemáticas UADY.
-- **Usuarios secundarios:** Administradores del departamento DOCE.
-- **Usuarios potenciales:** Estudiante de otras facultades de Universidad Autonoma de Yucatán interesados en las actividades.  
+- **Usuarios primarios:** los estudiantes de la facultad de matemáticas de la Universidad Autónoma de Yucatán y Los administradores del departamento orientacion y consejo educativo.
+- **Usuarios secundarios:** profesorado de la facultad de matemáticas de la Universidad Autónoma de Yucatán.
+- **Usuarios potenciales:** Estudiante de otras facultades de la Universidad Autónoma de Yucatán interesados en las actividades.  
   
 
 
