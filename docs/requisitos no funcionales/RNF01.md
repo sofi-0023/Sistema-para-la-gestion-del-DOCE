@@ -10,7 +10,7 @@ El sitio web debe poder ser accedido y visualizado desde navegadores populares c
 
 # RNF03 - Mantenibilidad
 
-El diseño de la página permite modificar, publicar y actualizar de manera efectiva y eficiente por los administradores; el directorio del DOCE y las entidades externas afines;  los horarios, talleres y actividades relacionadas; y los avisos de específicos y de generalidad referentes al sitio. Todo aquello sin la necesidad de modificar el código fuente.
+El diseño de la página permite modificar, publicar y actualizar de manera efectiva y eficiente a los administradores; el directorio del DOCE y las entidades externas afines;  los horarios, talleres y actividades relacionadas; y los avisos de específicos y de generalidad referentes al sitio. Todo aquello sin la necesidad de modificar el código fuente.
 
 
 # RNF04 - Seguridad
