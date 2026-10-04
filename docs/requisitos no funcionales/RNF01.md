@@ -1,29 +1,23 @@
 # RNF01 - Usabilidad
 
-## Requisito no funcional 
+El sistema debe contar con una interfaz simple, clara e intuitiva; permiendo a los usuarios y administradores su libre interacción sin previa capacitación de uso.
 
-La interfaz debe ser clara e intuitiva de usar para el usuario, sin necesidad de capacitación previa.
 
 # RNF02 - Compatibilidad
 
-## Requisito no funcional 
+El sitio web debe poder ser accedido y visualizado desde navegadores populares como Chrome, Opera, Firefox, Brave, Safari y Edge. Debe tener un diseño responsivo que pueda funcionar correctamente en dispositivos móviles, tabletas y computadoras.
 
-El sitio debe visualizarse y funcionar correctamente en dispositivos móviles, tabletas y computadoras.
 
 # RNF03 - Mantenibilidad
 
-## Requisito no funcional 
+El diseño de la página permite modificar, publicar y actualizar de manera efectiva y eficiente por los administradores; el directorio del DOCE y las entidades externas afines;  los horarios, talleres y actividades relacionadas; y los avisos de específicos y de generalidad referentes al sitio. Todo aquello sin la necesidad de modificar el código fuente.
 
-Los contactos, horarios y avisos deben poder actualizarse o depurarse sin modificar el código.
 
 # RNF04 - Seguridad
 
-## Requisito no funcional 
+Mediante un sistema control de acceso de cuentas, los administradores pueden autentificar sus membresías en la página para poder crear, editar y publicar contenido relativo al DOCE.
 
-Solo los administradores autenticados pueden crear o editar contenido.
 
 # RNF05 - Rendimiento
 
-## Requisito no funcional 
-
-La página principal debe cargar en máximo 3 segundos con una conexión móvil 4G normal.
+El tiempo de carga del dominio web debe ser menor o igual a 3 segundos en condiciones habituales de conección móvil 4G con un mínimo de velocidad de 15mb/s.
