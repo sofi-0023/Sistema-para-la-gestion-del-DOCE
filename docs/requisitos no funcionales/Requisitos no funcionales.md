@@ -1,3 +1,5 @@
+## Requisitos no funcionales
+
 # RNF01 - Usabilidad
 
 El sistema debe contar con una interfaz simple, clara e intuitiva; permiendo a los usuarios y administradores su libre interacción sin previa capacitación de uso.

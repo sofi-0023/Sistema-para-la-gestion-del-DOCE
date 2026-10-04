@@ -1,3 +1,5 @@
+## Requisitos funcionales
+
 # RF01 - Catálogo/calendario
 
 ## Requisito funcional 
