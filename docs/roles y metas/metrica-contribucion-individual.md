@@ -23,6 +23,3 @@ Cada integrante se mide sobre su **propio 100%**, según cuánto de las metas qu
 | David      | Diagrama de casos de uso | 1 | 50% | 7 |
 
 ---
-
-## Notas
-- Conteo de commits se puede sacar directo de GitHub: `git shortlog -sn --author="nombre"` o filtrando por autor en la pestaña de Insights > Contributors del repo.
