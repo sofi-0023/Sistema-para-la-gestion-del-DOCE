@@ -1,7 +1,7 @@
 # Fundamentos de Ingeniería en Software - entrega 1
 
 ## Nombre del proyecto
-Sistema para la gestión del DOCE (Departamento de orientación y consejo educativo) de la FMAT
+Sistema para la gestión del DOCE (Departamento de Orientación y Consejo Educativo) de la FMAT
 
 ## Equipo
 | Nombre            | Rol        |
