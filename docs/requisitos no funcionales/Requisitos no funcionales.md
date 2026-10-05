@@ -1,4 +1,4 @@
-## Requisitos no funcionales
+## **Requisitos no funcionales**
 
 # RNF01 - Usabilidad
 

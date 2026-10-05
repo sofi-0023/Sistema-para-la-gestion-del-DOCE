@@ -1,21 +1,15 @@
-## Requisitos funcionales
+## **Requisitos funcionales**
 
-# RF01 - Catálogo/calendario
-
-## Requisito funcional 
+# RF01 - Catálogo/calendario 
 
 El sistema mostrará un catálogo/calendario interactivo con los próximos eventos, permitiendo a los usuarios consultar la información correspondiente a cada actividad disponible.
 
-## Historia de usuario
-
 **Como** usuario del sistema, 
-**quiero** visualizar el calendario o interfaz interactiva donde estan señaladas los próximos eventos y actividades,
-**para** ver el calendario y si el usuario desea agendar una actividad ofertada por la facultad para el bienestar de la salud mental
+**quiero** visualizar el calendario o interfaz interactiva donde están señalados los próximos eventos y actividades,
+**para** ver el calendario y si el usuario desea agendar una actividad ofertada por la facultad, para fomentar el cuidado de la salud mental
 
 
 # RF02 - Detalle de actividad
-
-## Requisito funcional
 
 El sistema permitirá al usuario seleccionar una actividad para visualizar su información detallada, la cual incluirá:
 * **Nombre de la actividad**
@@ -34,9 +28,7 @@ El sistema permitirá al usuario seleccionar una actividad para visualizar su in
 
 # RF03 - Crear/publicar
 
-## Requisito funcional 
-
-El sistema deberá permitir al administrador crear y publicar actividades y avisos para que los usuarios puedan consultarlos.
+El sistema deberá permitir al administrador crear y publicar actividades, y avisos para que los usuarios puedan consultarlos.
 
 ## Historia de usuario
 
@@ -47,9 +39,7 @@ El sistema deberá permitir al administrador crear y publicar actividades y avis
 
 # RF04 - Editar/retirar
 
-## Requisito funcional 
-
-El sistema deberá permitir al administrador editar y retirar o cancelar actividades y avisos ya publicados.
+El sistema deberá permitir al administrador editar, retirar o cancelar actividades y/o avisos ya publicados.
 
 ## Historia de usuario
 
@@ -59,8 +49,6 @@ El sistema deberá permitir al administrador editar y retirar o cancelar activid
 
 
 # RF05 - Contactos y horarios
-
-## Requisito funcional 
 
 El sistema deberá permitir a los usuarios consultar los contactos y horarios de atención del departamento de orientación y psicología de la Facultad de Matemáticas.
 
@@ -73,8 +61,6 @@ El sistema deberá permitir a los usuarios consultar los contactos y horarios de
 
 # RF06 - Líneas de ayuda
 
-## Requisito funcional 
-
 El sistema deberá permitir a los usuarios consultar las líneas de ayuda disponibles (Línea de la Vida nacional y Línea Amiga local).
 
 ## Historia de usuario
@@ -86,20 +72,16 @@ El sistema deberá permitir a los usuarios consultar las líneas de ayuda dispon
 
 # RF07 - Material informativo
 
-## Requisito funcional 
-
-El sistema deberá permitir a los usuarios consultar material informativo sobre salud mental (folletos, videos y documentos).
+El sistema deberá permitir a los usuarios consultar material informativo fijo sobre salud mental (folletos, videos y documentos).
 
 ## Historia de usuario
 
 **Como** estudiante o usuario del sistema,
-**Quiero** visualizar y descargar material informativo (folletos, videos, documentos),
+**Quiero** consultar y descargar material informativo (folletos, videos, documentos),
 **Para** aprender sobre el cuidado de la salud mental, prevención y bienestar personal.
 
 
 # RF08 - Gestionar material
-
-## Requisito funcional 
 
 El sistema deberá permitir al administrador agregar, actualizar y retirar material informativo.
 
@@ -112,8 +94,6 @@ El sistema deberá permitir al administrador agregar, actualizar y retirar mater
 
 # RF09 - Fotogaleria
 
-## Requisito funcional 
-
 El sistema permitirá a los usuarios consultar una fotogalería con imágenes correspondientes a las actividades de salud mental realizadas en la Facultad de Matemáticas.
 
 ## Historia de usuario
@@ -125,8 +105,6 @@ El sistema permitirá a los usuarios consultar una fotogalería con imágenes co
 
 # RF10 - Tutorías y guías
 
-## Requisito funcional 
-
 El sistema deberá permitir a los usuarios consultar los contactos de apoyo (tutorías) y guías de carrera.
 
 ## Historia de usuario
@@ -137,8 +115,6 @@ El sistema deberá permitir a los usuarios consultar los contactos de apoyo (tut
 
 
 # RF11 - Inicio/cierre de sesión
-
-## Requisito funcional 
 
 El sistema deberá permitir al administrador iniciar y cerrar sesión para acceder a las funciones de gestión de contenido.
 

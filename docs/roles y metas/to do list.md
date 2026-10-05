@@ -9,20 +9,20 @@
 
 ### 2-Requisitos
 - [X] 2.1- Requisitos funcionales (opcional: historias de usuario)
-- [ ] 2.2- Requisitos no funcionales (verificar el requisito)
+- [X] 2.2- Requisitos no funcionales (verificar el requisito)
 - [x] 2.3- Priorización (método y análisis de factibilidad e importancia)
 - [x] 2.4- Artefactos (Diagrama de casos de uso)
 
 ### 3-Proceso
-- [ ] 3.1- Descripción del proceso (roles, metodología ágil)
+- [X] 3.1- Descripción del proceso (roles, metodología ágil)
 - [x] 3.2- Gestión del proceso (to do's)
-- [ ] 3.3- Métrica de contribución individual
+- [X] 3.3- Métrica de contribución individual
 - [x] 3.4- Organización y documentación del repositorio
 
 ### 4-Presentación
-- [ ] 4.1- Formato de la presentación
-- [ ] 4.2- Ritmo de la presentación
-- [ ] 4.3- Uso del lenguaje de IS
+- [X] 4.1- Formato de la presentación
+- [X] 4.2- Ritmo de la presentación
+- [X] 4.3- Uso del lenguaje de IS
 
 ### 5-Competencias
 - [x] 5.1- Competencias genéricas

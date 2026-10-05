@@ -1,4 +1,4 @@
-# Métrica de Contribución Individual
+# **Métrica de Contribución Individual**
 
 ## Método
 
@@ -14,13 +14,13 @@ Cada integrante se mide sobre su **propio 100%**, según cuánto de las metas qu
 
 | Integrante | Metas asignadas | Metas completadas | % de contribución | Commits |
 |------------|------------------|--------------------|--------------------|---------|
-| Sofía      | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución; Aparición en el video | | | | 
-| Jennyfer   | Verificación de requisitos y listas de usuario; Aparición en el video | | | | 
-| Rafael     | Diseño y organización del repositorio; Desarrollo del guion y edición del video | | | | 
-| Gabriel    | Verificación de requisitos no funcionales; Aparición en el video | | | | 
-| Jahzeel    | Revisión y propuesta del proceso; Priorización de requisitos | | | | 
-| Daniel     | Diagrama de casos de uso; Competencias genéricas; Competencias específicas | | | | 
-| David      | Diagrama de casos de uso | | | | 
+| Sofía      | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución | 100% | 28 | 
+| Jennyfer   | Verificación de requisitos y listas de usuario; Aparición en el video | Verificación de requisitos y listas de usuario; Aparición en el video | | 27 | 
+| Rafael     | Diseño y organización del repositorio; Desarrollo del guion; Aparición en el video y edición del video | Diseño y organización del repositorio; Desarrollo del guion y edición del video | 100% | 8 | 
+| Gabriel    | Verificación de requisitos no funcionales; Aparición en el video | Verificación de requisitos no funcionales; Aparición en el video | 100% | 9 | 
+| Jahzeel    | Revisión y propuesta del proceso; Priorización de requisitos | Revisión y propuesta del proceso; Priorización de requisitos | 100% | 11 | 
+| Daniel     | Diagrama de casos de uso; Competencias genéricas; Competencias específicas | 3 | 100% | 16 | 
+| David      | Diagrama de casos de uso | 1 | 50% | 7 |
 
 ---
 
