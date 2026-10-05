@@ -1,4 +1,4 @@
-## # Referencias Bibliográficas – Entrega 1
+# # Referencias Bibliográficas – Entrega 1
 
 * **Anónimo.** (5 de mayo de 2013). *Requerimientos Funcionales y No Funcionales*. Blogger. Recuperado de [https://ingenieralbg.blogspot.com/2013/05/requerimientos-funcionales-y-no.html](https://ingenieralbg.blogspot.com/2013/05/requerimientos-funcionales-y-no.html)
 
