@@ -15,7 +15,7 @@ Cada integrante se mide sobre su **propio 100%**, según cuánto de las metas qu
 | Integrante | Metas asignadas | Metas completadas | % de contribución | Commits |
 |------------|------------------|--------------------|--------------------|---------|
 | Sofía      | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución | 100% | 28 | 
-| Jennyfer   | Verificación de requisitos y listas de usuario; Aparición en el video | Verificación de requisitos y listas de usuario; Aparición en el video | | 27 | 
+| Jennyfer   | Verificación de requisitos y listas de usuario; Aparición en el video | Verificación de requisitos y listas de usuario; Aparición en el video | 100% | 27 | 
 | Rafael     | Diseño y organización del repositorio; Desarrollo del guion; Aparición en el video y edición del video | Diseño y organización del repositorio; Desarrollo del guion y edición del video | 100% | 8 | 
 | Gabriel    | Verificación de requisitos no funcionales; Aparición en el video | Verificación de requisitos no funcionales; Aparición en el video | 100% | 9 | 
 | Jahzeel    | Revisión y propuesta del proceso; Priorización de requisitos | Revisión y propuesta del proceso; Priorización de requisitos | 100% | 11 | 
