@@ -4,6 +4,8 @@
 
 El sistema mostrará un catálogo/calendario interactivo con los próximos eventos, permitiendo a los usuarios consultar la información correspondiente a cada actividad disponible.
 
+## Historia de usuario
+
 **Como** usuario del sistema, 
 **quiero** visualizar el calendario o interfaz interactiva donde están señalados los próximos eventos y actividades,
 **para** ver el calendario y si el usuario desea agendar una actividad ofertada por la facultad, para fomentar el cuidado de la salud mental
