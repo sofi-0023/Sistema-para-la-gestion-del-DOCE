@@ -10,7 +10,6 @@ El sistema mostrará un catálogo/calendario interactivo con los próximos event
 **quiero** visualizar el calendario o interfaz interactiva donde están señalados los próximos eventos y actividades,
 **para** ver el calendario y si el usuario desea agendar una actividad ofertada por la facultad, para fomentar el cuidado de la salud mental
 
-
 # RF02 - Detalle de actividad
 
 El sistema permitirá al usuario seleccionar una actividad para visualizar su información detallada, la cual incluirá:
