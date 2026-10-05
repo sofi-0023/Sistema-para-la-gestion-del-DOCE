@@ -15,7 +15,7 @@ Sistema para la gestión del DOCE (Departamento de Orientación y Consejo Educat
 | David Chin        | Integrante |
 
 ## Problemática
-El acceso a la difusión de información sobre salud mental en la Facultad de Matemáticas es limitado. Actualmente, las convocatorias e iniciativas institucionales proporcionadas por los servicios de psicología se distribuyen mediante correo electrónico, un medio que resulta ineficaz debido a la saturación de la bandeja de entrada, lo que provoca que la información se pierda o no reciba la atención adecuada por parte del estudiantado.
+El acceso y la difusión de información sobre salud mental en la Facultad de Matemáticas es limitado. Actualmente, las convocatorias e iniciativas institucionales proporcionadas por los servicios de psicología se distribuyen mediante correo electrónico, un medio que resulta ineficaz debido a la saturación de la bandeja de entrada, lo que provoca que la información se pierda o no reciba la atención adecuada por parte del estudiantado.
 
 ## Objetivo general
 Desarrollar una plataforma web que centralice y facilite el acceso a las iniciativas e información sobre salud mental proporcionadas por los servicios de psicología de la Facultad de Matemáticas, optimizando su difusión y consulta tanto para el estudiantado como para el personal gestor.
