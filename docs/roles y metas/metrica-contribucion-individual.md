@@ -19,7 +19,7 @@ Cada integrante se mide sobre su **propio 100%**, según cuánto de las metas qu
 | Rafael     | Diseño y organización del repositorio; Desarrollo del guion; Aparición en el video y edición del video | Diseño y organización del repositorio; Desarrollo del guion y edición del video | 100% | 8 | 
 | Gabriel    | Verificación de requisitos no funcionales; Aparición en el video | Verificación de requisitos no funcionales; Aparición en el video | 100% | 9 | 
 | Jahzeel    | Revisión y propuesta del proceso; Priorización de requisitos | Revisión y propuesta del proceso; Priorización de requisitos | 100% | 11 | 
-| Daniel     | Diagrama de casos de uso; Competencias genéricas; Competencias específicas | 3 | 100% | 16 | 
-| David      | Diagrama de casos de uso | 1 | 50% | 7 |
+| Daniel     | Diagrama de casos de uso; Competencias genéricas; Competencias específicas | Diagrama de casos de uso; Competencias genéricas; Competencias específicas | 100% | 16 | 
+| David      | Diagrama de casos de uso | Diagrama de casos de uso | 50% | 7 |
 
 ---
