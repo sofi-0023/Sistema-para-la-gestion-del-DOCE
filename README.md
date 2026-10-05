@@ -28,7 +28,7 @@ Etapa de definición de requisitos.
 - [Diagrama de casos de uso](https://raw.githubusercontent.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/Dviz-art/imagenes/Diagrama%20de%20casos%20de%20uso.png)
 - [Competencias](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/tree/main/docs/competencias)
 - [Roles y metas](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/tree/main/docs/roles%20y%20metas)
-- [Video]()
+- [Video](https://www.youtube.com/watch?v=q-h06znvqGA)
 
 
 ## Equipo
