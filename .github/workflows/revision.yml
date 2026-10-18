@@ -1,0 +1,19 @@
+name: Revision del equipo
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  revision:
+    name: Sin marcadores de conflicto
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Buscar marcadores de conflicto olvidados
+        run: |
+          if grep -rnE '^(<<<<<<<|>>>>>>>)( |$)' --include='*.md' .; then
+            echo "Hay marcadores de conflicto sin resolver en los archivos de arriba."
+            exit 1
+          fi
+          echo "Todo limpio: no hay marcadores de conflicto."
