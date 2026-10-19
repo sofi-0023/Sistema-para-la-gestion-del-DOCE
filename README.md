@@ -36,6 +36,5 @@ Etapa de definición de requisitos.
 - Gabriel Eduardo Estrada Rejón
 - Jennyfer Estefania Chan Tun
 - Daniel isai Yah Ku
-- David Ismael Chin Garcia
 - Jahzeel Alfonso Canul Ventura
 - Rafael Jesús Jiménez Pereira
