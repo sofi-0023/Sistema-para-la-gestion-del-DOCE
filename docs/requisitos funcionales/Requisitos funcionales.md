@@ -7,8 +7,8 @@ El sistema mostrará un calendario de eventos y avisos ya publicados, cuya fecha
 ## Historia de usuario
 
 **Como** usuario del sistema, 
-**quiero** visualizar el calendario o interfaz interactiva donde están señalados los próximos eventos y actividades,
-**para** ver el calendario y si el usuario desea agendar una actividad ofertada por la facultad, para fomentar el cuidado de la salud mental
+**quiero** visualizar el calendario donde están señalados los próximos eventos y actividades,
+**para** consultar las actividades y su información: nombre, sede, fecha y hora de cada uno.
 
 # RF02 - Detalle de actividad
 
