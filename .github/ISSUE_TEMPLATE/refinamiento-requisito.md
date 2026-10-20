@@ -1,6 +1,6 @@
 ---
 name: Refinamiento de requisito
-about: Revisar y refinar un requisito funcional o no funcional (historia de usuario, MoSCoW y criterio de aceptación)
+about: Revisar y refinar un requisito funcional o no funcional (redacción e historia de usuario)
 title: "Refinar: RF"
 labels: documentation
 assignees: ""
@@ -40,26 +40,12 @@ assignees: ""
 
 <!-- En un RNF puede no aplicar; en ese caso escribe "No aplica". -->
 
-## Prioridad (MoSCoW)
-
-- [ ] **Must** — indispensable
-- [ ] **Should** — importante, pero no bloquea
-- [ ] **Could** — deseable si da tiempo
-- [ ] **Won't** — no entra en esta entrega
-
-## Criterio de aceptación
-
-<!-- Condiciones verificables para saber que el requisito se cumple. En un RNF, incluye la métrica y cómo se mide. -->
-
-- [ ]
-- [ ]
-
 ## Checklist de refinamiento
 
 - [ ] ¿Se puede verificar?
 - [ ] ¿Tiene historia de usuario completa?
 - [ ] ¿Qué pantalla lo cubre? → <!-- nombre de la pantalla / boceto -->
-- [ ] ¿Cómo sabremos que está terminado? (criterio de aceptación escrito)
+- [ ] ¿Cómo sabremos que está terminado?
 
 ## Datos del trabajo
 
