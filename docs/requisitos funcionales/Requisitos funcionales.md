@@ -2,7 +2,7 @@
 
 # RF01 - Catálogo/calendario 
 
-El sistema mostrará un catálogo/calendario interactivo con los próximos eventos, permitiendo a los usuarios consultar la información correspondiente a cada actividad disponible.
+El sistema mostrará un calendario de eventos y avisos ya publicados, cuya fecha sea igual o posterior al día actual, indicando nombre, fecha y hora de cada uno.
 
 ## Historia de usuario
 
