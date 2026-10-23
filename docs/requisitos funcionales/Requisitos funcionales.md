@@ -10,15 +10,15 @@ El sistema mostrará un calendario de eventos y avisos ya publicados, cuya fecha
 **quiero** visualizar el calendario donde están señalados los próximos eventos y actividades,
 **para** consultar las actividades y su información: nombre, sede, fecha y hora de cada uno.
 
-# RF02 - Detalle de actividad
+# RF02 - Consultar detalle de actividad
 
-El sistema permitirá al usuario seleccionar una actividad para visualizar su información detallada, la cual incluirá:
-* **Nombre de la actividad**
-* **Descripción**
-* **Fecha y hora**
-* **Modalidad** (presencial, virtual, híbrida)
-* **Lugar / Enlace**
-* **Institución u organizador** que imparte la actividad
+El sistema deberá permitir al usuario seleccionar una actividad publicada en el calendario para consultar la siguiente información:
+* **Nombre de la actividad.**
+* **Descripción.**
+* **Fecha y hora de inicio y, cuando corresponda, de finalización.**
+* **Modalidad: presencial, virtual o híbrida.**
+* **Lugar, si es presencial; enlace de acceso, si es virtual; o ambos, si es híbrida.**
+* **Institución u organizador responsable.**
 
 ## Historia de usuario
 

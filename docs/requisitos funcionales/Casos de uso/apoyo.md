@@ -249,3 +249,4 @@ Publicar un aviso previamente guardado como borrador para comunicar información
 | **Frecuencia** | Cada vez que un aviso está listo para difundirse. |
 | **Importancia** | Permite comunicar información relevante a la comunidad estudiantil.> |
 | **Comentarios** | la publicacion no implica enviar notificaciones |
+hola 
