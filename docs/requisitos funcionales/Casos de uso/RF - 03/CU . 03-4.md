@@ -1,6 +1,6 @@
 ## requisito
 
-RF06 - El sistema deberá permitir al administrador publicar un aviso previamente registrado como borrador para que los usuarios puedan consultarlo en el espacio de avisos.
+RF03.4 - El sistema deberá permitir al administrador publicar un aviso previamente registrado como borrador para que los usuarios puedan consultarlo en el espacio de avisos.
 
 ## caso de uso
 
