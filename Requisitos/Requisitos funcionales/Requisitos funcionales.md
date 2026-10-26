@@ -14,50 +14,47 @@ El sistema deberá permitir al usuario seleccionar una actividad publicada en el
 * **Lugar, si es presencial; enlace de acceso, si es virtual; o ambos, si es híbrida.**
 * **Institución u organizador responsable.**
 
-# RF03 - crear actividad
+# RF03 - Crear y publicar actividades y avisos
 
-El sistema deberá permitir al administrador registrar una actividad como borrador mediante un formulario con nombre, descripción, fecha y hora, modalidad, lugar o enlace según corresponda e institución u organizador responsable.
+El sistema deberá permitir al administrador registrar y publicar actividades y avisos mediante un formulario correspondiente al tipo de publicación.
+* Para las actividades, deberá solicitar nombre, descripción, fecha y hora, modalidad, lugar o enlace según la modalidad e institución u organizador responsable.
+* Para los avisos, deberá solicitar título y contenido.
+* Antes de publicar, el sistema deberá validar los campos obligatorios y la coherencia de los datos. Una vez completada la publicación, las actividades deberán aparecer en el calendario y los avisos en el espacio destinado a su consulta.
 
-## RF04 - publicar actividad
+## Historia de usuario
 
-El sistema deberá permitir al administrador publicar una actividad previamente registrada como borrador para que los usuarios puedan consultarla en el calendario.
+**Como** administrador del sistema,
+**quiero** crear y publicar actividades y avisos,
+**para** mantener informada a la comunidad estudiantil sobre las próximas actividades y los comunicados relevantes.
 
-## RF05 - crear aviso
-
-El sistema deberá permitir al administrador registrar un aviso como borrador mediante un formulario con título y contenido.
-
-## RF06 - publicar aviso
-
-El sistema deberá permitir al administrador publicar un aviso previamente registrado como borrador para que los usuarios puedan consultarlo en el espacio de avisos.
-
-# RF07 - Editar/retirar
+# RF04 - Editar/retirar
 
 El sistema deberá permitir al administrador editar, retirar o cancelar actividades y/o avisos ya publicados.
 
-# RF08 - Contactos y horarios
+# RF05 - Contactos y horarios
 
 El sistema deberá permitir a los usuarios consultar los contactos y horarios de atención del departamento de orientación y psicología de la Facultad de Matemáticas.
 
-# RF09 - Líneas de ayuda
+# RF06 - Líneas de ayuda
 
 El sistema deberá permitir la gestión y visualización de las líneas de ayuda universitarias, así también las de disposición general locales, estatales y nacionales para los usuarios.
 
-# RF10 - Material informativo
+# RF07 - Material informativo
 
 El sistema mostrará a los usuarios, de manera concisa, diferentes tipos de materiales informativos sobre salud mental, como lo son folletos, videos y documentos, pudiendo también seleccionar y acceder a cualquiera de estas publicaciones para poder conocer a detalle más acerca de las publicaciones.
 
-# RF11 - Gestionar material
+# RF08 - Gestionar material
 
 El sistema deberá permitir al administrador registrar nuevos materiales informativos, modificar los materiales registrados y retirar de la consulta pública los materiales publicados.
 
-# RF12 - Fotogaleria
+# RF09 - Fotogaleria
 
 RF09 - El sistema deberá permitir al administrador gestionar (subir, actualizar y retirar) imágenes y descripciones en la fotogalería de las actividades de salud mental de la Facultad de Matemáticas, así como permitir a los usuarios visualizar dicha galería de forma pública.
 
-# RF13 - Tutorías y guías
+# RF10 - Tutorías y guías
 
 El sistema deberá permitir a los usuarios consultar los contactos de apoyo (tutorías) y guías de carrera.
 
-# RF14 - Inicio/cierre de sesión
+# RF11 - Inicio/cierre de sesión
 
 El sistema deberá permitir al administrador iniciar y cerrar sesión para acceder a las funciones de gestión de contenido.
