@@ -1,44 +1,67 @@
 ## **Requisitos funcionales**
 
-# RF01 - Catálogo/calendario 
+# RF01 - Calendario 
 
 El sistema mostrará un calendario de eventos y avisos ya publicados, cuya fecha sea igual o posterior al día actual, indicando nombre, sede, fecha y hora de cada uno.
 
-## Historia de usuario
+# RF02 - Consultar detalle de actividad
 
-**Como** usuario del sistema, 
-**quiero** visualizar el calendario donde están señalados los próximos eventos y actividades,
-**para** consultar las actividades y su información: nombre, sede, fecha y hora de cada uno.
+ El sistema deberá permitir al usuario seleccionar una actividad publicada en el calendario para consultar la siguiente información:
+* **Nombre de la actividad.**
+* **Descripción.**
+* **Fecha y hora de inicio y, cuando corresponda, de finalización.**
+* **Modalidad: presencial, virtual o híbrida.**
+* **Lugar, si es presencial; enlace de acceso, si es virtual; o ambos, si es híbrida.**
+* **Institución u organizador responsable.**
 
-# RF02 - Detalle de actividad
+## Historia de usuario:
 
-El sistema permitirá al usuario seleccionar una actividad para visualizar su información detallada, la cual incluirá:
-* **Nombre de la actividad**
-* **Descripción**
-* **Fecha y hora**
-* **Modalidad** (presencial, virtual, híbrida)
-* **Lugar / Enlace**
-* **Institución u organizador** que imparte la actividad
-
-## Historia de usuario
-
-**Como** estudiante o usuario del sistema,  
-**Quiero** seleccionar una actividad del calendario para ver su detalle completo (nombre, descripción, fecha, hora, lugar/modalidad y la institución organizadora),  
-**Para** evaluar si puedo y deseo asistir a la actividad.
+**Como** estudiante o usuario del sistema,
+**quiero** consultar la información detallada de una actividad del calendario,
+**para** conocer sus características y decidir si puedo y deseo asistir.
 
 
-# RF03 - Crear/publicar
+# RF03 - crear actividad
 
-El sistema deberá permitir al administrador crear y publicar actividades, y avisos para que los usuarios puedan consultarlos.
+RF03 - El sistema deberá permitir al administrador registrar una actividad como borrador mediante un formulario con nombre, descripción, fecha y hora, modalidad, lugar o enlace según corresponda e institución u organizador responsable.
 
-## Historia de usuario
+## Historia de usuario:
 
 **Como** administrador del sistema,
-**Quiero** registrar y publicar nuevos eventos, actividades o avisos en el calendario,
-**Para** mantener informada a la comunidad estudiantil sobre los eventos próximos.
+**quiero** registrar una actividad como borrador,
+**para** preparar su información antes de hacerla visible a la comunidad.
 
+## RF04 - publicar actividad
 
-# RF04 - Editar/retirar
+RF04 - El sistema deberá permitir al administrador publicar una actividad previamente registrada como borrador para que los usuarios puedan consultarla en el calendario.
+
+## Historia de usuario:
+
+**Como** administrador del sistema,
+**quiero** publicar una actividad registrada como borrador,
+**para** que la comunidad estudiantil pueda conocerla y consultar sus detalles.
+
+## RF05 - crear aviso
+
+RF05 - El sistema deberá permitir al administrador registrar un aviso como borrador mediante un formulario con título y contenido.
+
+## historia de usuario
+
+**Como** administrador del sistema,
+**quiero** registrar un aviso como borrador,
+**para** preparar un comunicado antes de hacerlo visible a la comunidad.
+
+## RF06 - publicar aviso
+
+RF06 - El sistema deberá permitir al administrador publicar un aviso previamente registrado como borrador para que los usuarios puedan consultarlo en el espacio de avisos.
+
+## historia de usuario
+
+**Como** administrador del sistema,
+**quiero** publicar un aviso registrado como borrador,
+**para** comunicar información relevante a la comunidad estudiantil.
+
+# RF07 - Editar/retirar
 
 El sistema deberá permitir al administrador editar, retirar o cancelar actividades y/o avisos ya publicados.
 
@@ -49,7 +72,7 @@ El sistema deberá permitir al administrador editar, retirar o cancelar activida
 **Para** actualizar información errónea o notificar cambios de último momento.
 
 
-# RF05 - Contactos y horarios
+# RF08 - Contactos y horarios
 
 El sistema deberá permitir a los usuarios consultar los contactos y horarios de atención del departamento de orientación y psicología de la Facultad de Matemáticas.
 
@@ -60,7 +83,7 @@ El sistema deberá permitir a los usuarios consultar los contactos y horarios de
 **Para** solicitar atención psicológica o resolver dudas de orientación académica.
 
 
-# RF06 - Líneas de ayuda
+# RF09 - Líneas de ayuda
 
 El sistema deberá permitir a los usuarios consultar las líneas de ayuda disponibles (Línea de la Vida nacional y Línea Amiga local).
 
@@ -71,7 +94,7 @@ El sistema deberá permitir a los usuarios consultar las líneas de ayuda dispon
 **Para** solicitar apoyo profesional inmediato las 24 horas.
 
 
-# RF07 - Material informativo
+# RF10 - Material informativo
 
 El sistema deberá permitir a los usuarios consultar material informativo fijo sobre salud mental (folletos, videos y documentos).
 
@@ -82,7 +105,7 @@ El sistema deberá permitir a los usuarios consultar material informativo fijo s
 **Para** aprender sobre el cuidado de la salud mental, prevención y bienestar personal.
 
 
-# RF08 - Gestionar material
+# RF11 - Gestionar material
 
 El sistema deberá permitir al administrador agregar, actualizar y retirar material informativo.
 
@@ -93,7 +116,7 @@ El sistema deberá permitir al administrador agregar, actualizar y retirar mater
 **Para** mantener actualizado el repositorio de salud mental.
 
 
-# RF09 - Fotogaleria
+# RF12 - Fotogaleria
 
 El sistema permitirá a los usuarios consultar una fotogalería con imágenes correspondientes a las actividades de salud mental realizadas en la Facultad de Matemáticas.
 
@@ -104,7 +127,7 @@ El sistema permitirá a los usuarios consultar una fotogalería con imágenes co
 **Para** conocer las dinámicas pasadas y motivarme a participar en futuras ediciones.
 
 
-# RF10 - Tutorías y guías
+# RF13 - Tutorías y guías
 
 El sistema deberá permitir a los usuarios consultar los contactos de apoyo (tutorías) y guías de carrera.
 
@@ -115,7 +138,7 @@ El sistema deberá permitir a los usuarios consultar los contactos de apoyo (tut
 **Para** orientar mi desempeño académico y desarrollo profesional dentro de la facultad.
 
 
-# RF11 - Inicio/cierre de sesión
+# RF14 - Inicio/cierre de sesión
 
 El sistema deberá permitir al administrador iniciar y cerrar sesión para acceder a las funciones de gestión de contenido.
 

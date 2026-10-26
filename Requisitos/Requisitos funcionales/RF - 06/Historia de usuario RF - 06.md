@@ -1,9 +1,9 @@
-## Requisito Funcional 06 - Líneas de ayuda
+## requisito funcional 06 - publicar aviso
 
-RF06 - El sistema deberá permitir la gestión y visualización de las líneas de ayuda universitarias, así también las de disposición general locales, estatales y nacionales para los usuarios.
+RF06 - El sistema deberá permitir al administrador publicar un aviso previamente registrado como borrador para que los usuarios puedan consultarlo en el espacio de avisos.
 
-## Historia de usuario
+## historia de usuario
 
-**Como** usuario del sistema,
-**quiero** consultar las líneas de ayuda universitarias, locales, estatales y nacionales,
-**para** encontrar su información de contacto, acceder a los servicios de apoyo que necesite y/o solicitar ayuda profesional inmediata durante las 24 horas del día.
+**Como** administrador del sistema,
+**quiero** publicar un aviso registrado como borrador,
+**para** comunicar información relevante a la comunidad estudiantil.
