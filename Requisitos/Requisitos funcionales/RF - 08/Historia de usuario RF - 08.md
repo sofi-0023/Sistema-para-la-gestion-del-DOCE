@@ -1,6 +1,6 @@
 ## Requisito Funcional 08 - Gestión de recursos de salud mental
 
-RF08 - El sistema deberá permitir al administrador registrar nuevos materiales informativos, modificar los materiales registrados y retirar de la consulta pública los materiales publicados.
+RF08 - El sistema deberá permitir al administrador registrar nuevos materiales informativos, modificar los materiales registrados y eliminar de la consulta pública los materiales publicados.
 
 ## Historia de usuario
 
@@ -20,25 +20,25 @@ RF08 - El sistema deberá permitir al administrador registrar nuevos materiales 
 **entonces** se muestra un mensaje con el resultado
 **y** el catálogo público muestra la información nueva.
 
-**CA3 – Retirar material**
+**CA3 – eliminar material**
 **Dado** que existe un material publicado,
-**cuando** el administrador confirma la operación "Retirar",
+**cuando** el administrador confirma la operación "eliminar",
 **entonces** se muestra un mensaje con el resultado
 **y** el material deja de aparecer en el catálogo público.
 
 **CA4 – Confirmar sin seleccionar material**
-**Dado** que el administrador eligió actualizar o retirar pero no seleccionó ningún material,
+**Dado** que el administrador eligió actualizar o eliminar pero no seleccionó ningún material,
 **cuando** confirma la operación,
 **entonces** se muestra el mensaje "Se solicita que seleccione un material" y no se realiza ningún cambio.
 
 **CA5 – Cancelar la operación**
-**Dado** que el administrador inició una operación de agregar, actualizar o retirar,
+**Dado** que el administrador inició una operación de agregar, actualizar o eliminar,
 **cuando** la cancela antes de confirmarla,
 **entonces** no se aplica ningún cambio.
 
 **CA6 – Material ya no disponible**
 **Dado** que un material fue retirado mientras el administrador lo tenía seleccionado,
-**cuando** intenta actualizarlo o retirarlo,
+**cuando** intenta actualizarlo o eliminarlo,
 **entonces** se informa que el material no está disponible y el listado se actualiza.
 
 **CA7 – Solo el administrador puede gestionar**

@@ -1,6 +1,6 @@
 ## Requisito Funcional 09 - Fotogalería
 
-RF09 - El sistema deberá permitir al administrador gestionar (subir, actualizar y retirar) imágenes y descripciones en la fotogalería de las actividades de salud mental de la Facultad de Matemáticas, así como permitir a los usuarios visualizar dicha galería de forma pública.
+RF09 - El sistema deberá permitir al administrador gestionar (subir, actualizar y eliminar) imágenes y descripciones en la fotogalería de las actividades de salud mental de la Facultad de Matemáticas, así como permitir a los usuarios visualizar dicha galería de forma pública.
 
 ## Historia de usuario
 
@@ -24,10 +24,10 @@ Visualización: **Como** estudiante o usuario de la plataforma, **quiero** explo
 **entonces** se muestra un mensaje con el resultado
 **y** la fotogalería pública muestra el cambio.
 
-**CA3 – Retirar foto**
+**CA3 – eliminar foto**
 **Dado** que existe una foto publicada,
-**cuando** el administrador confirma la operación "Retirar",
-**entonces** la foto y su descripción dejan de aparecer en la fotogalería pública.
+**cuando** el administrador confirma la operación "eliminar",
+**entonces** la foto y su descripción desaparecen de manera permanente.
 
 **CA4 – Confirmar sin seleccionar foto**
 **Dado** que el administrador no seleccionó ninguna foto,
@@ -40,8 +40,8 @@ Visualización: **Como** estudiante o usuario de la plataforma, **quiero** explo
 **entonces** no se aplica ningún cambio.
 
 **CA6 – Foto ya no disponible**
-**Dado** que una foto fue retirada mientras el administrador la tenía seleccionada,
-**cuando** intenta actualizarla o retirarla,
+**Dado** que una foto fue eliminada mientras el administrador la tenía seleccionada,
+**cuando** intenta actualizarla o eliminarla,
 **entonces** se informa que la foto no está disponible y la fotogalería se actualiza.
 
 ### Visualización (usuario)
