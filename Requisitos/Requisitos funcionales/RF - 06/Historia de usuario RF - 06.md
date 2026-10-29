@@ -12,62 +12,120 @@ RF06 - El sistema deberá permitir al administrador publicar un aviso previament
 
 ### Catálogo
 
-**CA1 – Catálogo de materiales**
-**Dado** que existen materiales informativos publicados,
-**cuando** el usuario entra a "Materiales informativos",
-**entonces** cada material aparece con su título, una descripción breve y su tipo (folleto, video o documento).
+**CA1 – Visualización del catálogo**
+**Dado** que existen líneas de ayuda registradas en el sistema,
+**cuando** el usuario accede a la sección “Líneas de ayuda”,
+**entonces** se muestra un catálogo con las líneas disponibles, organizadas según su ámbito de atención: universitario, local, estatal y nacional.
 
-**CA2 – Material sin descripción**
-**Dado** que un material publicado no tiene descripción,
-**cuando** aparece en el catálogo,
-**entonces** se indica que no cuenta con descripción.
+**CA2 – Catálogo sin registros**
+**Dado** que no existen líneas de ayuda registradas en el sistema,
+**cuando** el usuario accede a la sección “Líneas de ayuda”,
+**entonces** se muestra un mensaje que informa que no hay líneas de ayuda disponibles.
 
-**CA3 – Muchos materiales**
-**Dado** que hay más materiales de los que caben en una página,
-**cuando** el usuario recorre el catálogo,
-**entonces** puede ver todos mediante páginas o desplazamiento, sin que se omita ninguno.
+**CA3 – Consulta por clasificación**
+**Dado** que existen líneas de ayuda registradas en diferentes ámbitos de atención,
+**cuando** el usuario selecciona un ámbito específico,
+**entonces** el sistema muestra las líneas de ayuda correspondientes a dicho ámbito.
 
-**CA4 – Catálogo vacío**
-**Dado** que no hay materiales publicados,
-**cuando** el usuario entra a "Materiales informativos",
-**entonces** se muestra un mensaje que informa que no hay materiales disponibles.
+**CA4 – Error al cargar el catálogo**
+**Dado** que ocurra un error al recuperar la información o se pierde la conexión con el servidor,
+**cuando** el usuario intente consultar las líneas de ayuda,
+**entonces** se muestra un mensaje que informa del error y no fue posible cargar la información.
 
-### Detalle
+### Registro de líneas de ayuda
 
-**CA5 – Detalle de un material**
-**Dado** que el usuario está en el catálogo,
-**cuando** selecciona un material,
-**entonces** se muestran su título, su descripción detallada y su tipo.
+**CA5 – Registro de una nueva línea de ayuda**
+**Dado** que el administrador halla iniciado sesión y cuente con los permisos necesarios,
+**cuando** acceda al módulo de gestión, selecciona la opción para registrar una línea de ayuda y completa los campos requeridos,
+**entonces** el sistema valida los datos, almacena el registro y muestra un mensaje de confirmación.
 
-**CA6 – Video**
-**Dado** que el material seleccionado es un video,
-**cuando** el usuario consulta su detalle,
-**entonces** se muestran su duración, su descripción y la plataforma donde se reproduce.
+**CA6 – Campos obligatorios incompletos**
+**Dado** que el administrador esté registrando una línea de ayuda,
+**cuando** intente guardar el registro sin completar alguno de los campos requeridos,
+**entonces** el sistema identifica los campos incompletos, muestra un mensaje de validación y no guarda el registro.
 
-**CA7 – Documento o folleto**
-**Dado** que el material seleccionado es un documento o un folleto,
-**cuando** el usuario consulta su detalle,
-**entonces** se muestra una vista previa y la opción de descargar el archivo
-**y**, si es un documento, también su formato y tamaño.
+**CA7 – Datos con formato incorrecto**
+**Dado** que el administrador introduzca información con un formato inválido,
+**cuando** intente guardar una nueva línea de ayuda,
+**entonces** el sistema señala los campos que presentan errores e indica el formato esperado.
 
-**CA8 – Regresar al catálogo**
-**Dado** que el usuario está en el detalle de un material,
-**cuando** selecciona "Regresar",
-**entonces** vuelve al catálogo.
+**CA8 – Posible registro duplicado**
+**Dado** que exista una línea de ayuda con información que coincide o es similar a la que se intenta registrar,
+**cuando** el administrador solicite guardar el nuevo registro,
+**entonces** el sistema informa sobre la posible duplicidad y permite revisar la información sin crear automáticamente un registro duplicado.
 
-### Errores
+**CA9 – Cancelación del registro**
+**Dado** que el administrador se encuentre registrando una línea de ayuda,
+**cuando** decide cancelar la operación y confirma la cancelación,
+**entonces** el sistema interrumpe el proceso y no almacena el nuevo registro.
 
-**CA9 – Material retirado**
-**Dado** que un material fue retirado después de que el usuario cargó el catálogo,
-**cuando** lo selecciona,
-**entonces** se informa que el material ya no está disponible y se ofrece regresar al catálogo actualizado.
+**CA10 – Error durante el registro**
+**Dado** que ocurra un error de conexión o de almacenamiento,
+**cuando** el administrador intente registrar una línea de ayuda,
+**entonces** el sistema informa que no fue posible completar la operación y cancela el proceso del registro.
 
-**CA10 – Error de carga o de conexión**
-**Dado** que el sistema no puede recuperar los materiales o se pierde la conexión con el servidor,
-**cuando** el usuario intenta ver el catálogo o un detalle,
-**entonces** se muestra un mensaje que indica que no fue posible cargar la información.
+### Modificación de líneas de ayuda
 
-**CA11 – Enlace externo no disponible**
-**Dado** que un material enlaza a un recurso externo que no está disponible,
-**cuando** el usuario intenta abrirlo,
-**entonces** se informa que el contenido no está disponible.
+**CA11 – Modificación de una línea existente**
+**Dado** que el administrador ha iniciado sesión, cuenta con los permisos necesarios y existe una línea de ayuda registrada,
+**cuando** selecciona la línea que desea modificar, actualiza sus datos y guarda los cambios,
+**entonces** el sistema valida la información, almacena los cambios y muestra un mensaje de confirmación con los datos actualizados.
+
+**CA12 – Conservación de campos sin modificar**
+**Dado** que el administrador desee actualizar únicamente algunos datos de una línea de ayuda,
+**cuando** modifica los campos seleccionados y guarda los cambios,
+**entonces** el sistema conserva los valores originales de los campos que no fueron modificados.
+
+**CA13 – Línea de ayuda no existe para modificación**
+**Dado** que el administrador intente modificar una línea de ayuda que ya no existe,
+**cuando** el sistema busca recuperar el registro seleccionado,
+**entonces** se informa que la línea de ayuda no está disponible y se impide guardar cambios sobre ese registro.
+
+**CA14 – Cancelación de la modificación**
+**Dado** que el administrador esté modificando una línea de ayuda,
+**cuando** decide cancelar la operación,
+**entonces** el sistema interrumpe el proceso y conserva los datos que estaban almacenados antes de iniciar la modificación.
+
+**CA15 – Error durante la modificación**
+**Dado** que ocurra un error de conexión o de almacenamiento,
+**cuando** el administrador intente guardar los cambios de una línea de ayuda,
+**entonces** el sistema informa que no fue posible completar la modificación, informa que los cambios no fueron exitosos y continua en la pestaña de modificación.
+
+### Eliminación de líneas de ayuda
+
+**CA16 – Confirmación de eliminación**
+**Dado** que el administrador ha iniciado sesión, cuenta con los permisos necesarios y existe una línea de ayuda registrada,
+**cuando** selecciona la opción para eliminarla,
+**entonces** el sistema muestra un mensaje de confirmación con información suficiente para identificar la línea y advertir sobre las consecuencias de la operación.
+
+**CA17 – Eliminación confirmada**
+**Dado** que el administrador ha seleccionado una línea de ayuda y revisado el aviso de confirmación,
+**cuando** confirma la eliminación,
+**entonces** el sistema retira la línea de ayuda del catálogo, actualiza la información y muestra un mensaje de eliminación exitosa.
+
+**CA18 – Cancelación de la eliminación**
+**Dado** que el administrador se encuentra en la pantalla de confirmación de eliminación,
+**cuando** decide cancelar la operación,
+**entonces** el sistema cancela el proceso de eliminación y conserva el registro sin modificaciones.
+
+**CA19 – Línea de ayuda previamente retirada**
+**Dado** que la línea de ayuda seleccionada ya fue eliminada o retirada,
+**cuando** el administrador intenta eliminarla nuevamente,
+**entonces** el sistema informa de su estado actual y actualiza la página.
+
+**CA20 – Error durante la eliminación**
+**Dado** que ocurre un error de conexión o del sistema durante la eliminación,
+**cuando** el administrador quiera confirmar la sustracción,
+**entonces** el sistema informa que no fue posible completala y cierra la pestaña de eliminación.
+
+### Eliminación de líneas de ayuda
+
+**CA21 – Acceso sin permisos suficientes**
+**Dado** que un usuario no cuenta con permisos administrativos para gestionar las líneas de ayuda,
+**cuando** intenta registrar, modificar o eliminar una línea,
+**entonces** el sistema deniega la operación y muestra un mensaje que informa que no tiene los permisos correspondientes.
+
+**CA22 – Sesión administrativa expirada**
+**Dado** que la sesión del administrador ha expirado,
+**cuando** intente registrar, modificar o eliminar una línea de ayuda,
+**entonces** el sistema solicita que vuelva a autenticarse antes de continuar con la operación.
