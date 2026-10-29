@@ -6,14 +6,11 @@ RF07 - El sistema mostrará a los usuarios, de manera concisa, diferentes tipos 
 
 **Como** usuario del sistema, 
 **quiero** visualizar y/o descargar materiales informativos sobre salud mental, como folletos, videos y documentos, 
-<<<<<<< HEAD
-**para** conocer información de mi interés relativa a la salud mental, aprender sobre ella y acceder a los detalles de cada publicación del sitio.
-=======
 **para** conocer información de mi interés relativa a la salud mental, aprender sobre ella y acceder a los detalles de cada publicación del sitio.
 
 ## Criterios de aceptación
 
-### Catálogo
+### Directorio
 
 **CA1 – Catálogo de materiales**
 **Dado** que existen materiales informativos publicados,
@@ -74,4 +71,3 @@ RF07 - El sistema mostrará a los usuarios, de manera concisa, diferentes tipos 
 **Dado** que un material enlaza a un recurso externo que no está disponible,
 **cuando** el usuario intenta abrirlo,
 **entonces** se informa que el contenido no está disponible.
->>>>>>> dff616326ee0963ca6bd609f10c1b9e1584dfe55

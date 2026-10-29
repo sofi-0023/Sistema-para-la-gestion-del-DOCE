@@ -21,12 +21,6 @@ El sistema deberá permitir al administrador registrar y publicar actividades y 
 * Para los avisos, deberá solicitar título y contenido.
 * Antes de publicar, el sistema deberá validar los campos obligatorios y la coherencia de los datos. Una vez completada la publicación, las actividades deberán aparecer en el calendario y los avisos en el espacio destinado a su consulta.
 
-## Historia de usuario
-
-**Como** administrador del sistema,
-**quiero** crear y publicar actividades y avisos,
-**para** mantener informada a la comunidad estudiantil sobre las próximas actividades y los comunicados relevantes.
-
 # RF04 - Editar/retirar
 
 El sistema deberá permitir al administrador editar, retirar o cancelar actividades y/o avisos ya publicados.
@@ -49,7 +43,7 @@ El sistema deberá permitir al administrador registrar nuevos materiales informa
 
 # RF09 - Fotogaleria
 
-RF09 - El sistema deberá permitir al administrador gestionar (subir, actualizar y retirar) imágenes y descripciones en la fotogalería de las actividades de salud mental de la Facultad de Matemáticas, así como permitir a los usuarios visualizar dicha galería de forma pública.
+El sistema deberá permitir al administrador gestionar (subir, actualizar y retirar) imágenes y descripciones en la fotogalería de las actividades de salud mental de la Facultad de Matemáticas, así como permitir a los usuarios visualizar dicha galería de forma pública.
 
 # RF10 - Tutorías y guías
 
