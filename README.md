@@ -1,40 +1,66 @@
-# Sistema para la gestión del DOCE
-# Departamento de Orientación y Consejo Educativo
-Proyecto integrador para FIS-Sistema para la gestión del DOCE
+<p align="center">
+  <img src="Diseño/banner-readme.svg" alt="Sistema para la gestión del DOCE — Departamento de Orientación y Consejo Educativo, FMAT UADY" width="100%">
+</p>
 
-Plataforma web que centraliza los avisos, talleres, foros y pláticas sobre salud mental
-de la Facultad de Matemáticas, para que la información llegue de forma clara y organizada
-al estudiantado y sea fácil de gestionar para quienes organizan las actividades.
+<p align="center">
+  Una plataforma web para que los talleres, avisos y apoyos de salud mental de la Facultad de Matemáticas<br>
+  <b>lleguen al estudiantado</b> en lugar de perderse en el correo.
+</p>
 
-## Problema
-Hoy los avisos se envían por correo institucional y se pierden entre muchos mensajes,
-por lo que muchas personas no se enteran de las actividades.
+<p align="center">
+  <img src="https://img.shields.io/badge/estado-Entrega_2_·_requisitos-F4E9CF?style=flat-square&labelColor=002855" alt="Estado: Entrega 2, requisitos">
+  <img src="https://img.shields.io/badge/FMAT-UADY-1F4E8C?style=flat-square&labelColor=002855" alt="FMAT UADY">
+  <img src="https://img.shields.io/badge/periodo-ago–dic_2026-1F4E8C?style=flat-square&labelColor=002855" alt="Periodo agosto a diciembre 2026">
+</p>
+
+<p align="center">
+  <a href="#el-problema">El problema</a> ·
+  <a href="#qué-incluye">Qué incluye</a> ·
+  <a href="#estado-del-proyecto">Estado</a> ·
+  <a href="#documentación">Documentación</a> ·
+  <a href="#equipo">Equipo</a>
+</p>
+
+<br>
+
+## El problema
+
+Hoy las convocatorias del DOCE se envían por correo institucional. Entre tantos mensajes,
+**los avisos se pierden** y muchas personas no se enteran de las actividades a tiempo.
+
+> [!NOTE]
+> **Nuestra propuesta:** un solo lugar donde consultar el calendario de actividades, los contactos
+> de orientación y el material de salud mental, y donde el personal del DOCE pueda publicar
+> y actualizar todo sin depender del correo.
 
 ## Qué incluye
-- Calendario de eventos próximos
-- Panel de administración para crear, publicar y editar avisos
-- Directorio de orientación, psicología y líneas de ayuda
-- Material informativo sobre salud mental
-- Fotogalería de actividades
-- Módulo de orientación vocacional
+
+<!-- Pendiente: se llenará al final del proyecto. -->
 
 ## Estado del proyecto
-Etapa de definición de requisitos.
+
+| Etapa | Estado |
+|---|---|
+| **Entrega 1** — Propuesta, problemática y objetivos | Entregada |
+| **Entrega 2** — Requisitos, casos de uso, historias de usuario y bocetos | En curso |
 
 ## Documentación
-- [Propuesta](docs/propuesta.md)
-- [Requisitos funcionales](docs/requisitos-funcionales.md)
-- [Requisitos no funcionales](docs/requisitos-no-funcionales.md)
-- [Diagrama de casos de uso](https://raw.githubusercontent.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/Dviz-art/imagenes/Diagrama%20de%20casos%20de%20uso.png)
-- [Competencias](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/tree/main/docs/competencias)
-- [Roles y metas](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/tree/main/docs/roles%20y%20metas)
-- [Video](https://www.youtube.com/watch?v=q-h06znvqGA)
 
+<!-- Pendiente: se llenará al final del proyecto. -->
 
 ## Equipo
-- Sofía Anael Barreiro Urcelay
-- Gabriel Eduardo Estrada Rejón
-- Jennyfer Estefania Chan Tun
-- Daniel isai Yah Ku
-- Jahzeel Alfonso Canul Ventura
-- Rafael Jesús Jiménez Pereira
+
+| Integrante | Rol |
+|---|---|
+| Sofía Anael Barreiro Urcelay | Líder |
+| Gabriel Eduardo Estrada Rejón | Integrante |
+| Jennyfer Estefania Chan Tun | Integrante |
+| Daniel Isai Yah Ku | Integrante |
+| Jahzeel Alfonso Canul Ventura | Integrante |
+| Rafael Jesús Jiménez Pereira | Integrante |
+
+<br>
+
+<p align="center">
+  <sub>Proyecto integrador de <b>Fundamentos de Ingeniería de Software</b> · Facultad de Matemáticas, UADY · Agosto–diciembre 2026</sub>
+</p>
