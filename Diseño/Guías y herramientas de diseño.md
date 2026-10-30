@@ -34,7 +34,7 @@ En el documento [Paletas y pares tipográficos](<Paletas DOCE.pdf>) se propusier
 
 ### 4. Logotipo
 
-En la misma reunión, Laura eligió la versión del logo **solo con el delineado**, sin relleno, y pidió corregir la nariz del jaguar con una línea que termine de formarla. También detectó que en el nombre faltaba la palabra "Departamento": el nombre correcto es **Departamento de Orientación y Consejo Educativo**.
+En la misma reunión, Laura eligió la versión del logo **solo con el delineado**, sin relleno, y pidió corregir la nariz del jaguar con una línea que termine de formarla. También detectó que en el nombre faltaba la palabra "Departamento": el nombre correcto es **Departamento de Orientación y Consejo Educativo**. La versión vectorial con estas correcciones está en [Logotipo](<Logotipo/Logotipo.md>).
 
 ### 5. Guías de diseño de interfaz para el trabajo con IA
 
