@@ -45,11 +45,11 @@ El sistema mostrará a los usuarios, de manera concisa, diferentes tipos de mate
 
 # RF08 - Gestionar material
 
-El sistema deberá permitir al administrador registrar nuevos materiales informativos, modificar los materiales registrados y retirar de la consulta pública los materiales publicados.
+El sistema deberá permitir al administrador registrar nuevos materiales informativos, modificar los materiales registrados y eliminar de la consulta pública los materiales publicados.
 
 # RF09 - Fotogaleria
 
-RF09 - El sistema deberá permitir al administrador gestionar (subir, actualizar y retirar) imágenes y descripciones en la fotogalería de las actividades de salud mental de la Facultad de Matemáticas, así como permitir a los usuarios visualizar dicha galería de forma pública.
+El sistema deberá permitir al administrador gestionar (subir, actualizar y eliminar) imágenes y descripciones en la fotogalería de las actividades de salud mental de la Facultad de Matemáticas, así como permitir a los usuarios visualizar dicha galería de forma pública.
 
 # RF10 - Tutorías y guías
 
