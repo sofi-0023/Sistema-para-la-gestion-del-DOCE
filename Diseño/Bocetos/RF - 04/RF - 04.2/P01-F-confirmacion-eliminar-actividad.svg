@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="1218" viewBox="0 0 980 1218">
+  <title>DOCE · FMAT — P04-F-confirmacion-eliminar-actividad</title>
+  <rect width="980" height="1218" fill="#f6f8fb"/>
+  <text x="0.0" y="88.1" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">←</text>
+  <text x="21.1" y="88.1" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Volver</text>
+  <text x="73.4" y="88.1" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">a</text>
+  <text x="87.4" y="88.1" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">gestión</text>
+  <text x="149.1" y="88.1" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">de</text>
+  <text x="172.8" y="88.1" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">actividades</text>
+  <text x="0.0" y="148.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">Panel</text>
+  <text x="49.1" y="148.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">de</text>
+  <text x="72.4" y="148.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">administración</text>
+  <text x="205.4" y="148.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">·</text>
+  <text x="215.8" y="148.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">RF04.1</text>
+  <text x="0.0" y="219.3" fill="rgb(0, 40, 85)" font-family="Newsreader, serif" font-size="60.8" font-weight="500">Editar</text>
+  <text x="173.8" y="219.3" fill="rgb(0, 40, 85)" font-family="Newsreader, serif" font-size="60.8" font-weight="500">actividad</text>
+  <text x="0.0" y="255.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">Actualiza</text>
+  <text x="75.3" y="255.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">los</text>
+  <text x="102.4" y="255.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">datos</text>
+  <text x="150.2" y="255.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">publicados</text>
+  <text x="239.3" y="255.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">de</text>
+  <text x="263.6" y="255.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">esta</text>
+  <text x="301.3" y="255.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">actividad.</text>
+  <rect x="0.0" y="297.6" width="980.0" height="840.2" rx="10" fill="rgb(255, 255, 255)" stroke="rgb(217, 224, 233)" stroke-width="1"/>
+  <text x="41.0" y="352.3" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">Nombre</text>
+  <text x="98.8" y="352.3" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">de</text>
+  <text x="120.1" y="352.3" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">la</text>
+  <text x="137.5" y="352.3" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">actividad</text>
+  <text x="41.0" y="381.9" fill="rgb(155, 44, 44)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">*</text>
+  <rect x="41.0" y="397.9" width="898.0" height="48.5" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(170, 182, 198)" stroke-width="1"/>
+  <text x="55.4" y="424.7" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4">Plática: dormir bien también es estudiar</text>
+  <text x="41.0" y="482.5" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">Descripción</text>
+  <rect x="41.0" y="498.4" width="898.0" height="105.0" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(170, 182, 198)" stroke-width="1"/>
+  <text x="55.4" y="525.3" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4">Conoce estrategias prácticas para mejorar tus hábitos de descanso durante el periodo de exámenes.</text>
+  <text x="41.0" y="639.5" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">Fecha</text>
+  <text x="41.0" y="669.1" fill="rgb(155, 44, 44)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">*</text>
+  <rect x="41.0" y="685.0" width="437.8" height="48.5" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(170, 182, 198)" stroke-width="1"/>
+  <text x="55.4" y="711.9" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4">2026-11-12</text>
+  <text x="501.2" y="639.5" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">Hora</text>
+  <text x="501.2" y="669.1" fill="rgb(155, 44, 44)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">*</text>
+  <rect x="501.2" y="685.0" width="437.8" height="48.5" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(170, 182, 198)" stroke-width="1"/>
+  <text x="515.6" y="711.9" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4">16:00</text>
+  <text x="41.0" y="769.6" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">Modalidad</text>
+  <text x="41.0" y="799.2" fill="rgb(155, 44, 44)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">*</text>
+  <rect x="41.0" y="815.2" width="437.8" height="46.9" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(170, 182, 198)" stroke-width="1"/>
+  <text x="55.4" y="842.1" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4">Presencial</text>
+  <text x="501.2" y="769.6" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">Lugar</text>
+  <text x="543.6" y="769.6" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">o</text>
+  <text x="556.5" y="769.6" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">enlace</text>
+  <text x="501.2" y="799.2" fill="rgb(155, 44, 44)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">*</text>
+  <rect x="501.2" y="815.2" width="437.8" height="48.5" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(170, 182, 198)" stroke-width="1"/>
+  <text x="515.6" y="842.1" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4">Aula Magna · FMAT</text>
+  <text x="41.0" y="899.8" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">Organizador</text>
+  <text x="41.0" y="929.4" fill="rgb(155, 44, 44)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4" font-weight="700">*</text>
+  <rect x="41.0" y="945.3" width="898.0" height="48.5" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(170, 182, 198)" stroke-width="1"/>
+  <text x="55.4" y="972.2" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="14.4">Psicología FMAT</text>
+  <rect x="41.0" y="1025.9" width="898.0" height="71.0" rx="0" fill="none" stroke="rgb(217, 224, 233)" stroke-width="1"/>
+  <text x="41.0" y="1078.0" fill="rgb(155, 44, 44)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Cancelar</text>
+  <text x="112.3" y="1078.0" fill="rgb(155, 44, 44)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">actividad</text>
+  <rect x="194.2" y="1050.9" width="182.5" height="46.0" rx="5" fill="rgb(155, 44, 44)" stroke="rgb(155, 44, 44)" stroke-width="2"/>
+  <text x="217.0" y="1078.0" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Eliminar</text>
+  <text x="284.0" y="1078.0" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">actividad</text>
+  <rect x="634.5" y="1050.9" width="118.4" height="46.0" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 40, 85)" stroke-width="2"/>
+  <text x="657.3" y="1078.0" fill="rgb(0, 40, 85)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Descartar</text>
+  <rect x="764.9" y="1050.9" width="174.1" height="46.0" rx="5" fill="rgb(0, 40, 85)" stroke="rgb(0, 40, 85)" stroke-width="2"/>
+  <text x="787.7" y="1078.0" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Guardar</text>
+  <text x="852.6" y="1078.0" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">cambios</text>
+  <rect x="0.0" y="262.0" width="980.0" height="956.0" rx="0" fill="rgba(11, 21, 38, 0.62)" stroke="none" stroke-width="0"/>
+  <rect x="240.0" y="555.0" width="500.0" height="437.9" rx="10" fill="rgb(255, 255, 255)" stroke="none" stroke-width="0"/>
+  <svg x="701.8" y="574.2" width="19.0" height="19.0" viewBox="0 0 24 24" fill="none" stroke="rgb(11, 21, 38)" color="rgb(11, 21, 38)"><path d="m6 6 12 12M18 6 6 18"></path></svg>
+  <rect x="275.2" y="590.2" width="46.0" height="46.0" rx="50" fill="rgb(255, 241, 240)" stroke="none" stroke-width="0"/>
+  <text x="295.0" y="619.4" fill="rgb(155, 44, 44)" font-family="&quot;Atkinson Hyperlegible&quot;" font-size="22.4" font-weight="700">!</text>
+  <text x="275.2" y="671.2" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">Acción</text>
+  <text x="335.6" y="671.2" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">permanente</text>
+  <text x="275.2" y="719.6" fill="rgb(0, 40, 85)" font-family="Newsreader, serif" font-size="32.0" font-weight="500">¿Eliminar</text>
+  <text x="414.7" y="719.6" fill="rgb(0, 40, 85)" font-family="Newsreader, serif" font-size="32.0" font-weight="500">esta</text>
+  <text x="474.7" y="719.6" fill="rgb(0, 40, 85)" font-family="Newsreader, serif" font-size="32.0" font-weight="500">actividad?</text>
+  <text x="275.2" y="753.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">Esta</text>
+  <text x="309.9" y="753.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">acción</text>
+  <text x="360.8" y="753.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">eliminará</text>
+  <text x="430.5" y="753.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">definitivamente</text>
+  <text x="544.3" y="753.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">la</text>
+  <text x="561.0" y="753.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">actividad</text>
+  <text x="629.5" y="753.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">del</text>
+  <text x="275.2" y="777.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">calendario</text>
+  <text x="353.3" y="777.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">público</text>
+  <text x="409.2" y="777.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">y</text>
+  <text x="420.6" y="777.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">no</text>
+  <text x="442.4" y="777.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">se</text>
+  <text x="463.1" y="777.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">puede</text>
+  <text x="511.5" y="777.5" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">deshacer.</text>
+  <rect x="275.2" y="809.4" width="429.6" height="78.4" rx="0" fill="rgb(246, 248, 251)" stroke="none" stroke-width="0"/>
+  <text x="294.2" y="852.1" fill="rgb(0, 40, 85)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">NOV</text>
+  <text x="323.1" y="852.1" fill="rgb(0, 40, 85)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">12</text>
+  <text x="351.5" y="841.5" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Plática:</text>
+  <text x="413.1" y="841.5" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">dormir</text>
+  <text x="467.8" y="841.5" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">bien</text>
+  <text x="505.7" y="841.5" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">también</text>
+  <text x="572.7" y="841.5" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">es</text>
+  <text x="595.4" y="841.5" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">estudiar</text>
+  <text x="351.5" y="864.8" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.8" font-weight="400">16:00</text>
+  <text x="387.1" y="864.8" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.8" font-weight="400">h</text>
+  <text x="397.7" y="864.8" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.8" font-weight="400">·</text>
+  <text x="404.3" y="864.8" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.8" font-weight="400">Aula</text>
+  <text x="432.3" y="864.8" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.8" font-weight="400">Magna</text>
+  <rect x="338.3" y="911.8" width="148.5" height="46.0" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 40, 85)" stroke-width="2"/>
+  <text x="361.1" y="938.8" fill="rgb(0, 40, 85)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">No,</text>
+  <text x="390.5" y="938.8" fill="rgb(0, 40, 85)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">conservar</text>
+  <rect x="498.8" y="911.8" width="206.0" height="46.0" rx="5" fill="rgb(155, 44, 44)" stroke="rgb(155, 44, 44)" stroke-width="2"/>
+  <text x="521.6" y="938.8" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Sí,</text>
+  <text x="545.3" y="938.8" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">eliminar</text>
+  <text x="612.1" y="938.8" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">actividad</text>
+</svg>
