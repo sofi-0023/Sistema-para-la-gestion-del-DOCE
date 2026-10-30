@@ -45,6 +45,7 @@ Para los bocetos hechos con apoyo de Claude se usaron guías de diseño de inter
 | Herramienta | Para qué se usó | Evidencia |
 |---|---|---|
 | **Figma** | Bocetos de RF01, RF06, RF07, RF08, RF09, RF10 y RF11 | Archivos SVG exportados de Figma en [Bocetos](<Bocetos/Bocetos.md>) |
+| **Figma** | Wireframes de alta fidelidad, sistema de diseño y prototipo navegable | [Wireframes y prototipo](<Wireframes/Wireframes y prototipo.md>) |
 | **SVG escrito con código** | Bocetos de RF02, RF03, RF04 y RF05 | Archivos SVG en [Bocetos](<Bocetos/Bocetos.md>) |
 | **Claude** | Asistente para proponer pantallas a partir de la paleta y los casos de uso | [Historial de prompts](../docs/Claude/prompts.md) |
 | **FigJam** | Diagrama de casos de uso | [Diagrama de casos de uso](<../Requisitos/Diagrama de casos de uso>) |
