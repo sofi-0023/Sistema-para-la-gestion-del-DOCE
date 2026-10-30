@@ -39,7 +39,7 @@ Cada requisito se clasificó según qué tanto contribuye a los **objetivos de l
 | **Should** | RF08 - Gestionar material | O4 | Va con RF07: si se construye RF07, RF08 es necesario para mantenerlo |
 | **Could** | RF09 - Fotogalería | — | Muestra las actividades realizadas y da confianza, pero no está entre los objetivos de la propuesta |
 | **Could** | RF10 - Tutorías y guías de carrera | — | Útil para el estudiantado, pero es orientación académica y vocacional, no salud mental; tampoco está en los objetivos |
-| **Won't** | Canal de solicitud de orientación | O3 | Está en los objetivos, pero ningún RF lo cubre. Un canal "confidencial" implica manejar datos personales sensibles, que requiere acuerdos con el DOCE fuera del alcance de este semestre. **Decisión a confirmar con el equipo y la clienta** |
+| **Won't** | Canal de solicitud de orientación | O3 | Está en los objetivos, pero ningún RF lo cubre. Un canal "confidencial" implica manejar datos personales sensibles, que requiere acuerdos con el DOCE fuera del alcance de este semestre |
 
 ## Requisitos no funcionales
 
@@ -54,7 +54,7 @@ Cada requisito se clasificó según qué tanto contribuye a los **objetivos de l
 
 ---
 
-## Dependencias que afectan el orden
+## Dependencias entre requisitos
 
 | Requisito | Depende de | Consecuencia |
 |---|---|---|
@@ -64,14 +64,3 @@ Cada requisito se clasificó según qué tanto contribuye a los **objetivos de l
 | RF08 | RF07, RF11 | Se construyen juntos |
 | Gestión de líneas de ayuda (CU-06.2 a CU-06.4) | RF11 | Exige sesión iniciada |
 | Gestión de fotogalería (RF09) | RF11 | Exige sesión iniciada |
-
-## Orden sugerido de construcción
-
-1. **Incremento 1 (Must):** RF11 → RF03 → RF01 → RF02 → RF04 → RF05 → RF06, cumpliendo RNF01 a RNF04.
-2. **Incremento 2 (Should):** RF07 y RF08, junto con RNF05 y RNF06.
-3. **Incremento 3 (Could), si hay tiempo:** RF09 y RF10.
-
-## Pendientes detectados al priorizar
-
-- **Objetivo sin requisito:** O3 (canal de solicitud de orientación) no tiene ningún RF. Se dejó como *Won't* hasta que el equipo y la clienta decidan.
-- **Gestión faltante:** RF05 (directorio) y RF10 (tutorías) no tienen un requisito para editarse desde el panel, aunque RNF03 lo exige y el comentario del caso de uso de RF05 también lo menciona.

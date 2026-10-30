@@ -64,10 +64,3 @@ Al 30 de octubre de 2026:
 **Reunión con los seis integrantes:**
 
 ![Reunión con los seis integrantes en Discord](<bitácoras/capturas/reunión con los 6 integrantes.jpg>)
-
-## Mejoras detectadas para la siguiente entrega
-
-- El bot de revisión solo corre en los PR hacia `main`; conviene que también revise los que van a `entrega-2`, que es donde se integra el trabajo del sprint.
-- Solo el Sprint 2 tiene milestone; los issues de refinamiento del Sprint 1 no quedaron agrupados.
-- Todos los issues usan la etiqueta `documentation`; etiquetas por área (requisitos, diseño, proceso) facilitarían filtrar el avance.
-- Las dailies, la Review y la Retro no siempre quedaron en bitácora.

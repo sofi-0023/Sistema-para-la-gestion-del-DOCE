@@ -116,7 +116,6 @@ Sale de la rúbrica de la segunda entrega y se priorizó en el Sprint Planning. 
 |---|---|
 | Los bocetos estaban planeados para el Sprint 1, pero el refinamiento tomó toda la semana | Se movieron al Sprint 2 en el ajuste de planeación del 26/10 (issues #54 a #59) |
 | El refinamiento de RF04 y RF05 se cerró el 28/10, ya en el Sprint 2 | Se integró antes de terminar los bocetos de esos requisitos |
-| La Review y la Retro del Sprint 1 (25/10) no quedaron registradas en una bitácora | Pendiente de documentar |
 
 ## Asistencia registrada
 

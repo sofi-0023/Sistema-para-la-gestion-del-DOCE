@@ -58,8 +58,6 @@ La prioridad de cada uno está justificada en [Priorización de requisitos](<../
 
 **Cómo se verifica:** lista de cotejo con un caso de prueba por tipo de contenido (crear, editar y retirar), cronometrando cuánto tarda en verse el cambio.
 
-> **Pendiente del equipo:** hoy ningún requisito funcional cubre la edición del **directorio (RF05)** ni de los **contactos de tutorías y guías (RF10)** desde el panel. Para cumplir este RNF hay que agregar esa gestión a los requisitos funcionales.
-
 # RNF04 - Seguridad
 
 **Categoría:** Seguridad (confidencialidad, integridad y autenticidad).

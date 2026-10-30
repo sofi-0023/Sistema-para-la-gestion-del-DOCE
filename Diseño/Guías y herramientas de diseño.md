@@ -55,8 +55,3 @@ Para los bocetos hechos con apoyo de Claude se usaron guías de diseño de inter
 - **Una carpeta por requisito** (`Bocetos/RF - 01`, `Bocetos/RF - 02`…), para que cada pantalla se rastree hasta su requisito.
 - **Un archivo por pantalla y por estado:** además de la pantalla normal, se bocetan los estados que piden los casos de uso y los criterios de aceptación: vacío, error, confirmación y resultado. Por ejemplo, RF01 tiene "Calendario sin actividades", "Error de conexión" y "Actividad no disponible al abrirla".
 - **Tamaños:** la mayoría de las pantallas de escritorio miden 1440 px de ancho; la vista de celular de la fotogalería mide 390 px.
-
-## Pendientes
-
-- Los bocetos de **RF06 y RF07** están en la rama `feature/gabo-integrante` ([RF - 06](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/tree/feature/gabo-integrante/Dise%C3%B1o/Bocetos/RF%20-%2006) y [RF - 07](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/tree/feature/gabo-integrante/Dise%C3%B1o/Bocetos/RF%20-%2007)) y faltan en `entrega-2`.
-- En [Bocetos/RF - 05](<Bocetos/RF - 05>) hay 6 archivos idénticos a los de [RF - 04](<Bocetos/RF - 04>); solo [P02-A-directorio-publico](<Bocetos/RF - 05/P02-A-directorio-publico.svg>) corresponde a RF05.
