@@ -44,8 +44,8 @@ Para los bocetos hechos con apoyo de Claude se usaron guías de diseño de inter
 
 | Herramienta | Para qué se usó | Evidencia |
 |---|---|---|
-| **Figma** | Bocetos de RF01, RF08, RF09, RF10 y RF11 | Archivos SVG exportados de Figma en [Bocetos](Bocetos) |
-| **SVG escrito con código** | Bocetos de RF02, RF03, RF04 y RF05 | Archivos SVG en [Bocetos](Bocetos) |
+| **Figma** | Bocetos de RF01, RF08, RF09, RF10 y RF11 | Archivos SVG exportados de Figma en [Bocetos](<Bocetos/Bocetos.md>) |
+| **SVG escrito con código** | Bocetos de RF02, RF03, RF04 y RF05 | Archivos SVG en [Bocetos](<Bocetos/Bocetos.md>) |
 | **Claude** | Asistente para proponer pantallas a partir de la paleta y los casos de uso | [Historial de prompts](../docs/Claude/prompts.md) |
 | **FigJam** | Diagrama de casos de uso | [Diagrama de casos de uso](<../Requisitos/Diagrama de casos de uso>) |
 | **Discord** | Presentar y revisar los bocetos con el equipo | [Bitácora del 28 de octubre](<../docs/proceso/bitácoras/2026-10-28 Reunión de Scrum.md>) |
@@ -58,5 +58,5 @@ Para los bocetos hechos con apoyo de Claude se usaron guías de diseño de inter
 
 ## Pendientes
 
-- Los bocetos de **RF06 y RF07** están en la rama `feature/gabo-integrante` y faltan en `entrega-2`.
-- En `Bocetos/RF - 05` hay 6 archivos idénticos a los de RF04; solo `P02-A-directorio-publico` corresponde a RF05.
+- Los bocetos de **RF06 y RF07** están en la rama `feature/gabo-integrante` ([RF - 06](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/tree/feature/gabo-integrante/Dise%C3%B1o/Bocetos/RF%20-%2006) y [RF - 07](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/tree/feature/gabo-integrante/Dise%C3%B1o/Bocetos/RF%20-%2007)) y faltan en `entrega-2`.
+- En [Bocetos/RF - 05](<Bocetos/RF - 05>) hay 6 archivos idénticos a los de [RF - 04](<Bocetos/RF - 04>); solo [P02-A-directorio-publico](<Bocetos/RF - 05/P02-A-directorio-publico.svg>) corresponde a RF05.

@@ -46,9 +46,9 @@ Cada requisito se clasificó según qué tanto contribuye a los **objetivos de l
 | Prioridad | Requisito | Justificación |
 |---|---|---|
 | **Must** | RNF01 - Usabilidad | Si el estudiantado no encuentra la información más rápido que en el correo, el producto no resuelve el problema |
-| **Must** | RNF02 - Compatibilidad y diseño responsivo | La mayoría del estudiantado consultará desde el celular |
-| **Must** | RNF03 - Mantenibilidad del contenido | El DOCE debe poder actualizar el sitio sin el equipo de desarrollo (objetivo O4) |
-| **Must** | RNF04 - Seguridad del acceso administrativo | Sin control de acceso cualquiera podría publicar o borrar avisos |
+| **Must** | RNF02 - Compatibilidad | La mayoría del estudiantado consultará desde el celular |
+| **Must** | RNF03 - Mantenibilidad | El DOCE debe poder actualizar el sitio sin el equipo de desarrollo (objetivo O4) |
+| **Must** | RNF04 - Seguridad | Sin control de acceso cualquiera podría publicar o borrar avisos |
 | **Should** | RNF05 - Rendimiento | Afecta la experiencia, pero un sitio informativo ligero suele cumplirlo sin trabajo extra |
 | **Should** | RNF06 - Accesibilidad | La paleta 1c ya resuelve el contraste; falta verificar el uso con teclado y el texto alternativo |
 

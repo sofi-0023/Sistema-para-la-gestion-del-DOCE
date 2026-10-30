@@ -7,9 +7,9 @@ La prioridad de cada uno está justificada en [Priorización de requisitos](<../
 | ID | Nombre | Categoría ISO/IEC 25010 | Prioridad |
 |---|---|---|---|
 | RNF01 | Usabilidad | Capacidad de interacción | Must |
-| RNF02 | Compatibilidad y diseño responsivo | Compatibilidad · Flexibilidad | Must |
-| RNF03 | Mantenibilidad del contenido | Mantenibilidad | Must |
-| RNF04 | Seguridad del acceso administrativo | Seguridad | Must |
+| RNF02 | Compatibilidad | Compatibilidad · Flexibilidad | Must |
+| RNF03 | Mantenibilidad | Mantenibilidad | Must |
+| RNF04 | Seguridad | Seguridad | Must |
 | RNF05 | Rendimiento | Eficiencia de desempeño | Should |
 | RNF06 | Accesibilidad | Capacidad de interacción (inclusividad) | Should |
 
@@ -30,7 +30,7 @@ La prioridad de cada uno está justificada en [Priorización de requisitos](<../
 
 **Cómo se verifica:** prueba de usabilidad con tareas cronometradas (ver punto 3.5 de la entrega, simulación de una tarea).
 
-# RNF02 - Compatibilidad y diseño responsivo
+# RNF02 - Compatibilidad
 
 **Categoría:** Compatibilidad · Flexibilidad (adaptabilidad).
 
@@ -45,7 +45,7 @@ La prioridad de cada uno está justificada en [Priorización de requisitos](<../
 
 **Cómo se verifica:** lista de cotejo que recorre cada página en los 4 navegadores y en tres anchos: 360 px, 768 px y 1366 px.
 
-# RNF03 - Mantenibilidad del contenido
+# RNF03 - Mantenibilidad
 
 **Categoría:** Mantenibilidad (modificabilidad).
 
@@ -60,7 +60,7 @@ La prioridad de cada uno está justificada en [Priorización de requisitos](<../
 
 > **Pendiente del equipo:** hoy ningún requisito funcional cubre la edición del **directorio (RF05)** ni de los **contactos de tutorías y guías (RF10)** desde el panel. Para cumplir este RNF hay que agregar esa gestión a los requisitos funcionales.
 
-# RNF04 - Seguridad del acceso administrativo
+# RNF04 - Seguridad
 
 **Categoría:** Seguridad (confidencialidad, integridad y autenticidad).
 
