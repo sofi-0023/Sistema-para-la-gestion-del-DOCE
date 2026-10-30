@@ -1,6 +1,6 @@
 # Bitácora – 28 de octubre de 2026
 
-> Transcripción del documento original de la reunión. El contenido no se modificó.
+> Transcripción del documento original de la reunión. Solo se corrigió la ortografía.
 
 **Reunión de Scrum**
 
@@ -16,7 +16,7 @@
 
 - Gabriel (presente)
 
-- Jahzel (presente)
+- Jahzeel (presente)
 
 - Rafael (ausente)
 
@@ -28,7 +28,7 @@ Cada integrante presentó el avance de sus requisitos, mostrando los bocetos cor
 
 Gabriel presentó los casos de uso y bocetos de los requisitos RF06 y RF07. Mostró las vistas tanto del usuario como del administrador, así como el desglose de la información y características de cada contenido.
 
-Jahzel presentó los requisitos RF08 y RF09. Explicó el flujo de carga y descarga de material desde la perspectiva del administrador, así como la visualización del material y la fotogalería para el alumnado y visitantes.
+Jahzeel presentó los requisitos RF08 y RF09. Explicó el flujo de carga y descarga de material desde la perspectiva del administrador, así como la visualización del material y la fotogalería para el alumnado y visitantes.
 
 Jennyfer presentó los requisitos RF02 y RF03, los cuales están ligados al calendario (RF01). Mostró el manejo de errores al intentar acceder a una actividad ya finalizada, así como la visualización del tipo de actividad (presencial, en línea o híbrida) junto con su información correspondiente.
 

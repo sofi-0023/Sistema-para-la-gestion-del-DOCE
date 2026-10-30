@@ -1,8 +1,8 @@
-## requisito
+## Requisito
 
 RF03.4 - El sistema deberá permitir al administrador publicar un aviso previamente registrado como borrador para que los usuarios puedan consultarlo en el espacio de avisos.
 
-## caso de uso
+## Caso de uso
 
 | Campo | Descripción |
 |---|---|
@@ -37,8 +37,8 @@ Publicar un aviso previamente guardado como borrador para comunicar información
 |---|---|
 | **Poscondición** |El aviso queda en estado Publicado y visible para la comunidad en el espacio de avisos. |
 | **Frecuencia** | Cada vez que un aviso está listo para difundirse. |
-| **Importancia** | Permite comunicar información relevante a la comunidad estudiantil.> |
-| **Comentarios** | la publicacion no implica enviar notificaciones |
+| **Importancia** | Permite comunicar información relevante a la comunidad estudiantil. |
+| **Comentarios** | La publicación no implica enviar notificaciones. |
 
 ## Trazabilidad
 

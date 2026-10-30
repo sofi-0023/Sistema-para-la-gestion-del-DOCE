@@ -1,4 +1,4 @@
-## requisito funcional 03 - Crear y publicar actividades y avisos
+## Requisito funcional 03 - Crear y publicar actividades y avisos
 
 El sistema deberá permitir al administrador registrar y publicar actividades y avisos mediante un formulario correspondiente al tipo de publicación.
 * Para las actividades, deberá solicitar nombre, descripción, fecha y hora, modalidad, lugar o enlace según la modalidad e institución u organizador responsable.

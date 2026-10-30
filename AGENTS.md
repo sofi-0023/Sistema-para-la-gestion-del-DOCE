@@ -5,7 +5,7 @@ Instrucciones para cualquier agente de IA que trabaje en este repositorio. Las e
 <!--
   Cómo llenar esta plantilla:
   - Copia este archivo a la raíz de tu repositorio con el nombre AGENTS.md.
-  - Borra todos los comentarios como éste cuando termines.
+  - Borra todos los comentarios como este cuando termines.
   - Cada línea tiene que ser verdad hoy. Si no puedes decir cómo lo sabes, no la escribas.
   - Es un mapa, no una enciclopedia: lo que necesita más de un párrafo va en su propio
     documento (una especificación, un ADR o una guía) y aquí solo se enlaza.

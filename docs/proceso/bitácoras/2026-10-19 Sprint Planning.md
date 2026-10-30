@@ -1,6 +1,6 @@
 # Reunión de planificación SCRUM – Fase de diseño (19 de octubre de 2026)
 
-> Transcripción del documento original de la reunión. El contenido no se modificó.
+> Transcripción del documento original de la reunión. Solo se corrigió la ortografía.
 
 
 ## Datos de la reunión y agenda
@@ -12,7 +12,7 @@ Al salir de esta reunión deben quedar tres cosas: requisitos refinados, Product
 | Rol SCRUM             | Integrante                   | Responsabilidad hoy                                           | ¿Asistió?               |
 |-----------------------|------------------------------|---------------------------------------------------------------|-------------------------|
 | SCRUM master          | Gabriel                      | Modera, cuida el tiempo, registra acuerdos                    | SI                      |
-| Product owner         | Sofia                        | Representa a Laura, prioriza el backlog y acepta lo terminado | SI                      |
+| Product owner         | Sofía                        | Representa a Laura, prioriza el backlog y acepta lo terminado | SI                      |
 | Developer             | Rafael                       | Propone tareas y estima                                       | NO                      |
 | Developer             | Jahzeel                      | Propone tareas y estima                                       | SI                      |
 | Developer             | Jennyfer                     | Propone tareas y estima                                       | SI                      |
@@ -113,7 +113,7 @@ Cada requisito sale de aquí con decisión, prioridad MoSCoW y un criterio de ac
 <p>No solo refinarlo sino también la historia de usuario</p></th>
 <th><p>Cambio acordado, información de como se esta trabajando.</p>
 <p>Si se deja o se cambia, o se elimina</p></th>
-<th>Criterio de aceptation que se tiene que cumplir para que este correcto</th>
+<th>Criterio de aceptación que se tiene que cumplir para que esté correcto</th>
 <th>Se acabó</th>
 </tr>
 </thead>
@@ -122,7 +122,7 @@ Cada requisito sale de aquí con decisión, prioridad MoSCoW y un criterio de ac
 <td>RF01</td>
 <td>Catálogo/calendario</td>
 <td><p>Reescribir y dividir el requisito, dividiéndolo en 2, definir como se van a mostrar las fechas del calendario, palabra interactiva puede mejorar ya que difiere a otra cosa.</p>
-<p>Catalogo: listas de actividades, que no muestre las fechas anteriores (no tiene caso)</p>
+<p>Catálogo: listas de actividades, que no muestre las fechas anteriores (no tiene caso)</p>
 <p>Calendario: distribuir esas actividades por fechas</p>
 <p>En revisión:</p>
 <p>RF1. El sistema desplegará un calendario de eventos y avisos ya publicados, cuya fecha sea igual o posterior al día actual, indicando nombre, fecha y hora de cada uno.</p></td>
@@ -174,14 +174,14 @@ Cada requisito sale de aquí con decisión, prioridad MoSCoW y un criterio de ac
 <tr class="even">
 <td>RF08</td>
 <td>Gestionar material</td>
-<td>JACIEL</td>
+<td>JAHZEEL</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>RF09</td>
 <td>Fotogalería</td>
-<td>JACIEL</td>
+<td>JAHZEEL</td>
 <td></td>
 <td></td>
 </tr>
@@ -315,7 +315,7 @@ Estas reglas se leen en voz alta y se confirman al final; lo que se acuerde aqu�
 
 **Métrica de contribución por sprint**
 
-Se va estar llenando cada vez que se le asigne una tarea nueva a la person
+Se va a estar llenando cada vez que se le asigne una tarea nueva a la persona
 
 | Integrante | Tareas asignadas S1 | Completadas S1 | Tareas asignadas S2 | Completadas S2 | PRs aprobados | Dailies asistidas | % contribución |
 |------------|---------------------|----------------|---------------------|----------------|---------------|-------------------|----------------|

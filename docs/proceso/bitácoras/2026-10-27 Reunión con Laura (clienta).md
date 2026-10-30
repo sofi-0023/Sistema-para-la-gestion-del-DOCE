@@ -4,7 +4,7 @@
 
 La fecha corresponde al aviso de la [bitácora del 26 de octubre](<2026-10-26 Reunión de equipo.md>) y al backlog del [Sprint 2](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/milestone/1).
 
-> Transcripción del documento original de la reunión. El contenido no se modificó.
+> Transcripción del documento original de la reunión. Solo se corrigió la ortografía.
 
 \- Reunión de Laura
 
@@ -14,19 +14,19 @@ La fecha corresponde al aviso de la [bitácora del 26 de octubre](<2026-10-26 Re
 
 --- primera explicación ---
 
-Marca doce:
+Marca DOCE:
 
 Se habló sobre el logo y se prefirió el logo sin relleno, con solo el delineado.
 
-(logotipo V2. jaguar solido) solo es corregir en parte de la nariz (implementar una línea para terminar de formar la nariz).
+(logotipo V2. jaguar sólido) solo es corregir en parte de la nariz (implementar una línea para terminar de formar la nariz).
 
-Colores institucional:
+Colores institucionales:
 
 V3. Claro y accesible.
 
 Dos opciones (opcional) para estampar (impresión)
 
-Se detecto un error, falta una palabra "Departamento".
+Se detectó un error, falta una palabra "Departamento".
 
 DOCE
 

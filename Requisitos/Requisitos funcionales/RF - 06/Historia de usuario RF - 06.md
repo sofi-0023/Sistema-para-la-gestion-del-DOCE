@@ -35,7 +35,7 @@ RF06 - El sistema deberá permitir la gestión y visualización de las líneas d
 ### Registro de líneas de ayuda
 
 **CA5 – Registro de una nueva línea de ayuda**
-**Dado** que el administrador halla iniciado sesión y cuente con los permisos necesarios,
+**Dado** que el administrador haya iniciado sesión y cuente con los permisos necesarios,
 **cuando** acceda al módulo de gestión, selecciona la opción para registrar una línea de ayuda y completa los campos requeridos,
 **entonces** el sistema valida los datos, almacena el registro y muestra un mensaje de confirmación.
 
@@ -89,7 +89,7 @@ RF06 - El sistema deberá permitir la gestión y visualización de las líneas d
 **CA15 – Error durante la modificación**
 **Dado** que ocurra un error de conexión o de almacenamiento,
 **cuando** el administrador intente guardar los cambios de una línea de ayuda,
-**entonces** el sistema informa que no fue posible completar la modificación, informa que los cambios no fueron exitosos y continua en la pestaña de modificación.
+**entonces** el sistema informa que no fue posible completar la modificación, informa que los cambios no fueron exitosos y continúa en la pestaña de modificación.
 
 ### Eliminación de líneas de ayuda
 
@@ -116,9 +116,9 @@ RF06 - El sistema deberá permitir la gestión y visualización de las líneas d
 **CA20 – Error durante la eliminación**
 **Dado** que ocurre un error de conexión o del sistema durante la eliminación,
 **cuando** el administrador quiera confirmar la sustracción,
-**entonces** el sistema informa que no fue posible completala y cierra la pestaña de eliminación.
+**entonces** el sistema informa que no fue posible completarla y cierra la pestaña de eliminación.
 
-### Eliminación de líneas de ayuda
+### Permisos y sesión
 
 **CA21 – Acceso sin permisos suficientes**
 **Dado** que un usuario no cuenta con permisos administrativos para gestionar las líneas de ayuda,
