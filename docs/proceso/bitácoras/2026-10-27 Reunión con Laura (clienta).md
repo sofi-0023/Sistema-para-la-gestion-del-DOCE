@@ -2,7 +2,7 @@
 
 **Tipo:** revisión con la stakeholder · **Horario:** 11:45 a 12:45
 
-La fecha corresponde al aviso de la [bitácora del 26 de octubre](<2026-10-26 Reunión de equipo.md>) y al backlog del [Sprint 2](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/milestone/1).
+La fecha corresponde al aviso de la bitácora del 26 de octubre y al backlog del Sprint 2.
 
 > Transcripción del documento original de la reunión. Solo se corrigió la ortografía.
 

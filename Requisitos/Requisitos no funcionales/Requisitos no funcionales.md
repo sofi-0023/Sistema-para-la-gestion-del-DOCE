@@ -2,7 +2,7 @@
 
 Cada requisito no funcional indica su categoría según el modelo de calidad **ISO/IEC 25010:2023**, un **criterio medible** y **cómo se verifica**. Si no se puede medir, no es un requisito sino un deseo, así que cada uno tiene un número o una condición que se cumple o no se cumple.
 
-La prioridad de cada uno está justificada en [Priorización de requisitos](<../Priorización de requisitos.md>).
+La prioridad de cada uno está justificada en Priorización de requisitos.
 
 | ID | Nombre | Categoría ISO/IEC 25010 | Prioridad |
 |---|---|---|---|

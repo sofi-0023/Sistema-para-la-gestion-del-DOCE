@@ -1,20 +1,20 @@
 ## **Requisitos funcionales**
 
-Cada requisito está refinado y tiene su carpeta con **historia de usuario** (con criterios de aceptación) y **casos de uso**. Los requisitos amplios se dividieron en subrequisitos más pequeños y verificables. La prioridad de cada uno está justificada en [Priorización de requisitos](<../Priorización de requisitos.md>).
+Cada requisito está refinado y tiene su carpeta con **historia de usuario** (con criterios de aceptación) y **casos de uso**. Los requisitos amplios se dividieron en subrequisitos más pequeños y verificables. La prioridad de cada uno está justificada en Priorización de requisitos.
 
 | ID | Requisito | Prioridad | Casos de uso | Carpeta |
 |---|---|---|---|---|
-| RF01 | Calendario | Must | CU-01 | [RF - 01](<RF - 01>) |
-| RF02 | Consultar detalle de actividad | Must | CU-02 | [RF - 02](<RF - 02>) |
-| RF03 | Crear y publicar actividades y avisos | Must | CU-03.1 a CU-03.4 | [RF - 03](<RF - 03>) |
-| RF04 | Editar y cancelar actividades y avisos | Must | CU-04.1, CU-04.2 | [RF - 04](<RF - 04>) |
-| RF05 | Contactos y horarios | Must | CU-05 | [RF - 05](<RF - 05>) |
-| RF06 | Líneas de ayuda | Must | CU-06.1 a CU-06.4 | [RF - 06](<RF - 06>) |
-| RF07 | Material informativo | Should | CU-07.1, CU-07.2 | [RF - 07](<RF - 07>) |
-| RF08 | Gestionar material | Should | CU-08 | [RF - 08](<RF - 08>) |
-| RF09 | Fotogalería | Could | CU-09 | [RF - 09](<RF - 09>) |
-| RF10 | Tutorías y guías | Could | CU-13 | [RF - 10](<RF - 10>) |
-| RF11 | Inicio y cierre de sesión | Must | CU-14 | [RF - 11](<RF - 11>) |
+| RF01 | Calendario | Must | CU-01 | RF - 01 |
+| RF02 | Consultar detalle de actividad | Must | CU-02 | RF - 02 |
+| RF03 | Crear y publicar actividades y avisos | Must | CU-03.1 a CU-03.4 | RF - 03 |
+| RF04 | Editar y cancelar actividades y avisos | Must | CU-04.1, CU-04.2 | RF - 04 |
+| RF05 | Contactos y horarios | Must | CU-05 | RF - 05 |
+| RF06 | Líneas de ayuda | Must | CU-06.1 a CU-06.4 | RF - 06 |
+| RF07 | Material informativo | Should | CU-07.1, CU-07.2 | RF - 07 |
+| RF08 | Gestionar material | Should | CU-08 | RF - 08 |
+| RF09 | Fotogalería | Could | CU-09 | RF - 09 |
+| RF10 | Tutorías y guías | Could | CU-13 | RF - 10 |
+| RF11 | Inicio y cierre de sesión | Must | CU-14 | RF - 11 |
 
 ---
 

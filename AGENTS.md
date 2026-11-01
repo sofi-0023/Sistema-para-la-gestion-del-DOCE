@@ -59,7 +59,7 @@ sh pruebas/verificar-sitio.sh   # en Windows, desde una terminal Git Bash
 
 ## Antes de pedir revisión
 
-Revisa tu trabajo con la lista de la Revisión 2 de la [guía de revisión](docs/guias/revision.md) y di qué puntos no pudiste comprobar. Tu revisión no sustituye a la de una persona: la ayuda.
+Revisa tu trabajo con la lista de la Revisión 2 de la guía de revisión y di qué puntos no pudiste comprobar. Tu revisión no sustituye a la de una persona: la ayuda.
 
 ## Cuándo preguntar
 

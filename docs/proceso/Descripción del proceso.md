@@ -1,10 +1,10 @@
 # Descripción del proceso
 
-Para la segunda entrega el equipo trabajó con **Scrum**, en **dos sprints de una semana** antes de la entrega del 31 de octubre de 2026. Todo lo que aparece aquí sale de las [bitácoras de reunión](#bitácoras-de-reunión), de los [issues](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues?q=is%3Aissue) y del [milestone del Sprint 2](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/milestone/1).
+Para la segunda entrega el equipo trabajó con **Scrum**, en **dos sprints de una semana** antes de la entrega del 31 de octubre de 2026. Todo lo que aparece aquí sale de las bitácoras de reunión, de los issues y del milestone del Sprint 2.
 
 ## Roles
 
-Se definieron en el [Sprint Planning del 19 de octubre](<bitácoras/2026-10-19 Sprint Planning.md>).
+Se definieron en el Sprint Planning del 19 de octubre.
 
 | Rol Scrum | Integrante | Responsabilidad |
 |---|---|---|
@@ -33,11 +33,11 @@ Laura es la clienta, no la Product Owner: en Scrum el PO debe estar disponible p
 2. está en su rama `feature/...` con commits `Docs:`, `Fix:` o `Feat:`;
 3. tiene un PR con la plantilla llena y su issue vinculado;
 4. otro integrante revisó y aprobó el PR, y se integró con *squash*;
-5. quedó registrada en la bitácora y marcada en el [to-do de la entrega](<../roles y metas/to-do-entrega-2.md>).
+5. quedó registrada en la bitácora y marcada en el to-do de la entrega.
 
 ## Product Backlog
 
-Sale de la rúbrica de la segunda entrega y se priorizó en el Sprint Planning. La priorización de los requisitos del producto está en [Priorización de requisitos](<../../Requisitos/Priorización de requisitos.md>).
+Sale de la rúbrica de la segunda entrega y se priorizó en el Sprint Planning. La priorización de los requisitos del producto está en Priorización de requisitos.
 
 | # | Elemento | Área | Sprint planeado |
 |---|---|---|---|
@@ -67,22 +67,22 @@ Sale de la rúbrica de la segunda entrega y se priorizó en el Sprint Planning. 
 
 | Responsable | Requisitos | Issues | Cerrados |
 |---|---|---|---|
-| Sofía | RF01 | [#13](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/13) | 20/10 |
-| Jennyfer | RF02, RF03 | [#14](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/14), [#15](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/15) | 26/10 |
-| Daniel | RF04, RF05 | [#16](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/16), [#17](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/17) | 28/10 |
-| Gabriel | RF06, RF07 | [#18](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/18), [#19](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/19) | 26/10 |
-| Jahzeel | RF08, RF09 | [#20](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/20), [#21](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/21) | 26/10 |
-| Rafael | RF10, RF11 | [#22](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/22), [#23](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/23) | 26/10 |
+| Sofía | RF01 | #13 | 20/10 |
+| Jennyfer | RF02, RF03 | #14, #15 | 26/10 |
+| Daniel | RF04, RF05 | #16, #17 | 28/10 |
+| Gabriel | RF06, RF07 | #18, #19 | 26/10 |
+| Jahzeel | RF08, RF09 | #20, #21 | 26/10 |
+| Rafael | RF10, RF11 | #22, #23 | 26/10 |
 
 **Resultados:**
-- Los 11 requisitos funcionales se refinaron, cada uno con su caso de uso e historia de usuario ([Requisitos funcionales](<../../Requisitos/Requisitos funcionales>)). Los casos de uso se cerraron en el issue [#24](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/24) el 27/10.
-- Las reglas del repositorio quedaron listas al arrancar el sprint: la [plantilla de PR](../../.github/pull_request_template.md), las [plantillas de issue](../../.github/ISSUE_TEMPLATE) y el [bot de revisión](../../.github/workflows/revision.yml) se crearon el 18/10, y las plantillas de refinamiento de requisitos y de casos de uso el 20/10.
+- Los 11 requisitos funcionales se refinaron, cada uno con su caso de uso e historia de usuario (Requisitos funcionales). Los casos de uso se cerraron en el issue #24 el 27/10.
+- Las reglas del repositorio quedaron listas al arrancar el sprint: la plantilla de PR, las plantillas de issue y el bot de revisión se crearon el 18/10, y las plantillas de refinamiento de requisitos y de casos de uso el 20/10.
 
 ## Sprint 2 — Diseño (26 al 30 de octubre)
 
 **Objetivo:** prototipo navegable validado, documentación completa y video de avance.
 
-**Backlog día por día** ([milestone](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/milestone/1)):
+**Backlog día por día** (milestone):
 
 | Día | Plan |
 |---|---|
@@ -96,17 +96,17 @@ Sale de la rúbrica de la segunda entrega y se priorizó en el Sprint Planning. 
 
 | Responsable | Requisitos | Issue | Cerrado |
 |---|---|---|---|
-| Sofía | RF01 | [#54](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/54) | 28/10 |
-| Jennyfer | RF02, RF03 | [#55](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/55) | 28/10 |
-| Daniel | RF04, RF05 | [#56](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/56) | 30/10 |
-| Gabriel | RF06, RF07 | [#57](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/57) | 30/10 |
-| Jahzeel | RF08, RF09 | [#58](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/58) | 29/10 |
-| Rafael | RF10, RF11 | [#59](https://github.com/sofi-0023/Sistema-para-la-gestion-del-DOCE/issues/59) | 30/10 |
+| Sofía | RF01 | #54 | 28/10 |
+| Jennyfer | RF02, RF03 | #55 | 28/10 |
+| Daniel | RF04, RF05 | #56 | 30/10 |
+| Gabriel | RF06, RF07 | #57 | 30/10 |
+| Jahzeel | RF08, RF09 | #58 | 29/10 |
+| Rafael | RF10, RF11 | #59 | 30/10 |
 
 **Resultados:**
-- **Reunión con Laura (27/10)** ([bitácora](<bitácoras/2026-10-27 Reunión con Laura (clienta).md>)): eligió el logo solo con delineado y pidió corregir la nariz del jaguar; aprobó la paleta "Claro y accesible" (1c); detectó que faltaba la palabra "Departamento" en el nombre; pidió probar un prototipo con al menos una persona para ver la usabilidad; y recomendó revisar la ortografía y la estructura de los casos de uso e historias de usuario.
-- **Presentación de bocetos (28/10)** ([bitácora](<bitácoras/2026-10-28 Reunión de Scrum.md>)): cada integrante mostró los bocetos y el flujo de sus requisitos y se resolvieron las dudas de consistencia visual.
-- Más de 60 [bocetos](<../../Diseño/Bocetos>), la [guía de diseño](<../../Diseño/Guías y herramientas de diseño.md>), el [diagrama de casos de uso](<../../Requisitos/Diagrama de casos de uso>) y los criterios de aceptación de todas las historias de usuario.
+- **Reunión con Laura (27/10)** (bitácora): eligió el logo solo con delineado y pidió corregir la nariz del jaguar; aprobó la paleta "Claro y accesible" (1c); detectó que faltaba la palabra "Departamento" en el nombre; pidió probar un prototipo con al menos una persona para ver la usabilidad; y recomendó revisar la ortografía y la estructura de los casos de uso e historias de usuario.
+- **Presentación de bocetos (28/10)** (bitácora): cada integrante mostró los bocetos y el flujo de sus requisitos y se resolvieron las dudas de consistencia visual.
+- Más de 60 bocetos, la guía de diseño, el diagrama de casos de uso y los criterios de aceptación de todas las historias de usuario.
 
 ---
 
@@ -134,7 +134,7 @@ La asistencia a la reunión con Laura (27/10) no quedó registrada en la bitáco
 
 | Fecha | Reunión |
 |---|---|
-| 19/10/2026 | [Sprint Planning de la fase de diseño](<bitácoras/2026-10-19 Sprint Planning.md>) |
-| 26/10/2026 | [Reunión de equipo, inicio del Sprint 2](<bitácoras/2026-10-26 Reunión de equipo.md>) |
-| 27/10/2026 | [Reunión con Laura (clienta)](<bitácoras/2026-10-27 Reunión con Laura (clienta).md>) |
-| 28/10/2026 | [Reunión de Scrum: presentación de bocetos](<bitácoras/2026-10-28 Reunión de Scrum.md>) |
+| 19/10/2026 | Sprint Planning de la fase de diseño |
+| 26/10/2026 | Reunión de equipo, inicio del Sprint 2 |
+| 27/10/2026 | Reunión con Laura (clienta) |
+| 28/10/2026 | Reunión de Scrum: presentación de bocetos |

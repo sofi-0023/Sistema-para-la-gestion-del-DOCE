@@ -1,12 +1,12 @@
 # Logotipo
 
-Versión vectorial del logotipo del DOCE elegido por Laura en la [reunión del 27 de octubre](<../../docs/proceso/bitácoras/2026-10-27 Reunión con Laura (clienta).md>). Las versiones con el nombre completo están en la página **Sistema** del [archivo de Figma](https://www.figma.com/design/qplL37YMxA1qUtEYYCtmRH/Wireframe-definitivo).
+Versión vectorial del logotipo del DOCE elegido por Laura en la reunión del 27 de octubre. Las versiones con el nombre completo están en la página **Sistema** del [archivo de Figma](https://www.figma.com/design/qplL37YMxA1qUtEYYCtmRH/Wireframe-definitivo).
 
 | Archivo | Uso |
 |---|---|
-| [logo-doce-color.svg](logo-doce-color.svg) | Versión principal |
-| [logo-doce-una-tinta-azul.svg](logo-doce-una-tinta-azul.svg) | Impresión a una tinta, azul 295 |
-| [logo-doce-una-tinta-blanco.svg](logo-doce-una-tinta-blanco.svg) | Impresión a una tinta sobre fondo azul 295 |
+| logo-doce-color.svg | Versión principal |
+| logo-doce-una-tinta-azul.svg | Impresión a una tinta, azul 295 |
+| logo-doce-una-tinta-blanco.svg | Impresión a una tinta sobre fondo azul 295 |
 
 ## Colores
 

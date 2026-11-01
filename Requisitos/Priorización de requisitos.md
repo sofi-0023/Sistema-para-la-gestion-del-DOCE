@@ -2,7 +2,7 @@
 
 ## Método: MoSCoW
 
-Cada requisito se clasificó según qué tanto contribuye a los **objetivos de la [propuesta](<../docs/propuesta.md>)** y si el producto tiene sentido sin él.
+Cada requisito se clasificó según qué tanto contribuye a los **objetivos de la propuesta** y si el producto tiene sentido sin él.
 
 | Categoría | Significado | Regla que usamos |
 |---|---|---|

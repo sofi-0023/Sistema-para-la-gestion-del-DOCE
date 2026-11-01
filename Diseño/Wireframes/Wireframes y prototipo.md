@@ -1,13 +1,10 @@
 # Wireframes y prototipo
 
-Wireframes de alta fidelidad y prototipo navegable del sistema, hechos en Figma a partir de los requisitos funcionales y no funcionales refinados, sus casos de uso, historias de usuario y criterios de aceptación, y de los [bocetos](<../Bocetos/Bocetos.md>) del equipo. Se usa la paleta 1c elegida por Laura.
+Wireframes de alta fidelidad y prototipo navegable del sistema, hechos en Figma a partir de los requisitos funcionales y no funcionales refinados, sus casos de uso, historias de usuario y criterios de aceptación, y de los bocetos del equipo. Se usa la paleta 1c elegida por Laura.
 
 | Recurso | Liga |
 |---|---|
 | Archivo de Figma (sistema de diseño y wireframes) | [Abrir en Figma](https://www.figma.com/design/qplL37YMxA1qUtEYYCtmRH/Wireframe-definitivo) |
-| Prototipo: estudiante en escritorio | [Iniciar](<https://www.figma.com/proto/qplL37YMxA1qUtEYYCtmRH/Wireframe-definitivo?page-id=43%3A48&node-id=43-49&starting-point-node-id=43%3A49>) |
-| Prototipo: estudiante en celular | [Iniciar](<https://www.figma.com/proto/qplL37YMxA1qUtEYYCtmRH/Wireframe-definitivo?page-id=43%3A48&node-id=43-2171&starting-point-node-id=43%3A2171>) |
-| Prototipo: personal del DOCE (administración) | [Iniciar](<https://www.figma.com/proto/qplL37YMxA1qUtEYYCtmRH/Wireframe-definitivo?page-id=43%3A48&node-id=43-2464&starting-point-node-id=43%3A2464>) |
 
 El archivo tiene tres páginas:
 
@@ -15,7 +12,7 @@ El archivo tiene tres páginas:
 |---|---|
 | **Sistema** | Variables de color, estilos de texto, íconos y componentes |
 | **Wireframes** | Sección **Público** (P01 a P09) y sección **Administración** (A01 a A18), con los estados que piden los criterios de aceptación |
-| **Prototipo** | Copias de las pantallas conectadas entre sí, con tres puntos de inicio |
+| **Prototipo** | Copias de las pantallas conectadas entre sí, con tres puntos de inicio: estudiante en escritorio, estudiante en celular y personal del DOCE |
 
 ## Estilo definido
 
