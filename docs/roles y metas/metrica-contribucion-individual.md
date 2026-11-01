@@ -12,13 +12,13 @@ Cada integrante se mide sobre su **propio 100%**, según cuánto de las metas qu
 
 ## Entrega
 
-| Integrante | Metas asignadas | Metas completadas | % de contribución | Commits |
-|------------|------------------|--------------------|--------------------|---------|
-| Sofía      | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución. Gestión del diseño y verificación de los requisitos ya refinados, refinamiento del requisito 1 | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución. Gestión del diseño y verificación de los requisitos ya refinados, refinamiento del requisito 1 |  |  | 
-| Jennyfer   | Refinamiento de requisitos 2 y 3, encargada de bocetos para el diseño de los wireframes y el prototipo  |  |  |  | 
-| Rafael     | Diseño. organización, verificación y edición o mejora del repositorio; Refinamiento de requisitos 10 y 11, encargado de bocetos para el diseño de los wireframes y el prototipo |  |  |  | 
-| Gabriel    | Refinamiento de requisitos 6 y 7, encargado de bocetos para el diseño de los wireframes y el prototipo |  |  |  | 
-| Jahzeel    | Refinamiento de requisitos 8 y 9, encargado de bocetos para el diseño de los wireframes y el prototipo |  |  |  | 
-| Daniel     | Refinamiento de requisitos 4 y 5, encargado de bocetos para el diseño de los wireframes y el prototipo |  |  |  | 
+| Integrante | Metas asignadas | Metas completadas | % de contribución |
+|------------|------------------|--------------------|--------------------|
+| Sofía      | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución. Gestión del diseño y verificación de los requisitos ya refinados, refinamiento del requisito 1 | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución. Gestión del diseño y verificación de los requisitos ya refinados, refinamiento del requisito 1 | 100% |
+| Jennyfer   | Refinamiento de requisitos 2 y 3, encargada de bocetos para el diseño de los wireframes y el prototipo  | Refinamiento de requisitos 2 y 3, encargada de bocetos para el diseño de los wireframes y el prototipo | 100% |
+| Rafael     | Diseño. organización, verificación y edición o mejora del repositorio; Refinamiento de requisitos 10 y 11, encargado de bocetos para el diseño de los wireframes y el prototipo | Diseño. organización, verificación y edición o mejora del repositorio; Refinamiento de requisitos 10 y 11, encargado de bocetos para el diseño de los wireframes y el prototipo | 100% |
+| Gabriel    | Refinamiento de requisitos 6 y 7, encargado de bocetos para el diseño de los wireframes y el prototipo | Refinamiento de requisitos 6 y 7, encargado de bocetos para el diseño de los wireframes y el prototipo | 100% |
+| Jahzeel    | Refinamiento de requisitos 8 y 9, encargado de bocetos para el diseño de los wireframes y el prototipo | Refinamiento de requisitos 8 y 9, encargado de bocetos para el diseño de los wireframes y el prototipo | 100% | 
+| Daniel     | Refinamiento de requisitos 4 y 5, encargado de bocetos para el diseño de los wireframes y el prototipo | Refinamiento de requisitos 4 y 5, encargado de bocetos para el diseño de los wireframes y el prototipo | 100% | 
 
 ---
