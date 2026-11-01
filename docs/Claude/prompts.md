@@ -4,3 +4,4 @@
 ![alt text](prompts/image-1.png)
 ![alt text](prompts/image-2.png)
 ![alt text](prompts/figma.png)
+![alt text](prompts/wireframe.png)
