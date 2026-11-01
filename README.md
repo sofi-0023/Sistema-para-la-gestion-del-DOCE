@@ -65,22 +65,22 @@ Hoy las convocatorias del DOCE se envían por correo institucional. Entre tantos
 
 ## Documentación
 
-| Tema | Dónde está | Contenido |
-|---|---|---|
-| Propuesta | `docs/propuesta.md` | Problemática, objetivos y usuarios |
-| Requisitos funcionales | `Requisitos/Requisitos funcionales` | RF01 a RF11, cada uno con historia de usuario, criterios de aceptación y casos de uso |
-| Requisitos no funcionales | `Requisitos/Requisitos no funcionales` | RNF01 a RNF06 con su criterio medible |
-| Priorización | `Requisitos/Priorización de requisitos.md` | Clasificación MoSCoW y dependencias |
-| Diagrama de casos de uso | `Requisitos/Diagrama de casos de uso` | Actores y casos de uso del sistema |
-| Bocetos | `Diseño/Bocetos` | Una carpeta por requisito, con sus estados |
-| Guías de diseño | `Diseño/Guías y herramientas de diseño.md` | Paleta 1c, tipografía, accesibilidad y herramientas |
-| Wireframes y prototipo | `Diseño/Wireframes` | Estilo definido y prototipo navegable |
-| Logotipo | `Diseño/Logotipo` | Logotipo vectorizado y versiones a una tinta |
-| Proceso | `docs/proceso` | Descripción y gestión del proceso, y bitácoras de reunión |
-| Roles y metas | `docs/roles y metas` | To-do de la entrega y métrica de contribución |
-| Competencias | `docs/competencias` | Competencias genéricas y específicas |
-| Referencias | `docs/bibliografía` | Referencias bibliográficas |
-| Historial de prompts | `docs/Claude` | Instrucciones usadas con Claude y skills de diseño |
+| Documento | Contenido |
+|---|---|
+| [Propuesta](<docs/propuesta.md>) | Problemática, objetivos y usuarios |
+| [Requisitos funcionales](<Requisitos/Requisitos funcionales>) | RF01 a RF11, cada uno con historia de usuario, criterios de aceptación y casos de uso |
+| [Requisitos no funcionales](<Requisitos/Requisitos no funcionales>) | RNF01 a RNF06 con su criterio medible |
+| [Priorización](<Requisitos/Priorización de requisitos.md>) | Clasificación MoSCoW y dependencias |
+| [Diagrama de casos de uso](<Requisitos/Diagrama de casos de uso>) | Actores y casos de uso del sistema |
+| [Bocetos](<Diseño/Bocetos>) | Una carpeta por requisito, con sus estados |
+| [Guías de diseño](<Diseño/Guías y herramientas de diseño.md>) | Paleta 1c, tipografía, accesibilidad y herramientas |
+| [Wireframes y prototipo](<Diseño/Wireframes>) | Estilo definido y prototipo navegable |
+| [Logotipo](<Diseño/Logotipo>) | Logotipo vectorizado y versiones a una tinta |
+| [Proceso](<docs/proceso>) | Descripción y gestión del proceso, y bitácoras de reunión |
+| [Roles y metas](<docs/roles y metas>) | To-do de la entrega y métrica de contribución |
+| [Competencias](<docs/competencias>) | Competencias genéricas y específicas |
+| [Referencias](<docs/bibliografía>) | Referencias bibliográficas |
+| [Historial de prompts](<docs/Claude>) | Instrucciones usadas con Claude y skills de diseño |
 
 Los wireframes y el prototipo están en [Figma](https://www.figma.com/design/qplL37YMxA1qUtEYYCtmRH/Wireframe-definitivo). La presentación de la entrega está en este [video](https://youtu.be/VTZ2iUp1qRs?si=Mxc6zNCrfXF_YfDs).
 
