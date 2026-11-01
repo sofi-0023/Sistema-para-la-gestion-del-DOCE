@@ -5,7 +5,7 @@ RF01 - El sistema mostrará un calendario de eventos y avisos ya publicados, cuy
 ## Historia de usuario
 
 **Como** usuario del sistema, 
-**quiero** ver en un calendario los próximos talleres y eventos de bienestar del DOCEs,
+**quiero** ver en un calendario los próximos talleres y eventos de bienestar del DOCE,
 **para** consultar las actividades y su información: nombre, sede, fecha y hora de cada uno y enterarme a tiempo sin depender del correo.
 
 ## Criterios de aceptación

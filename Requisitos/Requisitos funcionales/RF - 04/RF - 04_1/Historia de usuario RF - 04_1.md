@@ -6,9 +6,6 @@ RF04.1 - El sistema permitirá al administrador autenticado modificar los datos 
 
 **Como** administrador del sistema,  
 **quiero** editar los datos de una actividad o aviso ya publicado,  
-<<<<<<< HEAD
-**para** corregir errores o actualizar información de último momento.
-=======
 **para** corregir errores o actualizar información de último momento.
 
 ## Criterios de aceptación
@@ -44,4 +41,3 @@ RF04.1 - El sistema permitirá al administrador autenticado modificar los datos 
 **Dado** que una persona no ha iniciado sesión como administrador,
 **cuando** consulta una actividad o aviso,
 **entonces** no tiene disponible la opción de editarlo.
->>>>>>> dd312aaf82fd21bec982703789317b0f2aff3854

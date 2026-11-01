@@ -28,19 +28,19 @@ Desarrollar una plataforma web que centralice y facilite el acceso a las iniciat
 - Calendario de actividades: Un apartado visual para ver próximos talleres o eventos de bienestar emocional sin depender de correos masivos.   
 
 ## Alcance
-El alcance del proyecto es elaborar una plataforma web en donde los usuarios consulten y visualicen las actividades relacionados con la salud mental, se agregara un calendario de las actividades para visualizar los eventos vigentes o próximos, limitando a los usuarios a visualizar el contenido, los administradores son los encargados de crear y editar las actividades, en donde se dará un repositorio para gestionar la información y se modifique de manera sencilla, tendrá un apartado donde se visualizara el directorio de apoyo y contactos que estén en la faculta de matemáticas UADY, se optimizara la solicitud de orientación brindando un canal directo y confidencial por solicitante, se tendrá una sección para explorar a los terapeutas/orientadores, mostrando nombres, horarios y en donde se ubican dentro de sus cubiculos.
+El alcance del proyecto es elaborar una plataforma web en donde los usuarios consulten y visualicen las actividades relacionadas con la salud mental, se agregará un calendario de las actividades para visualizar los eventos vigentes o próximos, limitando a los usuarios a visualizar el contenido, los administradores son los encargados de crear y editar las actividades, en donde se dará un repositorio para gestionar la información y se modifique de manera sencilla, tendrá un apartado donde se visualizará el directorio de apoyo y contactos que estén en la Facultad de Matemáticas de la UADY, se optimizará la solicitud de orientación brindando un canal directo y confidencial por solicitante, se tendrá una sección para explorar a los terapeutas/orientadores, mostrando nombres, horarios y en donde se ubican dentro de sus cubículos.
 
 
 ## Propuesta de valor
-Nuestro proyecto consiste en crear una plataforma web donde se encontrara con información en relación a la salud mental, mediante convocatorias y actividades, permitiendo a los estudiantes de la facultad de matemáticas consultarlo de manera sencilla datos relevantes como las fechas, descripción y sitio.
-el proyecto surge por la saturación de mensaje en los correos electrónicos, provocando que se pierda los mensajes o no reciba atención suficiente, por ello surge nuestra propuesta de valor y es hacer que la plataforma organice las convocatorias de manera eficientes y sencilla, facilitando a los del departamento de orientación y consejo educativo en presentar las actividades para los estudiantes.
+Nuestro proyecto consiste en crear una plataforma web donde se encontrará información relacionada con la salud mental, mediante convocatorias y actividades, permitiendo a los estudiantes de la Facultad de Matemáticas consultar de manera sencilla datos relevantes como las fechas, descripción y sitio.
+El proyecto surge por la saturación de mensajes en los correos electrónicos, provocando que se pierdan los mensajes o no reciban atención suficiente, por ello surge nuestra propuesta de valor y es hacer que la plataforma organice las convocatorias de manera eficiente y sencilla, facilitando al Departamento de Orientación y Consejo Educativo la presentación de las actividades para los estudiantes.
 
 ## Usuarios/Clientes
-Se centrara principalmente en los estudiantes de la facultad de matemáticas de la Universidad Autónoma de Yucatán.
+Se centrará principalmente en los estudiantes de la Facultad de Matemáticas de la Universidad Autónoma de Yucatán.
 
-- **Usuarios primarios:** los estudiantes de la facultad de matemáticas de la Universidad Autónoma de Yucatán y Los administradores del departamento orientacion y consejo educativo.
-- **Usuarios secundarios:** profesorado de la facultad de matemáticas de la Universidad Autónoma de Yucatán.
-- **Usuarios potenciales:** Estudiante de otras facultades de la Universidad Autónoma de Yucatán interesados en las actividades.  
+- **Usuarios primarios:** los estudiantes de la Facultad de Matemáticas de la Universidad Autónoma de Yucatán y los administradores del Departamento de Orientación y Consejo Educativo.
+- **Usuarios secundarios:** profesorado de la Facultad de Matemáticas de la Universidad Autónoma de Yucatán.
+- **Usuarios potenciales:** estudiantes de otras facultades de la Universidad Autónoma de Yucatán interesados en las actividades.  
   
 
 

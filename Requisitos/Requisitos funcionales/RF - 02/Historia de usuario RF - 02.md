@@ -1,4 +1,4 @@
-## requisito funcional 02 -  Consultar detalle de actividad
+## Requisito funcional 02 - Consultar detalle de actividad
 
 RF02 - El sistema deberá permitir al usuario seleccionar una actividad publicada en el calendario para consultar la siguiente información:
 * **Nombre de la actividad.**

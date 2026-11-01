@@ -5,7 +5,7 @@ Instrucciones para cualquier agente de IA que trabaje en este repositorio. Las e
 <!--
   Cómo llenar esta plantilla:
   - Copia este archivo a la raíz de tu repositorio con el nombre AGENTS.md.
-  - Borra todos los comentarios como éste cuando termines.
+  - Borra todos los comentarios como este cuando termines.
   - Cada línea tiene que ser verdad hoy. Si no puedes decir cómo lo sabes, no la escribas.
   - Es un mapa, no una enciclopedia: lo que necesita más de un párrafo va en su propio
     documento (una especificación, un ADR o una guía) y aquí solo se enlaza.
@@ -59,7 +59,7 @@ sh pruebas/verificar-sitio.sh   # en Windows, desde una terminal Git Bash
 
 ## Antes de pedir revisión
 
-Revisa tu trabajo con la lista de la Revisión 2 de la [guía de revisión](docs/guias/revision.md) y di qué puntos no pudiste comprobar. Tu revisión no sustituye a la de una persona: la ayuda.
+Revisa tu trabajo con la lista de la Revisión 2 de la guía de revisión y di qué puntos no pudiste comprobar. Tu revisión no sustituye a la de una persona: la ayuda.
 
 ## Cuándo preguntar
 
