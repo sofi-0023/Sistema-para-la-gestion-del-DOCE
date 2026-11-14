@@ -1,0 +1,57 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4_14)">
+<rect width="1280" height="800" fill="white"/>
+<rect width="1280" height="72" fill="#002855"/>
+<g clip-path="url(#clip1_4_14)">
+<circle cx="56" cy="36" r="15.25" stroke="white" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Newsreader, Georgia, serif" font-size="22" font-weight="600" letter-spacing="0em"><tspan x="84" y="41.17">DOCE &#xb7; FMAT</tspan></text>
+</g>
+<g clip-path="url(#clip2_4_14)">
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="704" y="41.28">Calendario</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="809" y="41.28">Directorio</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="908" y="41.28">Tutor&#xed;as y gu&#xed;as</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="1047" y="41.28">Material</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="1133" y="37.78">Administraci&#xf3;n</tspan></text>
+<rect x="1133" y="47.5" width="107" height="3" rx="1.5" fill="#C69214"/>
+</g>
+<rect x="400.75" y="210.25" width="478.5" height="451.5" rx="11.25" fill="white"/>
+<rect x="400.75" y="210.25" width="478.5" height="451.5" rx="11.25" stroke="#D6DBE3" stroke-width="1.5"/>
+<g clip-path="url(#clip3_4_14)">
+<text fill="#0B1526" style="white-space: pre" xml:space="preserve" font-family="Newsreader, Georgia, serif" font-size="32" font-weight="600" letter-spacing="0em"><tspan x="441.5" y="277.52">Acceso de administraci&#xf3;n</tspan></text>
+<text fill="#3A4352" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="441.5" y="311.28">Ingresa tus credenciales para gestionar el contenido.</tspan></text>
+</g>
+<text fill="#0B1526" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="441.5" y="353.28">Usuario</tspan></text>
+<rect x="442.25" y="367.75" width="395.5" height="47.5" rx="5.25" fill="white"/>
+<rect x="442.25" y="367.75" width="395.5" height="47.5" rx="5.25" stroke="#D6DBE3" stroke-width="1.5"/>
+<text fill="#3A4352" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="457" y="396.78">nombre.usuario</tspan></text>
+<text fill="#0B1526" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="441.5" y="452.28">Contrase&#xf1;a</tspan></text>
+<rect x="442.25" y="466.75" width="395.5" height="47.5" rx="5.25" fill="white"/>
+<rect x="442.25" y="466.75" width="395.5" height="47.5" rx="5.25" stroke="#D6DBE3" stroke-width="1.5"/>
+<text fill="#3A4352" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="457" y="495.78">Tu contrase&#xf1;a</tspan></text>
+<g clip-path="url(#clip4_4_14)">
+<rect x="441.5" y="535" width="192.5" height="46" rx="6" fill="#002855"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="485.75" y="563.28">Iniciar sesi&#xf3;n</tspan></text>
+<rect x="647" y="536" width="190.5" height="44" rx="5" fill="white"/>
+<rect x="647" y="536" width="190.5" height="44" rx="5" stroke="#002855" stroke-width="2"/>
+<text fill="#002855" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="708.75" y="563.28">Cancelar</tspan></text>
+</g>
+<text fill="#3A4352" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="14" letter-spacing="0em"><tspan x="441.5" y="615.62">Solo personal autorizado de la facultad.</tspan></text>
+</g>
+<defs>
+<clipPath id="clip0_4_14">
+<rect width="1280" height="800" fill="white"/>
+</clipPath>
+<clipPath id="clip1_4_14">
+<rect width="187" height="32" fill="white" transform="translate(40 20)"/>
+</clipPath>
+<clipPath id="clip2_4_14">
+<rect width="536" height="29" fill="white" transform="translate(704 21.5)"/>
+</clipPath>
+<clipPath id="clip3_4_14">
+<rect width="397" height="66" fill="white" transform="translate(441.5 251)"/>
+</clipPath>
+<clipPath id="clip4_4_14">
+<rect width="397" height="46" fill="white" transform="translate(441.5 535)"/>
+</clipPath>
+</defs>
+</svg>

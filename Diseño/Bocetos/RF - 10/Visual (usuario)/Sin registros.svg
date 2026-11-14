@@ -1,0 +1,45 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4_289)">
+<rect width="1280" height="800" fill="white"/>
+<rect width="1280" height="72" fill="#002855"/>
+<g clip-path="url(#clip1_4_289)">
+<circle cx="56" cy="36" r="15.25" stroke="white" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Newsreader, Georgia, serif" font-size="22" font-weight="600" letter-spacing="0em"><tspan x="84" y="41.17">DOCE &#xb7; FMAT</tspan></text>
+</g>
+<g clip-path="url(#clip2_4_289)">
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="704" y="41.28">Calendario</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="809" y="41.28">Directorio</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="908" y="37.78">Tutor&#xed;as y gu&#xed;as</tspan></text>
+<rect x="908" y="47.5" width="111" height="3" rx="1.5" fill="#C69214"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="1047" y="41.28">Material</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="1133" y="41.28">Administraci&#xf3;n</tspan></text>
+</g>
+<g clip-path="url(#clip3_4_289)">
+<text fill="#0B1526" style="white-space: pre" xml:space="preserve" font-family="Newsreader, Georgia, serif" font-size="40" font-weight="600" letter-spacing="0em"><tspan x="40" y="153.4">Tutor&#xed;as y gu&#xed;as</tspan></text>
+<text fill="#3A4352" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="18" letter-spacing="0em"><tspan x="40" y="190.44">Contactos de apoyo y gu&#xed;as para orientar tu carrera.</tspan></text>
+</g>
+<rect x="40.75" y="225.75" width="1198.5" height="51.5" rx="7.25" fill="#F4E9CF"/>
+<rect x="40.75" y="225.75" width="1198.5" height="51.5" rx="7.25" stroke="#C69214" stroke-width="1.5"/>
+<path d="M68.5 259.75C73.0563 259.75 76.75 256.056 76.75 251.5C76.75 246.944 73.0563 243.25 68.5 243.25C63.9437 243.25 60.25 246.944 60.25 251.5C60.25 256.056 63.9437 259.75 68.5 259.75Z" stroke="#5C4409" stroke-width="1.83333"/>
+<path d="M68.5 250.583V255.625" stroke="#5C4409" stroke-width="1.83333" stroke-linecap="round"/>
+<path d="M68.4999 248.75C69.1074 248.75 69.5999 248.258 69.5999 247.65C69.5999 247.043 69.1074 246.55 68.4999 246.55C67.8924 246.55 67.3999 247.043 67.3999 247.65C67.3999 248.258 67.8924 248.75 68.4999 248.75Z" fill="#5C4409"/>
+<text fill="#0B1526" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="91.5" y="256.78">No hay contactos o gu&#xed;as registradas en este momento</tspan></text>
+<rect x="40" y="306" width="1200" height="186" rx="12" fill="#F1F3F6"/>
+<text fill="#0B1526" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="0em"><tspan x="479" y="390.6">A&#xfa;n no hay informaci&#xf3;n publicada</tspan></text>
+<text fill="#3A4352" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="536.5" y="422.28">Vuelve a consultar m&#xe1;s tarde.</tspan></text>
+</g>
+<defs>
+<clipPath id="clip0_4_289">
+<rect width="1280" height="800" fill="white"/>
+</clipPath>
+<clipPath id="clip1_4_289">
+<rect width="187" height="32" fill="white" transform="translate(40 20)"/>
+</clipPath>
+<clipPath id="clip2_4_289">
+<rect width="536" height="29" fill="white" transform="translate(704 21.5)"/>
+</clipPath>
+<clipPath id="clip3_4_289">
+<rect width="410" height="77" fill="white" transform="translate(40 120)"/>
+</clipPath>
+</defs>
+</svg>

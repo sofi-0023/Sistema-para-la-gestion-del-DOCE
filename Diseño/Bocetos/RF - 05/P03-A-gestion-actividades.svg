@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="880" viewBox="0 0 1180 880">
+  <title>DOCE · FMAT — P04-A-gestion-actividades</title>
+  <rect width="1180" height="880" fill="#f6f8fb"/>
+  <text x="0.0" y="84.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">Panel</text>
+  <text x="49.1" y="84.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">de</text>
+  <text x="72.4" y="84.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">administración</text>
+  <text x="205.4" y="84.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">·</text>
+  <text x="215.8" y="84.6" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">RF04</text>
+  <text x="0.0" y="155.3" fill="rgb(0, 40, 85)" font-family="Newsreader, serif" font-size="60.8" font-weight="500">Gestión</text>
+  <text x="212.0" y="155.3" fill="rgb(0, 40, 85)" font-family="Newsreader, serif" font-size="60.8" font-weight="500">de</text>
+  <text x="286.2" y="155.3" fill="rgb(0, 40, 85)" font-family="Newsreader, serif" font-size="60.8" font-weight="500">actividades</text>
+  <text x="0.0" y="191.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">Administra</text>
+  <text x="89.0" y="191.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">la</text>
+  <text x="107.4" y="191.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">información</text>
+  <text x="204.7" y="191.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">que</text>
+  <text x="238.7" y="191.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">consulta</text>
+  <text x="308.7" y="191.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">la</text>
+  <text x="327.0" y="191.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">comunidad</text>
+  <text x="418.3" y="191.9" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="17.6" font-weight="400">universitaria.</text>
+  <rect x="998.2" y="102.8" width="181.8" height="46.0" rx="5" fill="rgb(0, 40, 85)" stroke="rgb(0, 40, 85)" stroke-width="2"/>
+  <text x="1021.0" y="129.9" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">+</text>
+  <text x="1036.0" y="129.9" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Nueva</text>
+  <text x="1087.3" y="129.9" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">actividad</text>
+  <rect x="0.0" y="233.6" width="1180.0" height="200.4" rx="10" fill="rgb(255, 255, 255)" stroke="rgb(217, 224, 233)" stroke-width="1"/>
+  <rect x="49.0" y="294.8" width="78.0" height="78.0" rx="7" fill="none" stroke="rgb(0, 40, 85)" stroke-width="2"/>
+  <text x="75.4" y="321.4" fill="rgb(0, 40, 85)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="12.0" font-weight="700">NOV</text>
+  <text x="71.5" y="351.0" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="32.0" font-weight="700">12</text>
+  <rect x="151.0" y="288.4" width="154.1" height="26.9" rx="999" fill="rgb(237, 243, 250)" stroke="none" stroke-width="0"/>
+  <text x="161.4" y="304.3" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="11.5" font-weight="700">Próxima</text>
+  <text x="224.7" y="304.3" fill="rgb(31, 78, 140)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="11.5" font-weight="700">actividad</text>
+  <text x="151.0" y="343.2" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;" font-size="23.2" font-weight="700">Plática:</text>
+  <text x="240.2" y="343.2" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;" font-size="23.2" font-weight="700">dormir</text>
+  <text x="319.5" y="343.2" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;" font-size="23.2" font-weight="700">bien</text>
+  <text x="374.5" y="343.2" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;" font-size="23.2" font-weight="700">también</text>
+  <text x="471.6" y="343.2" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;" font-size="23.2" font-weight="700">es</text>
+  <text x="504.6" y="343.2" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;" font-size="23.2" font-weight="700">estudiar</text>
+  <text x="151.0" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">16:00</text>
+  <text x="195.5" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">h</text>
+  <text x="208.7" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">·</text>
+  <text x="216.9" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">Aula</text>
+  <text x="251.9" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">Magna</text>
+  <text x="304.0" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">·</text>
+  <text x="312.2" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">Presencial</text>
+  <text x="389.8" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">·</text>
+  <text x="398.0" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">Psicología</text>
+  <text x="475.1" y="371.6" fill="rgb(90, 102, 120)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">FMAT</text>
+  <rect x="941.0" y="282.6" width="190.0" height="46.0" rx="5" fill="rgb(0, 40, 85)" stroke="rgb(0, 40, 85)" stroke-width="2"/>
+  <text x="976.3" y="309.7" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Editar</text>
+  <text x="1025.8" y="309.7" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">actividad</text>
+  <rect x="941.0" y="339.0" width="190.0" height="46.0" rx="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 40, 85)" stroke-width="2"/>
+  <text x="964.5" y="366.1" fill="rgb(0, 40, 85)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">Ver</text>
+  <text x="994.4" y="366.1" fill="rgb(0, 40, 85)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">detalle</text>
+  <text x="1052.1" y="366.1" fill="rgb(0, 40, 85)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">público</text>
+  <rect x="0.0" y="466.0" width="1180.0" height="91.2" rx="8" fill="rgb(244, 233, 207)" stroke="none" stroke-width="0"/>
+  <text x="24.0" y="502.1" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">¿Necesitas</text>
+  <text x="113.4" y="502.1" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">hablar</text>
+  <text x="166.3" y="502.1" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">con</text>
+  <text x="198.0" y="502.1" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">alguien</text>
+  <text x="258.9" y="502.1" fill="rgb(11, 21, 38)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">ahora?</text>
+  <text x="24.0" y="529.3" fill="rgb(115, 88, 29)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">Línea</text>
+  <text x="66.8" y="529.3" fill="rgb(115, 88, 29)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">de</text>
+  <text x="89.0" y="529.3" fill="rgb(115, 88, 29)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">la</text>
+  <text x="105.7" y="529.3" fill="rgb(115, 88, 29)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">Vida</text>
+  <text x="141.5" y="529.3" fill="rgb(115, 88, 29)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">·</text>
+  <text x="149.7" y="529.3" fill="rgb(115, 88, 29)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">Disponible</text>
+  <text x="229.5" y="529.3" fill="rgb(115, 88, 29)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">24</text>
+  <text x="252.5" y="529.3" fill="rgb(115, 88, 29)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="400">h</text>
+  <rect x="1012.5" y="487.6" width="143.5" height="48.0" rx="5" fill="rgb(0, 40, 85)" stroke="none" stroke-width="0"/>
+  <text x="1031.7" y="515.7" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">800</text>
+  <text x="1067.7" y="515.7" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">911</text>
+  <text x="1096.1" y="515.7" fill="rgb(255, 255, 255)" font-family="&quot;Atkinson Hyperlegible&quot;, sans-serif" font-size="16.0" font-weight="700">2000</text>
+</svg>

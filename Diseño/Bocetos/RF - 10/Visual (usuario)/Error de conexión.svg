@@ -1,0 +1,45 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4_324)">
+<rect width="1280" height="800" fill="white"/>
+<rect width="1280" height="72" fill="#002855"/>
+<g clip-path="url(#clip1_4_324)">
+<circle cx="56" cy="36" r="15.25" stroke="white" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Newsreader, Georgia, serif" font-size="22" font-weight="600" letter-spacing="0em"><tspan x="84" y="41.17">DOCE &#xb7; FMAT</tspan></text>
+</g>
+<g clip-path="url(#clip2_4_324)">
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="704" y="41.28">Calendario</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="809" y="41.28">Directorio</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="908" y="37.78">Tutor&#xed;as y gu&#xed;as</tspan></text>
+<rect x="908" y="47.5" width="111" height="3" rx="1.5" fill="#C69214"/>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="1047" y="41.28">Material</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" letter-spacing="0em"><tspan x="1133" y="41.28">Administraci&#xf3;n</tspan></text>
+</g>
+<g clip-path="url(#clip3_4_324)">
+<text fill="#0B1526" style="white-space: pre" xml:space="preserve" font-family="Newsreader, Georgia, serif" font-size="40" font-weight="600" letter-spacing="0em"><tspan x="40" y="153.4">Tutor&#xed;as y gu&#xed;as</tspan></text>
+<text fill="#3A4352" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="18" letter-spacing="0em"><tspan x="40" y="190.44">Contactos de apoyo y gu&#xed;as para orientar tu carrera.</tspan></text>
+</g>
+<rect x="40.75" y="225.75" width="1198.5" height="51.5" rx="7.25" fill="#FDECEA"/>
+<rect x="40.75" y="225.75" width="1198.5" height="51.5" rx="7.25" stroke="#B42318" stroke-width="1.5"/>
+<path d="M68.5 259.75C73.0563 259.75 76.75 256.056 76.75 251.5C76.75 246.944 73.0563 243.25 68.5 243.25C63.9437 243.25 60.25 246.944 60.25 251.5C60.25 256.056 63.9437 259.75 68.5 259.75Z" stroke="#B42318" stroke-width="1.83333"/>
+<path d="M68.5 247.375V252.417" stroke="#B42318" stroke-width="1.83333" stroke-linecap="round"/>
+<path d="M68.4999 256.725C69.1074 256.725 69.5999 256.233 69.5999 255.625C69.5999 255.018 69.1074 254.525 68.4999 254.525C67.8924 254.525 67.3999 255.018 67.3999 255.625C67.3999 256.233 67.8924 256.725 68.4999 256.725Z" fill="#B42318"/>
+<text fill="#B42318" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="91.5" y="256.78">No se pudo conectar con los servidores, intenta de nuevo m&#xe1;s tarde</tspan></text>
+<rect x="41" y="307" width="117" height="44" rx="5" fill="white"/>
+<rect x="41" y="307" width="117" height="44" rx="5" stroke="#002855" stroke-width="2"/>
+<text fill="#002855" style="white-space: pre" xml:space="preserve" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="60" y="334.28">Reintentar</tspan></text>
+</g>
+<defs>
+<clipPath id="clip0_4_324">
+<rect width="1280" height="800" fill="white"/>
+</clipPath>
+<clipPath id="clip1_4_324">
+<rect width="187" height="32" fill="white" transform="translate(40 20)"/>
+</clipPath>
+<clipPath id="clip2_4_324">
+<rect width="536" height="29" fill="white" transform="translate(704 21.5)"/>
+</clipPath>
+<clipPath id="clip3_4_324">
+<rect width="410" height="77" fill="white" transform="translate(40 120)"/>
+</clipPath>
+</defs>
+</svg>
