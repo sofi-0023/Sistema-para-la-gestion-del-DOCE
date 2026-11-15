@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOCE · Prototipo para pruebas de usabilidad</title>
+  <!--
+    Prototipo no funcional para pruebas de usabilidad (RNF01).
+    No usa base de datos: los datos son de ejemplo y viven en app.js.
+    Se abre con doble clic en este archivo. Modo prueba: tecla F2 o ?prueba en la dirección.
+  -->
+  <link rel="icon" href="img/logo-doce-color.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido" data-accion="saltar">Saltar al contenido</a>
+
+  <div id="app"></div>
+
+  <div id="capa-dialogo" hidden></div>
+
+  <div id="aviso-prueba" class="aviso-prueba" role="status" aria-live="polite"></div>
+
+  <section id="panel-prueba" class="panel-prueba" role="dialog" aria-labelledby="panel-prueba-titulo" hidden></section>
+
+  <script src="app.js"></script>
+</body>
+</html>
