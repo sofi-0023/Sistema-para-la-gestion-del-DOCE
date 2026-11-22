@@ -20,7 +20,7 @@ Cada requisito está refinado y tiene su carpeta con **historia de usuario** (co
 
 # RF01 - Calendario
 
-El sistema mostrará un calendario de eventos y avisos ya publicados, cuya fecha sea igual o posterior al día actual, indicando nombre, sede, fecha y hora de cada uno.
+El sistema mostrará un calendario de las actividades ya publicadas, cuya fecha sea igual o posterior al día actual, indicando nombre, lugar, fecha y hora de cada una.
 
 # RF02 - Consultar detalle de actividad
 
