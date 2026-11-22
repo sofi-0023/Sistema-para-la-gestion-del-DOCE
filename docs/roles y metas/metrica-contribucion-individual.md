@@ -6,19 +6,21 @@ Cada integrante se mide sobre su **propio 100%**, según cuánto de las metas qu
 
 - **% de contribución:** metas completadas ÷ metas asignadas × 100. Se llena manualmente al cerrar cada entrega.
 - **Commits:** número de commits en el repositorio asociados a esa persona, como respaldo cuantitativo.
-- **Bitácora:** referencia a la bitácora descriptiva donde esa persona documentó lo que hizo (ya la llevan por su cuenta).
+- **Bitácora:** referencia a la bitácora descriptiva donde esa persona documentó lo que hizo.
 
 ---
 
-## Entrega
+## Entrega 3
+
+Metas del Sprint 3 (milestone "Sprint 3 - Pruebas"). Las metas completadas y los porcentajes se llenan al cierre de la entrega.
 
 | Integrante | Metas asignadas | Metas completadas | % de contribución |
 |------------|------------------|--------------------|--------------------|
-| Sofía      | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución. Gestión del diseño y verificación de los requisitos ya refinados, refinamiento del requisito 1 | Gestión y revisión del repositorio; Gestión de metas y roles; Creación de métricas de contribución. Gestión del diseño y verificación de los requisitos ya refinados, refinamiento del requisito 1 | 100% |
-| Jennyfer   | Refinamiento de requisitos 2 y 3, encargada de bocetos para el diseño de los wireframes y el prototipo  | Refinamiento de requisitos 2 y 3, encargada de bocetos para el diseño de los wireframes y el prototipo | 100% |
-| Rafael     | Diseño. organización, verificación y edición o mejora del repositorio; Refinamiento de requisitos 10 y 11, encargado de bocetos para el diseño de los wireframes y el prototipo | Diseño. organización, verificación y edición o mejora del repositorio; Refinamiento de requisitos 10 y 11, encargado de bocetos para el diseño de los wireframes y el prototipo | 100% |
-| Gabriel    | Refinamiento de requisitos 6 y 7, encargado de bocetos para el diseño de los wireframes y el prototipo | Refinamiento de requisitos 6 y 7, encargado de bocetos para el diseño de los wireframes y el prototipo | 100% |
-| Jahzeel    | Refinamiento de requisitos 8 y 9, encargado de bocetos para el diseño de los wireframes y el prototipo | Refinamiento de requisitos 8 y 9, encargado de bocetos para el diseño de los wireframes y el prototipo | 100% | 
-| Daniel     | Refinamiento de requisitos 4 y 5, encargado de bocetos para el diseño de los wireframes y el prototipo | Refinamiento de requisitos 4 y 5, encargado de bocetos para el diseño de los wireframes y el prototipo | 100% | 
+| Sofía      | Verificar y ajustar RF01 (#70); Prototipo HTML (#76); Gestión del repositorio, del backlog y del milestone del Sprint 3; Revisión de PRs | | |
+| Jennyfer   | Verificar y ajustar RF02 y RF03 (#71) | | |
+| Daniel     | Verificar y ajustar RF04 y RF05 (#72) | | |
+| Gabriel    | Verificar y ajustar RF06 y RF07 (#73) | | |
+| Jahzeel    | Verificar y ajustar RF08 y RF09 (#74) | | |
+| Rafael     | Verificar y ajustar RF10 y RF11 (#75) | | |
 
 ---
