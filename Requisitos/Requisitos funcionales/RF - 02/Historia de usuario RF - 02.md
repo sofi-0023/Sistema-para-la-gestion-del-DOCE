@@ -1,53 +1,88 @@
-## Requisito funcional 02 - Consultar detalle de actividad
 
-RF02 - El sistema deberá permitir al usuario seleccionar una actividad publicada en el calendario para consultar la siguiente información:
-* **Nombre de la actividad.**
-* **Descripción.**
-* **Fecha y hora de inicio y, cuando corresponda, de finalización.**
-* **Modalidad: presencial, virtual o híbrida.**
-* **Lugar, si es presencial; enlace de acceso, si es virtual; o ambos, si es híbrida.**
-* **Institución u organizador responsable.**
+# RF02 – Consultar detalle de actividad
 
-## Historia de usuario:
+## Descripción del requisito
 
-**Como** estudiante o usuario del sistema,
-**quiero** consultar la información detallada de una actividad del calendario,
-**para** conocer sus características y decidir si puedo y deseo asistir.
+El sistema deberá permitir al estudiante o usuario seleccionar una actividad publicada en el calendario para consultar la siguiente información:
+
+- Nombre de la actividad.
+- Descripción.
+- Fecha y hora de inicio y, cuando corresponda, de finalización.
+- Modalidad: presencial, virtual o híbrida.
+- Lugar, si es presencial.
+- Enlace de acceso, si es virtual.
+- Lugar y enlace de acceso, si es híbrida.
+- Institución u organizador responsable.
+
+## Historia de usuario
+
+**Como:** estudiante o usuario del sistema.
+
+**Quiero:** consultar la información detallada de una actividad publicada en el calendario.
+
+**Para:** conocer sus características y decidir si puedo y deseo asistir.
 
 ## Criterios de aceptación
 
-**CA1 – Detalle completo de una actividad presencial**
-**Dado** que existe una actividad publicada con modalidad presencial,
-**cuando** el usuario la selecciona en el calendario,
-**entonces** se muestran su nombre, descripción, fecha y hora de inicio, modalidad "Presencial", lugar e institución u organizador responsable.
+### Escenario 1 – Consultar una actividad publicada
 
-**CA2 – Fecha y hora de finalización**
-**Dado** que una actividad publicada tiene fecha y hora de finalización registradas,
-**cuando** el usuario consulta su detalle,
-**entonces** se muestran la fecha y hora de inicio y las de finalización;
-**y** si la actividad no tiene finalización registrada, solo se muestran las de inicio, sin campos vacíos.
+**Dado** que el usuario se encuentra en el calendario y existe una actividad publicada.
 
-**CA3 – Actividad virtual**
-**Dado** que una actividad publicada tiene modalidad virtual,
-**cuando** el usuario consulta su detalle,
-**entonces** se muestra el enlace de acceso y no se muestra un lugar físico.
+**Cuando** selecciona una actividad.
 
-**CA4 – Actividad híbrida**
-**Dado** que una actividad publicada tiene modalidad híbrida,
-**cuando** el usuario consulta su detalle,
-**entonces** se muestran tanto el lugar como el enlace de acceso.
+**Entonces** el sistema deberá mostrar su nombre, descripción, fecha, horario, modalidad e institución u organizador responsable.
 
-**CA5 – Regresar al calendario**
-**Dado** que el usuario está viendo el detalle de una actividad,
-**cuando** selecciona "Cerrar" o "Regresar",
-**entonces** el sistema vuelve a mostrar el calendario.
+**Y** deberá mostrar la información correspondiente al lugar o enlace de acceso según la modalidad de la actividad.
 
-**CA6 – Actividad no disponible**
-**Dado** que una actividad dejó de estar publicada después de que el usuario cargó el calendario,
-**cuando** el usuario la selecciona,
-**entonces** el sistema informa que la actividad ya no está disponible y le permite regresar al calendario.
+### Escenario 2 – Consultar una actividad presencial
 
-**CA7 – Error de consulta**
-**Dado** que el sistema no puede recuperar la información de la actividad,
-**cuando** el usuario intenta consultar su detalle,
-**entonces** se muestra un mensaje de error con la opción de reintentar.
+**Dado** que existe una actividad publicada con modalidad presencial.
+
+**Cuando** el usuario consulta su detalle.
+
+**Entonces** el sistema deberá mostrar el lugar donde se realizará la actividad.
+
+### Escenario 3 – Consultar una actividad virtual
+
+**Dado** que existe una actividad publicada con modalidad virtual.
+
+**Cuando** el usuario consulta su detalle.
+
+**Entonces** el sistema deberá mostrar el enlace de acceso a la actividad.
+
+### Escenario 4 – Consultar una actividad híbrida
+
+**Dado** que existe una actividad publicada con modalidad híbrida.
+
+**Cuando** el usuario consulta su detalle.
+
+**Entonces** el sistema deberá mostrar el lugar donde se realizará la actividad.
+
+**Y** deberá mostrar el enlace de acceso virtual.
+
+### Escenario 5 – Actividad no disponible
+
+**Dado** que el usuario intenta consultar una actividad que dejó de estar publicada.
+
+**Cuando** selecciona dicha actividad.
+
+**Entonces** el sistema deberá informar que la actividad ya no está disponible.
+
+**Y** deberá ofrecer la opción de regresar al calendario.
+
+### Escenario 6 – Error al consultar una actividad
+
+**Dado** que el usuario selecciona una actividad publicada.
+
+**Cuando** ocurre un error al recuperar su información.
+
+**Entonces** el sistema deberá mostrar un mensaje indicando que no fue posible consultar el detalle.
+
+**Y** deberá ofrecer las opciones de reintentar la consulta o regresar al calendario.
+
+
+## Casos de excepción
+
+- **Actividad no disponible:** el sistema informa que la actividad ya no se encuentra publicada.
+- **Error de consulta:** el sistema informa que no fue posible recuperar la información y ofrece la opción de reintentar.
+
