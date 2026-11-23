@@ -67,9 +67,9 @@ El sistema mostrará a cualquier usuario, sin necesidad de iniciar sesión, el m
 * **RF07.1 - Catálogo:** El sistema mostrará los materiales publicados en una lista paginada, ordenada del más reciente al más antiguo. Cada material mostrará título, descripción breve (máximo 150 caracteres), tipo y, si existe, una miniatura.
 * **RF07.2 - Filtrar materiales:** El sistema permitirá filtrar el catálogo por tipo (folletos, videos, documentos).
 * **RF07.3 - Detalle:** Al seleccionar un material, el sistema mostrará su información completa: título, descripción completa, tipo, temática, autor o fuente, fecha de publicación y redirección a la ubicación del material de origen; y, según el tipo:
-    * * Video: Reproducción dentro de la página.
-    * * Folleto: Visualización en la página y opción de descarga.
-    * * Documento: Opción de descarga y, cuando sea posible, visualización en línea.
+    * Video: Reproducción dentro de la página.
+    * Folleto: Visualización en la página y opción de descarga.
+    * Documento: Opción de descarga y, cuando sea posible, visualización en línea.
 
 # RF08 - Gestionar material
 
