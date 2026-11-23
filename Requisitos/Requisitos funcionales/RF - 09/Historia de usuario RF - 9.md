@@ -20,19 +20,19 @@ Visualización: **Como** estudiante o usuario de la plataforma, **quiero** explo
 
 **CA2 – Editar foto o descripción**
 **Dado** que existe una foto publicada,
-**cuando** el administrador cambia la imagen o su descripción y confirma,
+**cuando** el administrador modifica la imagen, el título o la descripción y confirma,
 **entonces** se muestra un mensaje con el resultado
-**y** la fotogalería pública muestra el cambio.
+**y** la fotogalería pública refleja los cambios realizados.
 
 **CA3 – eliminar foto**
-**Dado** que existe una foto publicada,
-**cuando** el administrador confirma la operación "eliminar",
-**entonces** la foto y su descripción desaparecen de manera permanente.
+**Dado** que existe una fotografía publicada o varias,
+**cuando** el administrador confirma su eliminación,
+**entonces** la fotografía y sus datos asociados desaparecen permanentemente de la fotogalería.
 
 **CA4 – Confirmar sin seleccionar foto**
-**Dado** que el administrador no seleccionó ninguna foto,
-**cuando** confirma la operación,
-**entonces** se muestra el mensaje "Se solicita que seleccione al menos una foto" y no se realiza ningún cambio.
+**Dado** que el administrador se encuentra en la sección de gestión de la fotogalería,
+**cuando** intenta actualizar o eliminar una fotografía sin haber seleccionado alguna,
+**entonces** el sistema deberá impedir la operacíon y mostrar el mensaje: "Se solicita que seleccione al menos una foto", sin realizar ningún cambio.
 
 **CA5 – Cancelar la operación**
 **Dado** que el administrador inició una operación en la fotogalería,
@@ -51,10 +51,10 @@ Visualización: **Como** estudiante o usuario de la plataforma, **quiero** explo
 **cuando** cualquier usuario, sin iniciar sesión, entra a la sección "Fotogalería",
 **entonces** se muestran las fotos con su título y descripción.
 
-**CA8 – Recorrer la galería**
-**Dado** que hay más fotos de las que caben en pantalla,
-**cuando** el usuario se desplaza horizontalmente,
-**entonces** se muestran las fotos siguientes.
+**CA8 – Visualización de la fotogalería**
+**Dado** que el usuario accede a la fotogalería desde un dispositivo móvil, tableta o computadora.
+**Cuando** la cantidad de fotografías supera el espacio disponible en la pantalla.
+**Entonces** el sistema deberá adaptar la distribución de las fotografías al tamaño de la pantalla y permitir consultar todas las imágenes mediante el desplazamiento de la página.
 
 **CA9 – Galería vacía**
 **Dado** que no hay fotos publicadas,
@@ -62,6 +62,6 @@ Visualización: **Como** estudiante o usuario de la plataforma, **quiero** explo
 **entonces** se muestra el mensaje "No hay imágenes disponibles para consultar".
 
 **CA10 – Error al cargar imágenes**
-**Dado** que las imágenes no se pueden cargar,
-**cuando** el usuario entra a la sección "Fotogalería",
-**entonces** se informa que no fue posible mostrar las imágenes.
+**Dado** que el usuario accede a la fotogalería.
+**Cuando** ocurre un error que impide cargar las imágenes.
+**Entonces** el sistema deberá mostrar un mensaje indicando que no fue posible cargar las imágenes.
