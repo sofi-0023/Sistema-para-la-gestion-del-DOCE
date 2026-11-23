@@ -73,3 +73,30 @@
 @media (max-width: 599px) {
   .admin-cabeza .acciones, .admin-cabeza .acciones .boton { width: 100%; }
 }
+
+/* ---------- Acceso ---------- */
+.acceso-pagina { display: grid; place-items: center; min-height: 100vh; min-height: 100dvh; padding: var(--e-6) var(--e-4); }
+.acceso-tarjeta { display: flex; flex-direction: column; gap: var(--e-5); width: 100%; max-width: 460px; padding: clamp(20px, 5vw, 40px); }
+.acceso-tarjeta .marca { align-self: flex-start; }
+.acceso-titulo { font-size: var(--t-titulo-3); color: var(--tinta); margin-bottom: var(--e-1); }
+.acceso-nota { display: flex; gap: var(--e-2); padding-top: var(--e-5); border-top: 1px solid var(--linea-suave); color: var(--tinta-3); }
+.acceso-nota .icono { margin-top: 3px; }
+
+/* ---------- Panel ---------- */
+.panel-rejilla { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 380px); gap: var(--e-6); align-items: start; }
+.panel-rejilla h2, .panel-cambios h2 { margin-bottom: var(--e-2); }
+.pendiente { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e-3) var(--e-4); padding: var(--e-4) 0; border-top: 1px solid var(--linea-suave); }
+.pendiente .fila-cuerpo { flex: 1 1 200px; gap: 6px; }
+.titulo-fila { font-family: var(--fuente-texto); font-size: var(--t-cuerpo); letter-spacing: 0; }
+.insignias { gap: var(--e-2); }
+.sello-aviso { display: inline-flex; align-items: center; justify-content: center; flex: none; width: 64px; height: 68px; border-radius: var(--radio-s); background: var(--dorado-20); color: var(--dorado-texto); }
+.accesos a { display: flex; align-items: center; gap: var(--e-3); min-height: 52px; border-radius: var(--radio-s); color: var(--azul-70); font-weight: 700; text-decoration: none; }
+.accesos a span { flex: 1; min-width: 0; }
+.accesos a:hover { color: var(--azul-295); text-decoration: underline; }
+.cifras li { display: flex; align-items: baseline; gap: var(--e-3); padding: 4px 0; color: var(--tinta-2); }
+.cifra { font-family: var(--fuente-titulo); font-size: var(--t-titulo-3); font-weight: 600; color: var(--azul-295); }
+.panel-cambios { margin-top: var(--e-6); }
+.panel-cambios li { display: flex; flex-wrap: wrap; gap: var(--e-1) var(--e-3); padding: var(--e-3) 0; border-top: 1px solid var(--linea-suave); }
+.panel-cambios li .icono { margin-top: 2px; color: var(--tinta-3); }
+.panel-cambios .fila-cuerpo { flex: 1 1 220px; }
+@media (max-width: 1199px) { .panel-rejilla { grid-template-columns: minmax(0, 1fr); } }

@@ -41,7 +41,7 @@
     titulo: 'Líneas de ayuda', seccion: 'lineas',
     vista: function (ctx) {
       var ambito = ctx.consulta.get('ambito') || '';
-      var lineas = ctx.estado === 'vacio' ? [] : DOCE.almacen.todos('lineas').slice().sort(U.ordenAlfabetico('nombre'));
+      var lineas = ctx.estado === 'vacio' ? [] : M.lineasOrdenadas();
       var grupos = M.AMBITOS.filter(function (a) { return !ambito || a.id === ambito; });
       var cuerpo;
       if (ctx.estado === 'error') {

@@ -186,6 +186,8 @@
 .alerta ul { list-style: disc; padding-left: var(--e-5); margin-top: var(--e-1); }
 .alerta a { display: inline-block; padding-block: 10px; color: inherit; }
 .alerta-cuerpo { min-width: 0; flex: 1; }
+.enlace { min-height: 44px; padding: 4px 0; border: 0; background: none; color: inherit; text-align: left; text-decoration: underline; text-underline-offset: 3px; }
+.alerta .lista-errores { list-style: none; padding: 0; }
 .mensajes:empty { display: none; }
 .mensajes { margin-bottom: var(--e-6); }
 

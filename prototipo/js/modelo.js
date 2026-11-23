@@ -51,6 +51,14 @@
 
   M.personasOrdenadas = function () { return DOCE.almacen.todos('directorio').slice().sort(DOCE.util.ordenAlfabetico('nombre')); };
 
+  // Alfabético; los nombres por confirmar, entre corchetes, van al final
+  M.lineasOrdenadas = function () {
+    var porNombre = DOCE.util.ordenAlfabetico('nombre');
+    return DOCE.almacen.todos('lineas').slice().sort(function (a, b) {
+      return (a.nombre.charAt(0) === '[') - (b.nombre.charAt(0) === '[') || porNombre(a, b);
+    });
+  };
+
   M.nombreCompleto = function (p) { return (p.titulo ? p.titulo + ' ' : '') + p.nombre; };
   M.ubicacion = function (p) { return [p.edificio, p.planta, p.espacio].filter(Boolean).join(', '); };
 
