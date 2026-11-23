@@ -1,0 +1,58 @@
+/* Modo de prueba. Solo lo carga prueba.html. */
+
+/* ---------- Pantallas ---------- */
+.prueba-pagina { max-width: calc(820px + 2 * var(--margen)); }
+.prueba-ancha { max-width: calc(var(--ancho) + 2 * var(--margen)); }
+.prueba-tarjeta { gap: var(--e-5); align-items: flex-start; padding: clamp(20px, 5vw, 48px); }
+.prueba-tarjeta > * { max-width: 100%; }
+.prueba-tarjeta > .form-pie, .prueba-tarjeta > fieldset, .prueba-tarjeta > [data-resumen] { width: 100%; }
+.prueba-instruccion { font-size: var(--t-titulo-2); }
+.prueba-seccion { display: flex; flex-direction: column; gap: var(--e-4); margin-top: var(--e-10); }
+.prueba-datos { display: flex; flex-direction: column; gap: 4px; color: var(--tinta-2); overflow-wrap: anywhere; }
+
+.escala legend { font-size: var(--t-cuerpo-l); }
+.escala-opciones { display: flex; flex-wrap: wrap; gap: var(--e-2); }
+.escala-opcion { position: relative; display: inline-flex; align-items: center; justify-content: center; min-width: 48px; min-height: 48px; border: 2px solid var(--borde-campo); border-radius: var(--radio-s); background: var(--papel); font-weight: 700; cursor: pointer; }
+.escala-opcion:hover { background: var(--azul-bruma); }
+.escala-opcion input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+.escala-opcion:has(input:checked) { border-color: var(--azul-295); background: var(--azul-295); color: var(--papel); }
+.escala-opcion:has(input:focus-visible) { outline: 3px solid var(--dorado); outline-offset: 2px; box-shadow: 0 0 0 6px var(--azul-295); }
+.escala-extremos { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0 var(--e-4); max-width: 420px; color: var(--tinta-3); }
+
+/* ---------- Barra de la tarea ---------- */
+#barra-prueba { position: fixed; inset: 0 0 auto 0; z-index: 60; display: flex; flex-wrap: wrap; align-items: center; gap: var(--e-1) var(--e-5); max-height: 50dvh; padding: var(--e-2) var(--margen); overflow-y: auto; background: var(--tinta); color: var(--papel); }
+.barra-cabeza { display: flex; align-items: center; gap: var(--e-2); }
+.barra-titulo { font-weight: 700; white-space: nowrap; }
+.barra-texto { flex: 1 1 320px; min-width: 0; }
+.barra-aviso { flex-basis: 100%; color: var(--dorado-20); }
+.barra-aviso:empty { display: none; }
+.barra-acciones { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e-2); margin-left: auto; }
+.barra-listo { display: inline-flex; align-items: center; gap: var(--e-2); font-weight: 700; }
+#barra-prueba .boton-fantasma { color: var(--papel); text-decoration: underline; text-underline-offset: 3px; }
+#barra-prueba .boton-fantasma:hover { background: var(--tinta-2); color: var(--papel); }
+#barra-prueba .boton-primario { background: var(--papel); color: var(--azul-295); }
+#barra-prueba .boton-secundario { background: transparent; border-color: var(--papel); color: var(--papel); }
+#barra-prueba .boton-secundario:hover { background: var(--tinta-2); }
+#barra-prueba .barra-campo { flex: 1 1 220px; }
+#barra-prueba .barra-campo input { background: var(--papel); color: var(--tinta); }
+
+/* El prototipo se recorre hacia abajo; nada queda tapado por la barra */
+.en-tarea { padding-top: var(--alto-barra, 0px); }
+.en-tarea .encabezado, .en-tarea .lateral { top: var(--alto-barra, 0px); }
+.en-tarea .lateral { height: calc(100dvh - var(--alto-barra, 0px)); }
+.en-tarea .publico, .en-tarea .admin, .en-tarea .acceso-pagina { min-height: calc(100dvh - var(--alto-barra, 0px)); }
+.en-tarea .panel, .en-tarea .menu-movil { top: var(--alto-barra, 0px); height: calc(100dvh - var(--alto-barra, 0px)); }
+.en-tarea .dialogo { top: var(--alto-barra, 0px); max-height: calc(100dvh - var(--alto-barra, 0px) - 24px); }
+/* El participante no restablece los datos a media tarea */
+.en-tarea [data-restablecer] { display: none; }
+
+@media (max-width: 899px) { .en-tarea .lateral { height: auto; max-height: calc(100dvh - var(--alto-barra, 0px)); } }
+@media (max-width: 599px) {
+  #barra-prueba { gap: var(--e-1); padding-bottom: var(--e-2); }
+  .barra-cabeza { width: 100%; justify-content: space-between; }
+  .barra-texto { flex-basis: 100%; }
+  .barra-acciones { width: 100%; margin-left: 0; }
+  .barra-acciones .boton { flex: 1 1 auto; padding-inline: 10px; }
+  /* En celular la barra de la tarea queda fija y el encabezado se va con la página */
+  .en-tarea .encabezado { position: static; }
+}
