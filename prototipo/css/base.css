@@ -58,7 +58,9 @@ a:hover { color: var(--azul-295); }
 .meta { font-size: var(--t-etiqueta); color: var(--tinta-3); }
 
 /* Foco: anillo dorado entre dos anillos azules, para verse sobre cualquier fondo */
-:focus-visible {
+:focus-visible,
+/* En fecha y hora el foco está en las partes internas del campo */
+input[type="date"]:focus-within, input[type="time"]:focus-within {
   outline: 3px solid var(--dorado);
   outline-offset: 2px;
   box-shadow: 0 0 0 6px var(--azul-295);

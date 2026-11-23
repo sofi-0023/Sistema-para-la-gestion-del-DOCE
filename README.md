@@ -75,6 +75,7 @@ Hoy las convocatorias del DOCE se envían por correo institucional. Entre tantos
 | [Bocetos](<Diseño/Bocetos>) | Una carpeta por requisito, con sus estados |
 | [Guías de diseño](<Diseño/Guías y herramientas de diseño.md>) | Paleta 1c, tipografía, accesibilidad y herramientas |
 | [Wireframes y prototipo](<Diseño/Wireframes>) | Estilo definido y prototipo navegable |
+| [Prototipo HTML](prototipo/README.md) | Prototipo navegable (`prototipo/index.html`) y modo de prueba de usabilidad |
 | [Logotipo](<Diseño/Logotipo>) | Logotipo vectorizado y versiones a una tinta |
 | [Proceso](<docs/proceso>) | Descripción y gestión del proceso, y bitácoras de reunión |
 | [Roles y metas](<docs/roles y metas>) | To-do de la entrega y métrica de contribución |

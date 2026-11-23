@@ -139,9 +139,9 @@
         var d = FM.leer(form);
         var e = {};
         if (!nuevas.length) e.imagenes = 'Elige al menos una fotografía.';
-        nuevas.forEach(function (n) {
-          if (!d['titulo-' + n.id]) e['titulo-' + n.id] = 'Escribe un título para esta foto.';
-          if (!d['descripcion-' + n.id]) e['descripcion-' + n.id] = 'Escribe una descripción para esta foto.';
+        nuevas.forEach(function (n, i) {
+          if (!d['titulo-' + n.id]) e['titulo-' + n.id] = 'Escribe un título para esta foto (foto ' + (i + 1) + ').';
+          if (!d['descripcion-' + n.id]) e['descripcion-' + n.id] = 'Escribe una descripción para esta foto (foto ' + (i + 1) + ').';
         });
         if (!FM.mostrar(form, e)) return;
         var guardadas = [];
