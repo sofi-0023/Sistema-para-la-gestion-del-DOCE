@@ -114,6 +114,7 @@
 .tabla td { padding: var(--e-3); border-bottom: 1px solid var(--linea-suave); vertical-align: middle; }
 .celda-nombre > span { display: block; }
 .acciones-fila { display: flex; flex-wrap: wrap; gap: var(--e-2); }
+.acciones-centro { align-items: center; }
 @media (max-width: 1199px) {
   /* Cada renglón se vuelve una tarjeta */
   .tabla, .tabla tbody, .tabla tr, .tabla td { display: block; }
