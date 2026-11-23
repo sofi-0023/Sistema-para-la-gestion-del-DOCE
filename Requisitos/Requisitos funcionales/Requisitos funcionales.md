@@ -52,17 +52,24 @@ El sistema permitirá a cualquier usuario, sin necesidad de iniciar sesión, con
 
 # RF06 - Líneas de ayuda
 
-El sistema deberá permitir la gestión y visualización de las líneas de ayuda universitarias, así como de las líneas de disposición general locales, estatales y nacionales, organizadas por ámbito de atención.
+El sistema deberá permitir la consulta y gestión de las líneas de ayuda universitarias, así como de las líneas de disposición general locales, estatales y nacionales, organizadas por ámbito de atención (universitario, local, estatal y nacional). Cada línea pertenece a un solo ámbito.
 
-* **Consulta (usuario):** ver el catálogo de líneas de ayuda organizado por ámbito: universitario, local, estatal y nacional.
-* **Gestión (administrador):** registrar, modificar y eliminar líneas de ayuda.
+* **RF06.1 - Consultar líneas de ayuda (usuario):** El sistema permitirá a cualquier usuario, sin necesidad de iniciar sesión, consultar el catálogo de líneas de ayuda agrupado por ámbito. Cada línea mostrará: nombre, institución responsable, número telefónico, descripción del tipo de apoyo que ofrece, horario o disponibilidad, si es gratuita y otros canales de contacto si existen (sitio web o correo).
+* **RF06.2 - Acceso rápido a líneas de emergencia (usuario):** El sistema deberá mostrar, de forma visible desde cualquier parte de la página, las líneas que el administrador haya marcado como "destacadas" (emergencia y atención en crisis), sin que el usuario deba entrar al catálogo completo.
+* **RF06.3 - Registrar línea de ayuda (administrador):** El sistema permitirá al administrador autenticado registrar una línea de ayuda mediante un formulario con los datos del RF06.1, el ámbito y la marca opcional de "destacada". Antes de guardar, el sistema validará los campos obligatorios (nombre, ámbito, número telefónico, descripción del apoyo y horario) y su correspondencia respecto a los formatos solicitados.
+* **RF06.4 - Modificar línea de ayuda (administrador):** El sistema permitirá al administrador autenticado modificar los datos de una línea de ayuda, con las mismas validaciones del RF06.3.
+* **RF06.5 - Eliminar línea de ayuda (administrador):** El sistema permitirá al administrador autenticado eliminar una línea de ayuda, previa confirmación explícita. Si la línea está marcada como "destacada", el sistema advertirá que dejará de aparecer en el acceso rápido (RF06.2).
 
 # RF07 - Material informativo
 
-El sistema mostrará a los usuarios, de manera concisa, diferentes tipos de material informativo sobre salud mental (folletos, videos y documentos), y permitirá seleccionar cualquiera de estas publicaciones para consultar su detalle completo.
+El sistema mostrará a cualquier usuario, sin necesidad de iniciar sesión, el material informativo sobre salud mental que esté publicado, y permitirá seleccionar cualquiera de ellos para consultar sus detalles completos.
 
-* **Catálogo:** cada material se muestra con su título, una descripción breve y su tipo.
-* **Detalle:** al seleccionar un material se muestra su información completa y, según el tipo, la opción de reproducirlo o descargarlo.
+* **RF07.1 - Catálogo:** El sistema mostrará los materiales publicados en una lista paginada, ordenada del más reciente al más antiguo. Cada material mostrará título, descripción breve (máximo 150 caracteres), tipo y, si existe, una miniatura.
+* **RF07.2 - Filtrar materiales:** El sistema permitirá filtrar el catálogo por tipo (folletos, videos, documentos).
+* **RF07.3 - Detalle:** Al seleccionar un material, el sistema mostrará su información completa: título, descripción completa, tipo, temática, autor o fuente, fecha de publicación y redirección a la ubicación del material de origen; y, según el tipo:
+    * * Video: Reproducción dentro de la página.
+    * * Folleto: Visualización en la página y opción de descarga.
+    * * Documento: Opción de descarga y, cuando sea posible, visualización en línea.
 
 # RF08 - Gestionar material
 
