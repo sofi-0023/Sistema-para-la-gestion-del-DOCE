@@ -9,6 +9,7 @@ Se abre con doble clic: no necesita servidor ni instalación. Sin internet usa f
 | Administración (`admin@doce.uady.mx` / `Doce2026`) | `admin.html` o «Acceso DOCE» |
 | Prueba de usabilidad | `prueba.html` |
 
+- [REVISION.md](REVISION.md): direcciones para revisar y pendientes.
 - [COBERTURA.md](COBERTURA.md): cada criterio de aceptación con su dirección.
 - [DECISIONES.md](DECISIONES.md): decisiones y diferencias con los wireframes.
 
