@@ -135,7 +135,7 @@
   // Clics en enlaces y botones del prototipo, sin contar la barra. Enter y Espacio cuentan igual.
   document.addEventListener('click', function (ev) {
     var e = ev.target.closest ? ev.target.closest('a[href], button') : null;
-    if (!e || e.closest('#barra-prueba')) return;
+    if (!e || e.closest('#barra-prueba') || e.hasAttribute('data-descarga')) return;
     var s = enTarea();
     var href = e.getAttribute('href') || '';
     if (s && !s.registro.fin) { s.registro.clics++; guardarCurso(s); }
@@ -549,13 +549,6 @@
   P.csv = csv;
 
   function descargar(nombre, texto, tipo) {
-    var url = URL.createObjectURL(new Blob([texto], { type: tipo }));
-    var a = document.createElement('a');
-    a.href = url;
-    a.download = nombre;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    window.setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+    U.descargar(nombre, new Blob([texto], { type: tipo }));
   }
 })();

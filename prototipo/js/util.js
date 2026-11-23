@@ -81,6 +81,52 @@
     return 'tel:' + numero + (ext ? ';ext=' + ext : '');
   };
 
+  /* ---------- Descargas ---------- */
+
+  // PDF mínimo de una página, para que las descargas funcionen también con file://
+  util.descargarPdf = function (nombre, titulo, parrafos) {
+    function pdf(t) { return t.replace(/[\u2018\u2019]/g, "'").replace(/[\u201c\u201d«»]/g, '"').replace(/…/g, '...').replace(/[^\x20-\xff]/g, '-').replace(/[\\()]/g, '\\$&'); }
+    function renglones(t, ancho) {
+      var salida = [''];
+      t.split(' ').forEach(function (p) {
+        if ((salida[salida.length - 1] + ' ' + p).length > ancho) salida.push(p);
+        else salida[salida.length - 1] = (salida[salida.length - 1] + ' ' + p).trim();
+      });
+      return salida;
+    }
+    var texto = 'BT /F1 20 Tf 60 760 Td 26 TL ' + renglones(titulo, 46).map(function (r) { return '(' + pdf(r) + ') Tj T*'; }).join(' ') + ' /F1 12 Tf 18 TL ';
+    parrafos.forEach(function (p) { texto += 'T* ' + renglones(p, 84).map(function (r) { return '(' + pdf(r) + ') Tj T*'; }).join(' ') + ' '; });
+    texto += 'ET';
+    var objetos = [
+      '<< /Type /Catalog /Pages 2 0 R >>',
+      '<< /Type /Pages /Kids [3 0 R] /Count 1 >>',
+      '<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>',
+      '<< /Length ' + texto.length + ' >>\nstream\n' + texto + '\nendstream',
+      '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>'
+    ];
+    var doc = '%PDF-1.4\n';
+    var lugares = objetos.map(function (o, i) { var l = doc.length; doc += (i + 1) + ' 0 obj\n' + o + '\nendobj\n'; return l; });
+    var xref = doc.length;
+    doc += 'xref\n0 6\n0000000000 65535 f \n' + lugares.map(function (l) { return ('0000000000' + l).slice(-10) + ' 00000 n \n'; }).join('');
+    doc += 'trailer\n<< /Size 6 /Root 1 0 R >>\nstartxref\n' + xref + '\n%%EOF';
+    var bytes = new Uint8Array(doc.length);
+    for (var i = 0; i < doc.length; i++) bytes[i] = doc.charCodeAt(i);
+    util.descargar(nombre, new Blob([bytes], { type: 'application/pdf' }));
+  };
+
+  util.descargar = function (nombre, blob) {
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = nombre;
+    a.hidden = true;
+    a.setAttribute('data-descarga', '');
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    window.setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+  };
+
   /* ---------- Fechas (AAAA-MM-DD, siempre en hora local) ---------- */
 
   var DIAS = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];

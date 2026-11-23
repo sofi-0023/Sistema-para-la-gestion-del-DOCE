@@ -284,7 +284,7 @@
     var m = {
       id: id, titulo: titulo, tipo: tipo, estado: 'publicado', publicado: publicado, tematica: tematica, autor: autor,
       resumen: resumen, descripcion: descripcion, formato: '', tamano: '', paginas: 0, idioma: 'Español',
-      duracion: '', plataforma: '', origen: '', miniatura: null, editado: publicado + 'T10:00'
+      duracion: '', plataforma: '', origen: 'https://www.uady.mx/', miniatura: null, editado: publicado + 'T10:00'
     };
     Object.keys(extra).forEach(function (c) { m[c] = extra[c]; });
     return m;

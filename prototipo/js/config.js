@@ -29,7 +29,7 @@
     rutaInicial: document.documentElement.getAttribute('data-inicio') || '/inicio',
 
     // Al cambiar los datos de ejemplo se sube este número y se vuelven a cargar.
-    versionDatos: 2,
+    versionDatos: 3,
 
     // RNF04. La sesión y el bloqueo usan siempre el reloj real.
     segundosInactividad: inactividad > 0 ? inactividad : 30 * 60,
