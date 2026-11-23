@@ -25,8 +25,11 @@
     // Prefijo de localStorage. prueba.html usa otro para no mezclar datos.
     prefijo: document.documentElement.getAttribute('data-prefijo') || 'doce.',
 
+    // Pantalla que se abre sin hash en la dirección.
+    rutaInicial: document.documentElement.getAttribute('data-inicio') || '/inicio',
+
     // Al cambiar los datos de ejemplo se sube este número y se vuelven a cargar.
-    versionDatos: 1,
+    versionDatos: 2,
 
     // RNF04. La sesión y el bloqueo usan siempre el reloj real.
     segundosInactividad: inactividad > 0 ? inactividad : 30 * 60,

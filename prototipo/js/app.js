@@ -136,8 +136,6 @@
   }
 
   // Las rutas reales se registran antes que estas, así que tienen prioridad.
-  pendiente('/inicio', 'Inicio', 'inicio', 2);
-  pendiente('/calendario', 'Calendario de actividades', 'calendario', 2);
   pendiente('/directorio', '¿A quién puedo acudir?', 'directorio', 3);
   pendiente('/lineas', 'Líneas de ayuda', 'lineas', 3);
   pendiente('/material', 'Material informativo', 'material', 6);

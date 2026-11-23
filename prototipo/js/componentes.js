@@ -75,6 +75,7 @@
         <p class="alerta-titulo">${a.titulo}</p>
         ${a.texto ? html`<p class="alerta-texto">${a.texto}</p>` : ''}
         ${a.lista || ''}
+        ${a.accion || ''}
       </div>
     </div>`;
   };
@@ -197,7 +198,7 @@
     } else {
       texto = 'Consulta las líneas de ayuda disponibles.';
     }
-    return html`<aside class="franja" aria-label="Ayuda inmediata">
+    return html`<aside class="franja${destacadas.length > 1 ? ' franja-varias' : ''}" aria-label="Ayuda inmediata">
       <div class="franja-texto">
         <span class="redondo">${icono('salvavidas')}</span>
         <div>
@@ -209,7 +210,7 @@
         ${destacadas.map(function (l) {
           var tel = DOCE.util.enlaceTelefono(l.telefono);
           if (!tel) return html`<span class="franja-titulo">${l.nombre}: ${l.telefono}</span>`;
-          return html`<a class="boton boton-primario" href="${tel}">${icono('telefono')}<span>${una ? 'Llamar al ' : l.nombre + ' · '}${l.telefono}</span></a>`;
+          return html`<a class="boton boton-primario" href="${tel}">${icono('telefono')}<span>${una ? 'Llamar al ' : html`<span class="franja-nombre">${l.nombre} </span>`}<span class="franja-numero">${l.telefono}</span></span></a>`;
         })}
         <a class="boton boton-fantasma" href="#/lineas" aria-label="Ver todas las líneas"><span>Ver todas<span class="franja-largo"> las líneas</span></span></a>
       </div>

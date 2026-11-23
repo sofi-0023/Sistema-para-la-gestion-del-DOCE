@@ -44,9 +44,9 @@
   };
 
   function analizar() {
-    var hash = window.location.hash || '#/inicio';
+    var hash = window.location.hash || '#' + DOCE.config.rutaInicial;
     var partes = hash.slice(1).split('?');
-    var ruta = partes[0].replace(/\/+$/, '') || '/inicio';
+    var ruta = partes[0].replace(/\/+$/, '') || DOCE.config.rutaInicial;
     var consulta = new URLSearchParams(partes.slice(1).join('?'));
     return { hash: hash, ruta: ruta, consulta: consulta };
   }
@@ -88,7 +88,9 @@
       var s = DOCE.sesion.estado();
       if (s !== 'activa') {
         if (s === 'expirada') DOCE.sesion.cerrar();
-        R.ir('#/acceso?estado=' + (s === 'expirada' ? 'expirada' : 'protegido') + '&destino=' + encodeURIComponent(armarHash(a.ruta, a.consulta)), true);
+        // RF06 CA21: operaciones sobre líneas de ayuda sin permisos
+        var motivo = s === 'expirada' ? 'expirada' : /^\/admin\/lineas\/./.test(a.ruta) ? 'sin-permisos' : 'protegido';
+        R.ir('#/acceso?estado=' + motivo + '&destino=' + encodeURIComponent(armarHash(a.ruta, a.consulta)), true);
         return;
       }
       DOCE.sesion.tocar();

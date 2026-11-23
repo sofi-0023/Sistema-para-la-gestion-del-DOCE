@@ -57,6 +57,13 @@
           fechaInicio: '2026-11-27', horaInicio: '10:00', fechaFin: '2026-11-27', horaFin: '11:30',
           lugar: 'Aula 5, edificio A', enlace: '', organizador: 'Psicología FMAT',
           editado: '2026-11-07T13:20'
+        },
+        {
+          id: 'taller-mindfulness', nombre: 'Taller de mindfulness', estado: 'publicada', modalidad: 'presencial',
+          descripcion: 'Práctica guiada de atención plena para cerrar el semestre con más calma. No necesitas experiencia.',
+          fechaInicio: '2026-12-02', horaInicio: '12:00', fechaFin: '2026-12-02', horaFin: '13:30',
+          lugar: 'Sala de usos múltiples, edificio B, planta alta', enlace: '', organizador: 'Psicología FMAT',
+          editado: '2026-11-05T16:10'
         }
       ],
 
@@ -155,7 +162,7 @@
           id: 'saptel', nombre: 'SAPTEL', ambito: 'nacional',
           institucion: 'Sistema Nacional de Apoyo, Consejo Psicológico e Intervención en Crisis por Teléfono', telefono: '55 5259 8121',
           apoyo: 'Apoyo psicológico por teléfono', horario: '24 horas, todos los días', gratuita: true,
-          sitio: 'https://www.saptel.org.mx', correo: '', destacada: false, editado: '2026-11-02T10:00'
+          sitio: 'https://www.saptel.org.mx', correo: '', destacada: true, editado: '2026-11-02T10:00'
         }
       ],
 
@@ -187,9 +194,9 @@
           'Cómo reconocer la ansiedad antes de un examen y qué hacer el día anterior.',
           'Cómo reconocer la ansiedad antes de un examen, qué hacer el día anterior y cómo retomar la calma durante la prueba.',
           { formato: 'PDF', tamano: '910 KB', paginas: 2 }),
-        material('organizar-semana', 'Organiza tu semana', 'video', '2026-10-26', 'Organización', 'Orientación académica FMAT',
-          'Tres pasos para planear tu semana sin saturarla.',
-          'Tres pasos para planear tu semana sin saturarla, con ejemplos de horarios de estudiantes de la facultad.',
+        material('manejo-estres', 'Manejo del estrés: respira y organízate', 'video', '2026-10-26', 'Estrés', 'Psicología FMAT',
+          'Tres técnicas breves para manejar el estrés en temporada de exámenes.',
+          'Tres técnicas breves para manejar el estrés en temporada de exámenes, con ejemplos de estudiantes de la facultad.',
           { duracion: '6 min 45 s', plataforma: 'YouTube', origen: 'https://www.youtube.com/' }),
         material('redes-apoyo', 'Construye tu red de apoyo', 'documento', '2026-10-21', 'Redes de apoyo', 'Trabajo social FMAT',
           'Ejercicio escrito para identificar a las personas con las que cuentas.',

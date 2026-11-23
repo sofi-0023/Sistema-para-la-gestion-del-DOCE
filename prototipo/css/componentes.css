@@ -162,7 +162,7 @@
   text-decoration: none;
 }
 .filtro:hover { background: var(--azul-bruma); color: var(--azul-295); }
-.filtro[aria-current="true"] { background: var(--azul-295); border-color: var(--azul-295); color: var(--papel); }
+.filtro[aria-current="true"], .filtro[aria-pressed="true"] { background: var(--azul-295); border-color: var(--azul-295); color: var(--papel); }
 
 /* Alerta */
 .alerta {
