@@ -81,7 +81,7 @@
 .pagina-cabeza { display: flex; flex-direction: column; gap: var(--e-2); margin-bottom: clamp(20px, 3vw, 32px); }
 
 /* Franja de ayuda: queda pegada al borde inferior mientras se recorre la página (RF06.2) */
-.franja-lugar { position: sticky; bottom: 0; z-index: 10; padding-block: var(--e-2); }
+.franja-lugar { position: sticky; bottom: 0; z-index: 10; padding-block: var(--e-2); background: linear-gradient(to bottom, transparent, var(--lienzo) 50%); }
 .franja {
   display: flex;
   flex-wrap: wrap;
@@ -237,3 +237,37 @@
 
 /* ---------- Detalle de actividad ---------- */
 .detalle-titulo { display: flex; align-items: flex-start; gap: var(--e-4); margin-top: var(--e-1); font-size: var(--t-titulo-2); }
+
+/* ---------- Directorio ---------- */
+.directorio-filtros { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--e-4); }
+.buscador { position: relative; flex: 1 1 280px; max-width: 420px; }
+.buscador .icono { position: absolute; left: 16px; top: 14px; color: var(--tinta-3); pointer-events: none; }
+.campo.buscador input[type="search"] { padding-left: 46px; background: var(--papel); }
+.directorio-cuenta { margin: var(--e-4) 0; }
+.directorio { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: var(--e-6); }
+.persona-tarjeta { display: flex; flex-direction: column; gap: var(--e-4); }
+.persona-tarjeta .boton { align-self: flex-start; margin: auto 0 0 -12px; text-align: left; }
+.persona-cabeza { display: flex; align-items: center; gap: var(--e-4); padding-bottom: var(--e-4); border-bottom: 1px solid var(--linea-suave); }
+.persona-cabeza > div { min-width: 0; }
+.persona-iniciales { display: inline-flex; align-items: center; justify-content: center; flex: none; width: 56px; height: 56px; border-radius: 50%; background: var(--azul-bruma); color: var(--azul-295); font-family: var(--fuente-titulo); font-size: var(--t-titulo-4); font-weight: 600; }
+.persona-titulo { font-family: var(--fuente-texto); font-size: var(--t-cuerpo); font-weight: 700; letter-spacing: 0; }
+.persona-puesto { color: var(--azul-70); }
+.persona-datos { display: flex; flex-direction: column; gap: 6px; color: var(--tinta-2); }
+.persona-datos li { display: flex; gap: var(--e-2); align-items: flex-start; overflow-wrap: anywhere; }
+.persona-datos .icono { margin-top: 3px; color: var(--tinta-3); }
+
+/* ---------- Líneas de ayuda ---------- */
+.lineas-911 { margin-bottom: var(--e-6); }
+.lineas-filtros { margin-bottom: var(--e-6); }
+.lineas-grupos { gap: var(--e-6); }
+.lineas-pie { margin-top: var(--e-5); }
+.linea-cabeza { padding-bottom: var(--e-4); }
+.linea { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--e-3) var(--e-6); padding: var(--e-4) 0; border-top: 1px solid var(--linea-suave); }
+.linea-datos { display: flex; flex-direction: column; gap: 2px; flex: 1 1 320px; min-width: 0; }
+.linea-nombre { font-family: var(--fuente-texto); font-size: var(--t-cuerpo); font-weight: 700; letter-spacing: 0; }
+.linea-horario { display: flex; align-items: flex-start; gap: 6px; color: var(--tinta-2); }
+.linea-horario .icono { margin-top: 3px; color: var(--tinta-3); }
+.linea-canal { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; overflow-wrap: anywhere; }
+.linea-contacto { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: var(--e-3) var(--e-5); text-align: right; }
+.linea-telefono { font-size: var(--t-titulo-4); font-weight: 700; color: var(--azul-295); }
+@media (max-width: 767px) { .linea-contacto { justify-content: space-between; width: 100%; text-align: left; } }

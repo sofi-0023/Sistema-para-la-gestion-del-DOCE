@@ -136,8 +136,6 @@
   }
 
   // Las rutas reales se registran antes que estas, así que tienen prioridad.
-  pendiente('/directorio', '¿A quién puedo acudir?', 'directorio', 3);
-  pendiente('/lineas', 'Líneas de ayuda', 'lineas', 3);
   pendiente('/material', 'Material informativo', 'material', 6);
   pendiente('/fotogaleria', 'Fotogalería', 'fotogaleria', 6);
   pendiente('/tutorias', 'Tutorías y guías de carrera', 'tutorias', 6);

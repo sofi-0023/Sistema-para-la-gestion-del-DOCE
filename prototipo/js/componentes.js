@@ -138,7 +138,7 @@
     return html`<dialog class="dialogo" aria-labelledby="capa-titulo">
       <div class="pila">
         ${d.icono ? html`<span class="redondo redondo-${d.tono || 'azul'}">${icono(d.icono, 'icono-l')}</span>` : ''}
-        <h2 id="capa-titulo" tabindex="-1">${d.titulo}</h2>
+        <div>${d.etiqueta ? html`<p class="nota">${d.etiqueta}</p>` : ''}<h2 id="capa-titulo" tabindex="-1">${d.titulo}</h2></div>
         ${d.texto ? html`<p class="secundario">${d.texto}</p>` : ''}
         ${d.cuerpo || ''}
         <div class="dialogo-acciones">${d.acciones}</div>
