@@ -149,3 +149,19 @@
   .form-dos { grid-template-columns: minmax(0, 1fr); }
   .form-pie .boton { flex: 1 1 140px; }
 }
+
+/* ---------- Selección, material y fotos ---------- */
+.barra-seleccion { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e-2); padding-bottom: var(--e-4); margin-bottom: var(--e-2); }
+.barra-seleccion > span { flex: 1 1 200px; }
+.celda-opcion { justify-content: center; min-width: 44px; }
+.fila-retirada .fila-nombre { color: var(--tinta-3); }
+.campo input[type="file"] { padding: 8px 14px; }
+.campo input[type="file"]::file-selector-button { margin-right: var(--e-3); padding: 4px 12px; border: 2px solid var(--azul-295); border-radius: var(--radio-s); background: var(--papel); color: var(--azul-295); font: inherit; font-weight: 700; cursor: pointer; }
+.galeria-admin { grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); }
+.foto-elegir { display: block; border-radius: var(--radio-m); cursor: pointer; }
+.foto-elegir:has(input:checked) .foto-caja { box-shadow: 0 0 0 3px var(--azul-295); }
+.foto-nueva { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: var(--e-4); padding-top: var(--e-4); border-top: 1px solid var(--linea-suave); }
+.foto-nueva img { width: 104px; height: 104px; object-fit: cover; border-radius: var(--radio-s); }
+.foto-mini { flex: none; width: 88px; }
+.foto-mini .foto-caja { border-radius: var(--radio-s); }
+@media (max-width: 479px) { .foto-nueva { grid-template-columns: minmax(0, 1fr); } }

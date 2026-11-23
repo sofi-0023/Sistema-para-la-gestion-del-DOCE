@@ -1,4 +1,4 @@
-/* Arranque, pantallas generales y pantallas que aún no se construyen. */
+/* Arranque, página no encontrada y catálogo de componentes. */
 (function () {
   'use strict';
 
@@ -118,28 +118,9 @@
         titulo: 'Marco de administración', entrada: 'Muestra del marco, sin datos. El panel real pide iniciar sesión.',
         migas: [['Catálogo', '#/componentes'], ['Marco de administración']],
         acciones: html`<a class="boton boton-secundario" href="#/componentes">Volver al catálogo</a>`
-      })}<div class="tarjeta">${C.vacio({ icono: 'calendario', titulo: 'Aquí va el contenido', texto: 'Los bloques 4, 5 y 7 llenan esta zona.' })}</div>`;
+      })}<div class="tarjeta">${C.vacio({ icono: 'calendario', titulo: 'Aquí va el contenido', texto: 'Aquí se muestran las listas y formularios del panel.' })}</div>`;
     }
   });
-
-  /* ---------- Pantallas pendientes: se sustituyen al construir cada bloque ---------- */
-
-  function pendiente(patron, titulo, seccion, bloque, marco) {
-    DOCE.rutas.agregar(patron, {
-      titulo: titulo, seccion: seccion, marco: marco,
-      vista: function () {
-        var cuerpo = html`${marco === 'admin' ? C.cabezaAdmin({ titulo: titulo }) : C.cabezaPublica(titulo)}
-          <div class="tarjeta">${C.vacio({ icono: 'info', titulo: 'Pantalla en construcción', texto: 'Se construye en el bloque ' + bloque + '.' })}</div>`;
-        return marco === 'admin' ? cuerpo : html`<div class="contenedor pagina">${cuerpo}</div>`;
-      }
-    });
-  }
-
-  // Las rutas reales se registran antes que estas, así que tienen prioridad.
-  pendiente('/admin/material', 'Material informativo', 'material', 7, 'admin');
-  pendiente('/admin/fotos', 'Fotogalería', 'fotos', 7, 'admin');
-  pendiente('/admin/directorio', 'Directorio', 'directorio', 7, 'admin');
-  pendiente('/admin/tutorias', 'Tutorías y guías', 'tutorias', 7, 'admin');
 
   DOCE.rutas.iniciar();
 })();
