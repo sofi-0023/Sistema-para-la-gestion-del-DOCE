@@ -100,3 +100,51 @@
 .panel-cambios li .icono { margin-top: 2px; color: var(--tinta-3); }
 .panel-cambios .fila-cuerpo { flex: 1 1 220px; }
 @media (max-width: 1199px) { .panel-rejilla { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---------- Listas de administración ---------- */
+.pestanas { display: flex; flex-wrap: wrap; gap: var(--e-2); margin-bottom: var(--e-4); border-bottom: 1px solid var(--linea-suave); }
+.pestanas a { display: inline-flex; align-items: center; min-height: 48px; padding: 4px 16px; border-bottom: 3px solid transparent; color: var(--tinta-2); font-weight: 700; text-decoration: none; }
+.pestanas a:hover { color: var(--azul-295); }
+.pestanas a[aria-current="page"] { border-bottom-color: var(--dorado); color: var(--azul-295); }
+.lista-filtros { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--e-3); margin-bottom: var(--e-4); }
+.lista-nota { display: flex; gap: var(--e-2); margin-top: var(--e-4); color: var(--tinta-3); }
+.lista-nota .icono { margin-top: 3px; }
+.tabla { width: 100%; }
+.tabla th { padding: var(--e-2) var(--e-3); background: var(--apagado); text-align: left; color: var(--tinta-2); }
+.tabla td { padding: var(--e-3); border-bottom: 1px solid var(--linea-suave); vertical-align: middle; }
+.celda-nombre > span { display: block; }
+.acciones-fila { display: flex; flex-wrap: wrap; gap: var(--e-2); }
+@media (max-width: 1199px) {
+  /* Cada renglón se vuelve una tarjeta */
+  .tabla, .tabla tbody, .tabla tr, .tabla td { display: block; }
+  .tabla thead { display: none; }
+  .tabla tr { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e-2) var(--e-3); padding: var(--e-4) 0; border-bottom: 1px solid var(--linea-suave); }
+  .tabla td { padding: 0; border: 0; min-width: 0; }
+  .tabla .celda-nombre { flex: 1 1 200px; }
+  .tabla td:last-child { flex-basis: 100%; }
+  .tabla td[data-etiqueta]::before { content: attr(data-etiqueta) ": "; color: var(--tinta-3); }
+}
+
+/* ---------- Formularios ---------- */
+.form-rejilla { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 360px); gap: var(--e-6); align-items: start; }
+.formulario { gap: var(--e-5); }
+.form-seccion { padding-top: var(--e-5); border-top: 1px solid var(--linea-suave); }
+.form-dos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--e-4); align-items: start; }
+.form-pie { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--e-3); padding-top: var(--e-5); border-top: 1px solid var(--linea-suave); }
+.requisitos { display: flex; flex-direction: column; gap: var(--e-2); margin-top: var(--e-2); }
+.requisito { display: flex; align-items: flex-start; gap: var(--e-2); color: var(--tinta-2); }
+.requisito .icono { margin-top: 2px; }
+.requisito.cumple .icono { color: var(--exito); }
+.requisito.falta { color: var(--error); }
+/* Antes del primer intento de guardar, lo que falta no se muestra como error */
+[data-requisitos]:not(.enviado) .falta { color: var(--tinta-2); }
+.formulario .segmentos { align-self: flex-start; }
+.alerta .alerta-boton { margin-top: var(--e-3); padding: 8px 20px; display: inline-flex; color: var(--azul-295); }
+.resumen-elemento { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e-3) var(--e-4); padding: var(--e-4); border-radius: var(--radio-s); background: var(--lienzo); }
+.resumen-aviso { flex-direction: column; align-items: flex-start; border: 1px solid var(--linea-suave); }
+[data-resumen]:empty, [data-resultado]:empty { display: none; }
+@media (max-width: 1199px) { .form-rejilla { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 599px) {
+  .form-dos { grid-template-columns: minmax(0, 1fr); }
+  .form-pie .boton { flex: 1 1 140px; }
+}

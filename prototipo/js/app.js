@@ -139,7 +139,6 @@
   pendiente('/material', 'Material informativo', 'material', 6);
   pendiente('/fotogaleria', 'Fotogalería', 'fotogaleria', 6);
   pendiente('/tutorias', 'Tutorías y guías de carrera', 'tutorias', 6);
-  pendiente('/admin/actividades', 'Actividades y avisos', 'actividades', 5, 'admin');
   pendiente('/admin/lineas', 'Líneas de ayuda', 'lineas', 7, 'admin');
   pendiente('/admin/material', 'Material informativo', 'material', 7, 'admin');
   pendiente('/admin/fotos', 'Fotogalería', 'fotos', 7, 'admin');

@@ -274,7 +274,7 @@
     var saltar = app.querySelector('[data-saltar]');
     if (saltar) saltar.addEventListener('click', function (ev) {
       ev.preventDefault(); // el hash es de la navegación
-      var destino = app.querySelector('#contenido');
+      var destino = app.querySelector('#principal');
       destino.focus();
       destino.scrollIntoView();
     });

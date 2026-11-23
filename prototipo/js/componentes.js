@@ -229,7 +229,7 @@
   C.marcoPublico = function (seccion) {
     var depto = 'Departamento de Orientación y Consejo Educativo · FMAT';
     return html`<div class="publico">
-      <a class="saltar" href="#contenido" data-saltar>Saltar al contenido</a>
+      <a class="saltar" href="#principal" data-saltar>Saltar al contenido</a>
       <header class="encabezado">
         <div class="contenedor encabezado-fila">
           ${marca('#/inicio', depto, 'logo-doce-color.svg')}
@@ -249,7 +249,7 @@
           <div><a class="acceso" href="#/acceso">${icono('candado', 'icono-s')}Acceso DOCE</a></div>
         </div>
       </dialog>
-      <main id="contenido" tabindex="-1">
+      <main id="principal" tabindex="-1">
         <div data-vista></div>
         <div class="contenedor franja-lugar" data-franja></div>
       </main>
@@ -266,7 +266,7 @@
   C.marcoAdmin = function (seccion) {
     var p = DOCE.config.persona;
     return html`<div class="admin">
-      <a class="saltar" href="#contenido" data-saltar>Saltar al contenido</a>
+      <a class="saltar" href="#principal" data-saltar>Saltar al contenido</a>
       <header class="lateral">
         <div class="lateral-barra">
           ${marca('#/admin', 'Panel de administración', 'logo-doce-una-tinta-blanco.svg')}
@@ -284,12 +284,12 @@
           </div>
         </div>
       </header>
-      <main id="contenido" tabindex="-1"><div class="admin-contenido" data-vista></div></main>
+      <main id="principal" tabindex="-1"><div class="admin-contenido" data-vista></div></main>
     </div>`;
   };
 
   C.marcoLimpio = function () {
-    return html`<main id="contenido" class="limpio" tabindex="-1"><div data-vista></div></main>`;
+    return html`<main id="principal" class="limpio" tabindex="-1"><div data-vista></div></main>`;
   };
 
   /* Encabezado de página */
