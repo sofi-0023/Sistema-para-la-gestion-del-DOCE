@@ -154,7 +154,6 @@
 .barra-seleccion { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e-2); padding-bottom: var(--e-4); margin-bottom: var(--e-2); }
 .barra-seleccion > span { flex: 1 1 200px; }
 .celda-opcion { justify-content: center; min-width: 44px; }
-.fila-retirada .fila-nombre { color: var(--tinta-3); }
 .campo input[type="file"] { padding: 8px 14px; }
 .campo input[type="file"]::file-selector-button { margin-right: var(--e-3); padding: 4px 12px; border: 2px solid var(--azul-295); border-radius: var(--radio-s); background: var(--papel); color: var(--azul-295); font: inherit; font-weight: 700; cursor: pointer; }
 .galeria-admin { grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); }

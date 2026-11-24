@@ -156,7 +156,7 @@ RF06.2 (acceso rápido): franja en todas las páginas públicas. RF06.5 (adverte
 | CA6 Video | P06c `#/material/hablemos-bienestar` (reproducción simulada) | Cumple |
 | CA7 Documento o folleto | `#/material/guia-crisis` · `#/material/cuidar-de-ti` | Cumple |
 | CA8 Regresar | Botón Regresar del detalle | Cumple |
-| CA9 Retirado | `#/material/hablemos-bienestar?estado=retirado` (o retirarlo en otra pestaña) · `#/material/protocolo-2025` | Cumple |
+| CA9 Eliminado | `#/material/hablemos-bienestar?estado=no-disponible` (o eliminarlo en otra pestaña) | Cumple |
 | CA10 Error de carga | `#/material?estado=error` · `#/material/guia-crisis?estado=error` | Cumple (E) |
 | CA11 Enlace no disponible | `#/material/hablemos-bienestar?estado=enlace` | Cumple (E) |
 
@@ -169,7 +169,7 @@ RF06.2 (acceso rápido): franja en todas las páginas públicas. RF06.5 (adverte
 | CA3 Eliminar | A15 `#/admin/material/guia-crisis/eliminar` | Cumple |
 | CA4 Sin seleccionar | `#/admin/material`, Actualizar o Eliminar de la barra | Cumple |
 | CA5 Cancelar | Cancelar en las tres | Cumple |
-| CA6 Ya no disponible | `#/admin/material/duelo/editar?estado=no-disponible` (o retirarlo en otra pestaña) | Cumple |
+| CA6 Ya no disponible | `#/admin/material/duelo/editar?estado=no-disponible` (o eliminarlo en otra pestaña) | Cumple |
 | CA7 Solo administrador | Sin sesión: `#/admin/material` | Cumple |
 
 ## RF09 - Fotogalería

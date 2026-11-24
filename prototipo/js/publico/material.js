@@ -82,7 +82,7 @@
   /* ---------- Detalle ---------- */
 
   function buscar(ctx) {
-    if (ctx.estado === 'retirado') return null;
+    if (ctx.estado === 'no-disponible') return null;
     return M.materialesPublicos().find(function (m) { return m.id === ctx.params.id; }) || null;
   }
 

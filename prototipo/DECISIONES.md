@@ -64,7 +64,7 @@ Decisiones tomadas al construir cuando los documentos no eran claros (se eligió
 |---|---|---|
 | 37 | Selección con barra Actualizar / Eliminar, y los botones por elemento como atajo | RF08 CA4 y RF09 CA4; las capturas solo tienen botones por fila |
 | 38 | Botones «Agregar», «Actualizar» y «Eliminar» | RF08 CA1 a CA3 y RF09 CA1 |
-| 39 | Un material eliminado queda como «Retirado» y se puede volver a publicar | RF08 lo elimina de la consulta pública, no del sistema |
+| 39 | Eliminar un material lo borra del sistema, tras confirmar «¿Eliminar permanentemente este material?». No hay estado «Retirado» ni «Volver a publicar» | Ni RF08 ni su caso de uso ni su historia de usuario mencionan retirar o volver a publicar (acordado con el responsable de RF08) |
 | 40 | Fotogalería en cuadrícula | RF09 CA8; la captura es un carrusel |
 | 41 | La descripción de la foto es obligatoria y sirve de texto alternativo | RF09 CA1 y RNF06 |
 | 42 | De los archivos subidos (material y guías) se guardan nombre, formato y tamaño; las descargas son PDF de ejemplo | El navegador no tiene espacio para el contenido |

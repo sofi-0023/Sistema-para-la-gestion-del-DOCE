@@ -75,7 +75,7 @@
     {
       id: 'T5', perfil: 'personal',
       objetivo: 'Crear y publicar una actividad (RF11, RF03.1, RF03.2, RNF01)',
-      instruccion: 'Eres parte del DOCE. Entra al sistema y publica la plática «Higiene del sueño» del 4 de diciembre a las 11:00 en el Auditorio, presencial, organizada por el DOCE. Usa las credenciales que te dieron en papel.',
+      instruccion: 'Eres parte del DOCE. Entra al sistema y publica la plática «Higiene del sueño» del 4 de diciembre a las 11:00 en el Auditorio, presencial, organizada por el DOCE. Usa el usuario y la contraseña que vienen en las instrucciones.',
       limiteSegundos: 180, limiteClics: null,
       rutaEsperada: ['/inicio', '/acceso', '/admin', '/admin/actividades', '/admin/actividades/nueva', '/admin/actividades/*/revisar', '/calendario'],
       meta: {

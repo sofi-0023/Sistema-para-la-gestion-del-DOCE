@@ -53,8 +53,7 @@
   var ESTADOS = {
     publicada: ['Publicada', 'exito'], publicado: ['Publicado', 'exito'],
     borrador: ['Borrador', 'dorado'],
-    cancelada: ['Cancelada', ''], cancelado: ['Cancelada', ''],
-    retirado: ['Retirado', '']
+    cancelada: ['Cancelada', ''], cancelado: ['Cancelada', '']
   };
   C.insigniaEstado = function (e) { return ESTADOS[e] ? C.insignia(ESTADOS[e][0], ESTADOS[e][1]) : ''; };
 

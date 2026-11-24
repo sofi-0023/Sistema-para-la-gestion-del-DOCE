@@ -166,7 +166,7 @@
         }
       ],
 
-      /* tipo: folleto | video | documento. estado: publicado | retirado */
+      /* tipo: folleto | video | documento. estado: publicado */
       materiales: [
         material('cuidar-de-ti', 'Cuidar de ti en la universidad', 'folleto', '2026-11-08', 'Autocuidado', 'DOCE FMAT',
           'Señales de alerta, estrategias para afrontar el estrés y lugares a los que puedes acudir dentro de la facultad.',
@@ -224,7 +224,7 @@
           { formato: 'PDF', tamano: '1.1 MB', paginas: 8 }),
         material('protocolo-2025', 'Protocolo de atención del DOCE (versión 2025)', 'documento', '2025-08-18', 'Servicios', 'DOCE FMAT',
           'Versión anterior del protocolo de atención.', 'Versión anterior del protocolo de atención.',
-          { formato: 'PDF', tamano: '590 KB', paginas: 7, estado: 'retirado' })
+          { formato: 'PDF', tamano: '590 KB', paginas: 7 })
       ],
 
       /* imagen: null = recuadro de ejemplo; las que suba el administrador son data URI */
