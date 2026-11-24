@@ -9,8 +9,8 @@ Cada requisito está refinado y tiene su carpeta con **historia de usuario** (co
 | RF03 | Crear y publicar actividades y avisos | Must | CU-03.1 a CU-03.4 | RF - 03 |
 | RF04 | Editar y cancelar actividades y avisos | Must | CU-04.1, CU-04.2 | RF - 04 |
 | RF05 | Contactos y horarios | Must | CU-05 | RF - 05 |
-| RF06 | Líneas de ayuda | Must | CU-06.1 a CU-06.4 | RF - 06 |
-| RF07 | Material informativo | Should | CU-07.1, CU-07.2 | RF - 07 |
+| RF06 | Gestión y visualización de líneas de ayuda | Must | CU-06.1 a CU-06.4 | RF - 06 |
+| RF07 | Consultar material informativo | Should | CU-07.1, CU-07.2 | RF - 07 |
 | RF08 | Gestionar material | Should | CU-08 | RF - 08 |
 | RF09 | Fotogalería | Could | CU-09 | RF - 09 |
 | RF10 | Tutorías y guías | Could | CU-13 | RF - 10 |
@@ -50,7 +50,7 @@ El sistema deberá permitir al administrador registrar y publicar actividades y 
 
 El sistema permitirá a cualquier usuario, sin necesidad de iniciar sesión, consultar el directorio del Departamento de Orientación y Consejo Educativo, mostrando para cada persona: nombre completo, cargo o área de atención, ubicación física (edificio y planta), horario de atención, y correo institucional o teléfono.
 
-# RF06 - Líneas de ayuda
+# RF06 - Gestión y visualización de líneas de ayuda
 
 El sistema deberá permitir la consulta y gestión de las líneas de ayuda universitarias, así como de las líneas de disposición general locales, estatales y nacionales, organizadas por ámbito de atención (universitario, local, estatal y nacional). Cada línea pertenece a un solo ámbito.
 
@@ -60,7 +60,7 @@ El sistema deberá permitir la consulta y gestión de las líneas de ayuda unive
 * **RF06.4 - Modificar línea de ayuda (administrador):** El sistema permitirá al administrador autenticado modificar los datos de una línea de ayuda, con las mismas validaciones del RF06.3.
 * **RF06.5 - Eliminar línea de ayuda (administrador):** El sistema permitirá al administrador autenticado eliminar una línea de ayuda, previa confirmación explícita. Si la línea está marcada como "destacada", el sistema advertirá que dejará de aparecer en el acceso rápido (RF06.2).
 
-# RF07 - Material informativo
+# RF07 - Consultar material informativo
 
 El sistema mostrará a cualquier usuario, sin necesidad de iniciar sesión, el material informativo sobre salud mental que esté publicado, y permitirá seleccionar cualquiera de ellos para consultar sus detalles completos.
 
