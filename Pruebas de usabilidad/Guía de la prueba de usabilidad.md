@@ -94,18 +94,13 @@ Reglas:
 
 ### Códigos
 
-El modo de prueba solo acepta códigos con la letra **P y dos números**. Para que no se repitan, cada integrante usa su rango:
+El código sirve para no guardar nombres y para no mezclar los resultados. Es la letra **P** seguida de **tu número de integrante** y **el número de tu participante**:
 
-| Integrante | Estudiantes | Personal del DOCE |
-|---|---|---|
-| Sofía | P01 a P03 | P51 a P52 |
-| Jennyfer | P04 a P06 | P53 a P54 |
-| Daniel | P07 a P09 | P55 a P56 |
-| Gabriel | P10 a P12 | P57 a P58 |
-| Jahzeel | P13 a P15 | P59 a P60 |
-| Rafael | P16 a P18 | P61 a P62 |
+| Sofía | Jennyfer | Daniel | Gabriel | Jahzeel | Rafael |
+|---|---|---|---|---|---|
+| 1 | 2 | 3 | 4 | 5 | 6 |
 
-Cada quien lleva una lista privada (fuera del repositorio) de a quién le dio cada código, solo para saber a quién recordarle. Esa lista no se sube.
+Por ejemplo, Daniel es el 3: a su primer participante le da **P31**, al segundo **P32**, al tercero **P33**. Se lo escribe en el documento y listo.
 
 ### Antes de mandar el documento
 
@@ -309,7 +304,7 @@ vayan a participar.
 
 Es lo que describe el documento del participante. Cada CSV trae, por cada tarea: código, perfil, dispositivo, si la logró, tiempo, clics, ruta de pantallas, pantallas fuera de ruta, errores de formulario, facilidad, respuesta y la puntuación SUS ya calculada.
 
-1. Cada integrante guarda los CSV que recibe con el nombre del código: `P04.csv`, `P53.csv`.
+1. Cada integrante guarda los CSV que recibe con el nombre del código: `P31.csv`, `P32.csv`.
 2. Los sube a `Pruebas de usabilidad/Resultados/` (sección 12).
 3. Quien junte resultados los pega en una hoja de cálculo, una hoja por perfil. Todos tienen las mismas columnas, así que basta con copiar las filas debajo.
 
@@ -461,14 +456,14 @@ Pruebas de usabilidad/
 ├── Tareas.md                            (tareas finales de los dos perfiles)
 ├── Documento para el participante.md    (versión final que se mandó, sin códigos)
 ├── Resultados/
-│   ├── P01.csv, P02.csv...              (un CSV por participante)
+│   ├── P11.csv, P12.csv...              (un CSV por participante)
 │   ├── estudiantes.csv                  (todos los de estudiantes, juntos)
 │   ├── personal.csv
 │   └── formulario.csv                   (respuestas del plan B, si hubo)
 └── Reporte de la prueba de usabilidad.md
 ```
 
-Los CSV no traen nombres, solo códigos, así que se pueden subir. La lista de quién tiene cada código **no se sube**.
+Los CSV no traen nombres, solo códigos, así que se pueden subir. No se sube ninguna lista de quién tiene qué código.
 
 **Estructura del reporte:**
 
@@ -501,7 +496,7 @@ Para la presentación basta con: objetivo, una tabla de resultados, el puntaje S
 
 - [ ] Leer esta guía completa.
 - [ ] Escribir las tareas de mis RF con la plantilla (sección 7) y probarlas en el prototipo.
-- [ ] Invitar a **3 estudiantes** y, si puedo, a **1 o 2 personas** del perfil de personal, y darles un código de mi rango.
+- [ ] Invitar a **3 estudiantes** y, si puedo, a **1 o 2 personas** del perfil de personal, y darles su código (sección 4).
 - [ ] Mandarles el documento, recordarles el sábado y recibir su CSV.
 - [ ] Subir mis CSV a `Pruebas de usabilidad/Resultados/`.
 - [ ] Revisar los CSV de mis participantes y anotar los problemas (sección 11, paso 2).
