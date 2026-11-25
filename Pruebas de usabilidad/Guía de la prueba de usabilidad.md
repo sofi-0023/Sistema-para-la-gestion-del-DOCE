@@ -4,7 +4,7 @@ Todo lo que el equipo necesita para diseñar, enviar y reportar la prueba inform
 
 **Modalidad:** remota y sin moderador. Cada participante recibe un documento con el enlace al prototipo y las instrucciones, hace la prueba solo cuando le acomode y al final contesta la encuesta.
 
-**Prototipo:** https://prototipo-doce.netlify.app · modo de prueba en `prueba.html` (carpeta `prototipo/`, issue #76)
+**Prototipo:** https://prototipodoce.netlify.app · modo de prueba en `prueba.html` (carpeta `prototipo/`, issue #76)
 **Fecha límite de la entrega:** lunes 30 de noviembre
 
 ## Contenido
@@ -77,7 +77,7 @@ Reglas:
 ### Lo que hace el participante
 
 1. Abre el documento que le mandamos y lee la bienvenida.
-2. Entra a `https://prototipo-doce.netlify.app/prueba.html` **desde una ventana normal** (no de incógnito, porque ahí se puede perder lo que guarda).
+2. Entra a `https://prototipodoce.netlify.app/prueba.html` **desde una ventana normal** (no de incógnito, porque ahí se puede perder lo que guarda).
 3. Escribe su **código**, elige su **perfil** y su **dispositivo**, y pulsa **«Comenzar sesión»**.
 4. Lee cada tarea, pulsa **«Empezar tarea»** y la resuelve en el sitio. Cuando termina, pulsa **«Terminé»**; si no puede, **«No pude terminarla»**.
 5. Responde qué tan fácil fue cada tarea, la **encuesta SUS** y las **preguntas abiertas**.
@@ -252,7 +252,7 @@ sale, es justo lo que necesitamos saber para mejorarlo.
 ## Cómo hacer la prueba
 
 1. Abre este enlace en una ventana normal del navegador (no de incógnito):
-   **https://prototipo-doce.netlify.app/prueba.html**
+   **https://prototipodoce.netlify.app/prueba.html**
 2. Escribe tu código **[P__]**, elige el perfil **[Estudiante / Personal del DOCE]** y tu
    dispositivo, y pulsa **«Comenzar sesión»**.
 3. El sitio te mostrará unas tareas, una por una. Lee cada una, pulsa **«Empezar tarea»**
