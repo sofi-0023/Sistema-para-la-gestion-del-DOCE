@@ -31,7 +31,7 @@
   function tareaActual(s) { return tareasDe(s.perfil)[s.indice]; }
   function enTarea() { var s = curso(); return s && s.paso === 'haciendo' ? s : null; }
 
-  var RUTA_PASO = { bienvenida: '#/prueba/bienvenida', instruccion: '#/prueba/tarea', haciendo: '#/inicio', facilidad: '#/prueba/facilidad', encuesta: '#/prueba/encuesta', cierre: '#/prueba/cierre' };
+  var RUTA_PASO = { bienvenida: '#/prueba/bienvenida', instruccion: '#/prueba/tarea', haciendo: '#/inicio', facilidad: '#/prueba/facilidad', cierre: '#/prueba/cierre' };
 
   function pasar(s, paso) {
     s.paso = paso;
@@ -328,7 +328,7 @@
         if (!FM.mostrar(form, e)) return;
         restablecerPrototipo();
         visible = true;
-        var s = { id: U.nuevoId(codigo), codigo: codigo, perfil: d.perfil, dispositivo: d.dispositivo, ancho: window.innerWidth, fecha: new Date().toISOString(), indice: 0, registro: null, tareas: [], sus: [], puntajeSus: null, abiertas: [] };
+        var s = { id: U.nuevoId(codigo), codigo: codigo, perfil: d.perfil, dispositivo: d.dispositivo, ancho: window.innerWidth, fecha: new Date().toISOString(), indice: 0, registro: null, tareas: [] };
         pasar(s, 'bienvenida');
       });
     }
@@ -378,32 +378,7 @@
         s.tareas.push(s.registro);
         s.registro = null;
         s.indice++;
-        pasar(s, s.indice < tareasDe(s.perfil).length ? 'instruccion' : 'encuesta');
-      });
-    }
-  });
-
-  paso('/prueba/encuesta', 'encuesta', 'Encuesta de satisfacción', {
-    vista: function () {
-      var e = P.encuesta;
-      return pagina(html`<form class="pila" novalidate><div><h1 tabindex="-1">Encuesta de satisfacción</h1><p class="entrada">Responde según tu experiencia con el sitio. 1 = ${e.minimo.toLowerCase()}; ${e.puntos} = ${e.maximo.toLowerCase()}.</p></div>
-        <div data-resumen></div>
-        ${e.preguntas.map(function (p, i) { return html`<div class="tarjeta">${escala('p' + (i + 1), e.puntos, e.minimo, e.maximo, p, i + 1)}</div>`; })}
-        ${e.abiertas.map(function (p, i) { return html`<div class="tarjeta">${C.campo({ id: 'a' + (i + 1), etiqueta: p, tipo: 'area', ayuda: 'Opcional. No escribas tu nombre.' })}</div>`; })}
-        <div><button type="submit" class="boton boton-primario">Enviar respuestas</button></div></form>`);
-    },
-    montar: function (s, raiz) {
-      var form = raiz.querySelector('form');
-      FM.vigilar(form);
-      form.addEventListener('submit', function (ev) {
-        ev.preventDefault();
-        var d = FM.leer(form);
-        var e = {};
-        P.encuesta.preguntas.forEach(function (_, i) { if (!d['p' + (i + 1)]) e['p' + (i + 1)] = 'Responde la pregunta ' + (i + 1) + '.'; });
-        if (!FM.mostrar(form, e, { titulo: 'Faltan respuestas', texto: 'Responde las preguntas marcadas para continuar.' })) return;
-        s.sus = P.encuesta.preguntas.map(function (_, i) { return Number(d['p' + (i + 1)]); });
-        s.puntajeSus = P.encuesta.sus ? P.calcularSus(s.sus) : null;
-        s.abiertas = P.encuesta.abiertas.map(function (_, i) { return d['a' + (i + 1)]; });
+        if (s.indice < tareasDe(s.perfil).length) { pasar(s, 'instruccion'); return; }
         s.paso = 'cierre';
         if (!guardarSesion(s)) {
           FM.aviso(form, { tipo: 'error', titulo: 'No se pudieron guardar los resultados', texto: 'El almacenamiento del navegador está lleno. Descarga y borra sesiones anteriores e inténtalo de nuevo.' });
@@ -413,11 +388,6 @@
       });
     }
   });
-
-  // Impares: respuesta - 1. Pares: 5 - respuesta. Suma x 2.5
-  P.calcularSus = function (r) {
-    return r.reduce(function (t, v, i) { return t + (i % 2 === 0 ? v - 1 : 5 - v); }, 0) * 2.5;
-  };
 
   paso('/prueba/cierre', 'cierre', 'Fin de la prueba', {
     vista: function () {
@@ -449,11 +419,10 @@
   function resultados() {
     var lista = sesiones();
     if (!lista.length) return html`<section class="prueba-seccion" aria-labelledby="res-t"><h2 id="res-t">Resultados</h2><p class="tarjeta secundario">Aún no hay sesiones terminadas en este navegador.</p></section>`;
-    var sus = lista.map(function (s) { return s.puntajeSus; }).filter(function (v) { return v !== null; });
     return html`<section class="prueba-seccion" aria-labelledby="res-t">
       <div class="fila separados"><h2 id="res-t">Resultados (${U.plural(lista.length, 'sesión', 'sesiones')})</h2>
         <div class="fila"><button type="button" class="boton boton-secundario" data-csv>${icono('descarga')}Descargar CSV</button><button type="button" class="boton boton-secundario" data-json>${icono('descarga')}Descargar JSON</button></div></div>
-      <p class="secundario">Descarga antes de cerrar: los resultados se pierden si se borran los datos del navegador. SUS promedio: <strong>${num(promedio(sus))}</strong> (referencia: 68).</p>
+      <p class="secundario">Descarga antes de cerrar: los resultados se pierden si se borran los datos del navegador.</p>
       <div class="tarjeta"><h3 class="titulo-4">Por tarea</h3><table class="tabla"><caption class="solo-lector">Indicadores por tarea</caption>
         <thead><tr><th scope="col">Tarea</th><th scope="col">Éxito sin ayuda</th><th scope="col">Tiempo (mediana)</th><th scope="col">Clics (mediana)</th><th scope="col">Facilidad</th></tr></thead>
         <tbody>${P.tareas.map(function (t) {
@@ -467,10 +436,10 @@
             <td data-etiqueta="Facilidad">${num(promedio(r.map(function (x) { return x.facilidad; })))} de ${P.facilidad.puntos}</td></tr>`;
         })}</tbody></table></div>
       <div class="tarjeta"><h3 class="titulo-4">Sesiones</h3><table class="tabla"><caption class="solo-lector">Sesiones registradas</caption>
-        <thead><tr><th scope="col">Código</th><th scope="col">Perfil</th><th scope="col">Dispositivo</th><th scope="col">Tareas logradas</th><th scope="col">SUS</th><th scope="col">Acciones</th></tr></thead>
+        <thead><tr><th scope="col">Código</th><th scope="col">Perfil</th><th scope="col">Dispositivo</th><th scope="col">Tareas logradas</th><th scope="col">Acciones</th></tr></thead>
         <tbody>${lista.map(function (s) {
           return html`<tr><td class="celda-nombre"><span class="fila-nombre">${s.codigo}</span></td><td data-etiqueta="Perfil">${s.perfil === 'personal' ? 'Personal del DOCE' : 'Estudiante'}</td><td data-etiqueta="Dispositivo">${s.dispositivo}</td>
-            <td data-etiqueta="Logradas">${s.tareas.filter(exito).length} de ${s.tareas.length}</td><td data-etiqueta="SUS">${num(s.puntajeSus)}</td>
+            <td data-etiqueta="Logradas">${s.tareas.filter(exito).length} de ${s.tareas.length}</td>
             <td><a class="boton boton-secundario" href="#/prueba/sesion/${s.id}">Ver y anotar<span class="solo-lector"> ${s.codigo}</span></a></td></tr>`;
         })}</tbody></table></div>
     </section>`;
@@ -481,7 +450,7 @@
     vista: function (ctx) {
       var s = sesiones().find(function (x) { return x.id === ctx.params.id; });
       if (!s) return pagina(html`<h1 tabindex="-1">Sesión no encontrada</h1><p><a class="boton boton-primario" href="#/prueba">Volver</a></p>`);
-      return pagina(html`<div class="pagina-cabeza"><h1 tabindex="-1">Sesión ${s.codigo}</h1><p class="entrada">${s.perfil === 'personal' ? 'Personal del DOCE' : 'Estudiante'} · ${s.dispositivo} (${s.ancho} px) · SUS ${num(s.puntajeSus)}</p></div>
+      return pagina(html`<div class="pagina-cabeza"><h1 tabindex="-1">Sesión ${s.codigo}</h1><p class="entrada">${s.perfil === 'personal' ? 'Personal del DOCE' : 'Estudiante'} · ${s.dispositivo} (${s.ancho} px)</p></div>
         <div class="mensajes" data-mensajes></div>
         <form class="pila" novalidate><div data-resumen></div>${s.tareas.map(function (r) {
           var t = tareaPorId(r.id) || { objetivo: '', limiteSegundos: 0 };
@@ -495,7 +464,6 @@
             <label class="opcion"><input type="checkbox" name="ayuda-${r.id}"${r.ayuda ? html` checked` : ''}><span>Pidió o recibió ayuda (no cuenta como éxito sin ayuda)</span></label>
             ${C.campo({ id: 'nota-' + r.id, etiqueta: 'Nota del facilitador', tipo: 'area', valor: r.nota, ayuda: 'No escribas nombres.' })}</section>`;
         })}
-        <section class="tarjeta pila" aria-labelledby="abiertas-t"><h2 id="abiertas-t">Preguntas abiertas</h2>${P.encuesta.abiertas.map(function (p, i) { return html`<div><p><strong>${p}</strong></p><p class="secundario">${s.abiertas[i] || 'Sin respuesta'}</p></div>`; })}</section>
         <div class="form-pie"><a class="boton boton-secundario" href="#/prueba">Volver a la pantalla del facilitador</a>
           <div class="fila"><button type="button" class="boton boton-fantasma" data-borrar>${icono('basura')}Borrar sesión</button><button type="submit" class="boton boton-primario">Guardar notas</button></div></div></form>`);
     },
@@ -531,17 +499,15 @@
     return '"' + t.replace(/"/g, '""').replace(/\r?\n/g, ' ') + '"';
   }
 
-  // Una fila por participante y tarea, más el puntaje SUS
+  // Una fila por participante y tarea
   function csv() {
-    var filas = [['fecha', 'codigo', 'perfil', 'dispositivo', 'ancho_px', 'tarea', 'objetivo', 'lograda', 'forma', 'con_ayuda', 'exito_sin_ayuda', 'tiempo_s', 'limite_s', 'dentro_tiempo', 'clics', 'limite_clics', 'dentro_clics', 'errores_validacion', 'fuera_de_ruta', 'facilidad_1_7', 'respuesta', 'ruta', 'nota', 'sus']
-      .concat(P.encuesta.preguntas.map(function (_, i) { return 'sus_' + (i + 1); }), P.encuesta.abiertas.map(function (_, i) { return 'abierta_' + (i + 1); }))];
+    var filas = [['fecha', 'codigo', 'perfil', 'dispositivo', 'ancho_px', 'tarea', 'objetivo', 'lograda', 'forma', 'con_ayuda', 'exito_sin_ayuda', 'tiempo_s', 'limite_s', 'dentro_tiempo', 'clics', 'limite_clics', 'dentro_clics', 'errores_validacion', 'fuera_de_ruta', 'facilidad_1_7', 'respuesta', 'ruta', 'nota']];
     function si(v) { return v ? 'sí' : 'no'; }
     sesiones().forEach(function (s) {
       s.tareas.forEach(function (r) {
         var t = tareaPorId(r.id) || {};
         filas.push([s.fecha, s.codigo, s.perfil, s.dispositivo, s.ancho, r.id, t.objetivo, si(r.lograda), r.forma, si(r.ayuda), si(exito(r)), segundos(r), t.limiteSegundos,
-          t.limiteSegundos ? si(segundos(r) <= t.limiteSegundos) : '', r.clics, t.limiteClics, t.limiteClics ? si(r.clics <= t.limiteClics) : '', r.errores, r.fueraDeRuta, r.facilidad, r.respuesta, r.ruta.join(' > '), r.nota, s.puntajeSus]
-          .concat(s.sus, s.abiertas));
+          t.limiteSegundos ? si(segundos(r) <= t.limiteSegundos) : '', r.clics, t.limiteClics, t.limiteClics ? si(r.clics <= t.limiteClics) : '', r.errores, r.fueraDeRuta, r.facilidad, r.respuesta, r.ruta.join(' > '), r.nota]);
       });
     });
     return '﻿' + filas.map(function (f) { return f.map(celda).join(','); }).join('\r\n');

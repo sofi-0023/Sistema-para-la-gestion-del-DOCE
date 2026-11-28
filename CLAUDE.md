@@ -39,7 +39,7 @@ y dímelo en tu respuesta.
 ## Modo de prueba de usabilidad
 - Vive en `prueba.html`, `js/prueba.js` y `js/tareas.js`. No debe cambiar el comportamiento del prototipo
   cuando se abre sin modo de prueba.
-- Las tareas y la encuesta se configuran solo en `js/tareas.js`.
+- Las tareas se configuran solo en `js/tareas.js`. La encuesta de satisfacción va aparte, en Microsoft Forms.
 - No se guardan nombres ni datos personales del participante, solo un código (P01, P02...).
 
 ## Cómo trabajar conmigo
