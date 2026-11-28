@@ -1,0 +1,73 @@
+/* Tokens de diseño. Única fuente de colores y tipografía del prototipo.
+   Valores de "Diseño/Wireframes/Wireframes y prototipo.md" (paleta 1c). */
+:root {
+  /* Texto */
+  --tinta: #0B1526;
+  --tinta-2: #3A4352;
+  --tinta-3: #5E6878;
+
+  /* Marca */
+  --azul-295: #002855;
+  --azul-70: #1F4E8C;
+  --azul-bruma: #E8EEF6;
+  --dorado: #C69214;
+  --dorado-20: #F4E9CF;
+  --dorado-texto: #5C4409;
+
+  /* Superficie */
+  --papel: #FFFFFF;
+  --lienzo: #F6F7F9;
+  --apagado: #F1F3F6;
+
+  /* Borde */
+  --linea: #D6DBE3;
+  --linea-suave: #E7EAF0;
+
+  /* Estado */
+  --exito: #1E6B4F;
+  --exito-20: #E3F1EA;
+  --error: #A3261E;
+  --error-20: #FBEAE8;
+
+  /* Derivados de los tokens anteriores (sin colores nuevos) */
+  --velo: color-mix(in srgb, var(--tinta) 60%, transparent);
+  --azul-activo: color-mix(in srgb, var(--azul-295) 88%, var(--papel));
+  --error-activo: color-mix(in srgb, var(--error) 88%, var(--tinta));
+  --sombra-panel: 0 16px 40px color-mix(in srgb, var(--tinta) 24%, transparent);
+  /* El borde de los campos necesita 3:1 contra el fondo (WCAG 1.4.11) */
+  --borde-campo: color-mix(in srgb, var(--tinta-3) 80%, var(--papel));
+  --borde-franja: color-mix(in srgb, var(--dorado) 45%, var(--dorado-20));
+
+  /* Tipografía */
+  --fuente-titulo: "Newsreader", Georgia, "Times New Roman", serif;
+  --fuente-texto: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Verdana, "Segoe UI", sans-serif;
+  --t-display: clamp(2.25rem, 1.6rem + 2.4vw, 3rem);         /* 36 a 48 */
+  --t-titulo-1: clamp(1.875rem, 1.5rem + 1.4vw, 2.4375rem);  /* 30 a 39 */
+  --t-titulo-2: clamp(1.5rem, 1.3rem + 0.8vw, 1.9375rem);    /* 24 a 31 */
+  --t-titulo-3: clamp(1.3125rem, 1.2rem + 0.5vw, 1.5625rem); /* 21 a 25 */
+  --t-titulo-4: 1.25rem;    /* 20 */
+  --t-cuerpo-l: 1.125rem;   /* 18 */
+  --t-cuerpo: 1rem;         /* 16 */
+  --t-etiqueta: 0.875rem;   /* 14, solo etiquetas cortas y metadatos */
+
+  /* Espacio (base 4 px) */
+  --e-1: 4px;
+  --e-2: 8px;
+  --e-3: 12px;
+  --e-4: 16px;
+  --e-5: 20px;
+  --e-6: 24px;
+  --e-8: 32px;
+  --e-10: 40px;
+  --e-12: 48px;
+  --e-16: 64px;
+
+  /* Forma y medidas */
+  --radio-s: 8px;
+  --radio-m: 12px;
+  --radio-l: 16px;
+  --radio-total: 999px;
+  --toque: 44px;
+  --ancho: 1200px;
+  --margen: clamp(16px, 4vw, 40px);
+}
