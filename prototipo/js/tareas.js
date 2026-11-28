@@ -101,29 +101,6 @@
     minimo: 'Muy difícil', maximo: 'Muy fácil', puntos: 7
   };
 
-  /* Encuesta SUS: las impares son positivas y las pares negativas. Si se cambia por otra
-     encuesta, poner sus: false para no calcular el puntaje. */
-  DOCE.prueba.encuesta = {
-    sus: true, puntos: 5, minimo: 'Totalmente en desacuerdo', maximo: 'Totalmente de acuerdo',
-    preguntas: [
-      'Creo que me gustaría usar este sitio con frecuencia.',
-      'Encontré el sitio innecesariamente complejo.',
-      'Pensé que el sitio era fácil de usar.',
-      'Creo que necesitaría ayuda de una persona con conocimientos técnicos para usar este sitio.',
-      'Encontré que las distintas funciones del sitio estaban bien integradas.',
-      'Pensé que había demasiada inconsistencia en el sitio.',
-      'Imagino que la mayoría de las personas aprendería a usar este sitio muy rápido.',
-      'Encontré el sitio muy difícil de usar.',
-      'Me sentí con confianza al usar el sitio.',
-      'Necesité aprender muchas cosas antes de poder usar el sitio.'
-    ],
-    abiertas: [
-      '¿Qué fue lo más fácil de hacer?',
-      '¿Qué fue lo más difícil o confuso?',
-      '¿Qué cambiarías o agregarías?'
-    ]
-  };
-
   // Meta de RNF01: porcentaje de personas que completa cada tarea sin ayuda
   DOCE.prueba.metaExito = 80;
 })();

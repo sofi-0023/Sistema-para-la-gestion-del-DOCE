@@ -29,14 +29,14 @@ Los cambios se guardan en el navegador (`localStorage`); **Restablecer datos de 
 ## Cómo correr una prueba
 
 1. Abre `prueba.html`, escribe el código (P01, P02...), elige perfil y dispositivo, y «Comenzar sesión». Los datos se restablecen solos.
-2. Entrega el equipo al participante: bienvenida, tareas, pregunta de facilidad y encuesta SUS.
+2. Entrega el equipo al participante: bienvenida, tareas y pregunta de facilidad. La encuesta de satisfacción se aplica aparte, en Microsoft Forms.
 3. Al terminar, «Facilitador: ver resumen» para marcar si hubo ayuda y anotar.
 4. En la pantalla del facilitador, **Descargar CSV** o **Descargar JSON** antes de cerrar. Los resultados solo están en ese navegador.
 
 Para el perfil de personal, entrega las credenciales en papel. Si alguien cierra la página, al volver a abrir `prueba.html` la sesión se puede continuar.
 Las llamadas, correos y enlaces externos no salen del prototipo durante la prueba.
 
-**Tareas y encuesta:** se editan solo en `js/tareas.js`.
+**Tareas:** se editan solo en `js/tareas.js`.
 
 ## Estructura
 
