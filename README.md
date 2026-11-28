@@ -68,6 +68,7 @@ Hoy las convocatorias del DOCE se envían por correo institucional. Entre tantos
 | Documento | Contenido |
 |---|---|
 | [Propuesta](<docs/propuesta.md>) | Problemática, objetivos y usuarios |
+| [Producto](<docs/producto.md>) | Evolución del producto, usuarios (perfil, personas y escenarios) e innovación |
 | [Requisitos funcionales](<Requisitos/Requisitos funcionales>) | RF01 a RF11, cada uno con historia de usuario, criterios de aceptación y casos de uso |
 | [Requisitos no funcionales](<Requisitos/Requisitos no funcionales>) | RNF01 a RNF06 con su criterio medible |
 | [Priorización](<Requisitos/Priorización de requisitos.md>) | Clasificación MoSCoW y dependencias |

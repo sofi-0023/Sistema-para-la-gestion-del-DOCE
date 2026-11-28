@@ -16,6 +16,11 @@ Entender, analizar, especificar y validar las necesidades de la clienta para tra
 - **Requisitos no funcionales medibles:** se reescribieron con su categoría ISO/IEC 25010, un criterio con números y un método de verificación; se agregó RNF06 de accesibilidad.
 - **Priorización:** se aplicó MoSCoW contra los objetivos de la propuesta. Al hacerlo se detectó un objetivo sin requisito (el canal de solicitud de orientación) y dos contenidos que no se pueden gestionar desde el panel.
 
+**Entrega 3:**
+- **Verificación:** cada integrante revisó su requisito, su historia de usuario y sus casos de uso contra los wireframes, y dejó en el issue lo que cambió (issues #70 a #75).
+- **Validación con usuarios:** la prueba de usabilidad con 12 estudiantes y con la coordinación del DOCE comprueba si las funciones especificadas resuelven las tareas reales; RNF01 pedía al menos 5 estudiantes.
+- **Cobertura:** el prototipo se revisó contra los 124 criterios de aceptación; 105 se cumplen con el flujo normal y 19 con un estado forzado (`prototipo/COBERTURA.md`).
+
 ### Diseño y modelado de software
 
 **Entrega 1:** se elaboró un primer diagrama de casos de uso con los actores Estudiante y Administrador.
@@ -24,6 +29,11 @@ Entender, analizar, especificar y validar las necesidades de la clienta para tra
 - Se rehízo el diagrama de casos de uso en notación UML: límite del sistema, 20 casos de uso con el código de su archivo, asociaciones sin flecha y relaciones `«extend»` para las consultas de detalle.
 - Se elaboraron más de 60 bocetos de interfaz a partir de los casos de uso, incluidos los estados vacíos y de error (por ejemplo, "Calendario sin actividades" o "Error de conexión" en RF01).
 - Se definió una guía visual (paleta 1c "Claro y accesible", con Newsreader y Atkinson Hyperlegible), aplicada ya en el README.
+
+**Entrega 3:**
+- Se construyó un **prototipo HTML navegable** de alta fidelidad a partir de los wireframes y de los requisitos verificados, con vistas de estudiante y de administración y con los estados vacíos y de error que piden los criterios de aceptación (`prototipo/`).
+- El prototipo aplica los requisitos no funcionales de diseño: responsivo de 360 px a 1920 px (RNF02), contraste AA, foco visible y uso con teclado (RNF06), y panel protegido por inicio de sesión (RNF04).
+- Las diferencias entre las capturas de Figma y los criterios de aceptación se resolvieron a favor del criterio y quedaron registradas en `prototipo/DECISIONES.md`.
 
 ### Comprensión y aplicación de la Ingeniería de Software
 
@@ -35,3 +45,8 @@ Aplicar principios de proceso, análisis y gestión de la configuración a un pr
 - **Proceso iterativo:** el trabajo se organizó en sprints con backlog, revisión y retrospectiva, registrados en el milestone "Sprint 2 - Diseño".
 - **Gestión de la configuración:** se trabajó con una rama por entrega (`entrega-2`), ramas `feature/` por integrante, pull requests con revisión de otro integrante y un flujo automático que bloquea los PR con conflictos sin resolver.
 - **Trazabilidad:** cada caso de uso indica el requisito del que sale y cada boceto está en la carpeta de su requisito, de modo que se puede seguir un requisito desde su definición hasta su pantalla.
+
+**Entrega 3:**
+- **Proceso iterativo:** un sprint de una semana (milestone "Sprint 3 - Pruebas") con backlog, responsables, fechas límite y condición de terminado por issue.
+- **Pruebas:** se diseñó una prueba informal de usabilidad remota y replicable, con protocolo, materiales por perfil, indicadores y cuestionario SUS (guía de la prueba de usabilidad).
+- **Gestión de la configuración:** se mantuvo una rama por entrega (`entrega-3`) con ramas `feature/` y pull requests revisados.

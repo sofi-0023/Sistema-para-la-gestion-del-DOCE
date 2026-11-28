@@ -89,6 +89,12 @@ El sistema deberá permitir al administrador iniciar y cerrar sesión con sus cr
 
 ---
 
+## Nivel de cobertura
+
+El prototipo HTML de la entrega 3 se revisó contra los **124 criterios de aceptación** de RF01 a RF11: **105** se cumplen con el flujo normal y **19** con un estado forzado (fallos del servidor o acciones de otra persona que solo se pueden simular). El detalle por requisito y la cobertura de los requisitos no funcionales están en [Cobertura del prototipo](<../../prototipo/COBERTURA.md>).
+
+---
+
 ## Cambios respecto a la entrega 1
 
 | Requisito | Entrega 1 | Entrega 2 |

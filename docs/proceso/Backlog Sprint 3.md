@@ -4,7 +4,7 @@
 **Fecha límite:** lunes 30 de noviembre
 **Sprint:** 23 al 30 de noviembre
 **Milestone:** Sprint 3 - Pruebas
-**Rama base:** `feature/entrega-3`. Cada issue se trabaja en su rama `feature/...` y su PR apunta a `feature/entrega-3`.
+**Rama base:** `entrega-3`. Cada issue se trabaja en su rama `feature/...` y su PR apunta a `entrega-3`.
 
 ## Objetivo del sprint
 
@@ -37,9 +37,9 @@ Mismo contenido para cada responsable, sobre los requisitos que trabajó en los 
 
 **Entregable**
 - Comentario en el issue con lo revisado y lo que cambió (o "sin cambios" con la razón).
-- PR con los cambios a `feature/entrega-3`, con `Closes #[número]`.
+- PR con los cambios a `entrega-3`, con `Closes #[número]`.
 
-**Terminado cuando:** el PR se integra a `feature/entrega-3` y la Product Owner acepta los cambios.
+**Terminado cuando:** el PR se integra a `entrega-3` y la Product Owner acepta los cambios.
 
 ### 7. Prototipo HTML
 
@@ -48,9 +48,9 @@ Mismo contenido para cada responsable, sobre los requisitos que trabajó en los 
 - Incluir las vistas de estudiante y de administración, con los estados que piden los criterios de aceptación.
 
 **Entregable**
-- Carpeta `prototipo/` en `feature/entrega-3` y enlace desde el README.
+- Carpeta `prototipo/` en `entrega-3` y enlace desde el README.
 
-**Terminado cuando:** el PR se integra a `feature/entrega-3` y el prototipo abre y navega sin errores.
+**Terminado cuando:** el PR se integra a `entrega-3` y el prototipo abre y navega sin errores.
 
 ## Plantilla
 
