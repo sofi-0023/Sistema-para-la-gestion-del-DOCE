@@ -10,13 +10,6 @@ Cada integrante se mide sobre su **propio 100%**, según cuánto de las metas qu
 
 ---
 
-## Entrega 2
-
-| Integrante | Metas asignadas | Metas completadas | % de contribución |
-|
-
----
-
 ## Entrega 3
 
 Metas del Sprint 3 (milestone "Sprint 3 - Pruebas"). El detalle de cada issue está en el [Backlog Sprint 3](<../proceso/Backlog Sprint 3.md>).
